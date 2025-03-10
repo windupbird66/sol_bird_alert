@@ -1950,3 +1950,1818 @@
 2025-03-10 23:26:33,765 - INFO - 大额交易: 26.66 SOL
 2025-03-10 23:26:33,778 - INFO - 保存交易: 26.66 SOL - JUP -> SOL
 2025-03-10 23:26:33,778 - INFO - 代币交换已保存: JUP -> SOL
+2025-03-10 23:29:55,571 - INFO - 发现非SOL/稳定币交易: SOL -> JitoSOL
+2025-03-10 23:29:55,571 - INFO - 大额交易: 19.01 SOL
+2025-03-10 23:29:55,578 - INFO - 保存交易: 19.01 SOL - SOL -> JitoSOL
+2025-03-10 23:29:55,578 - INFO - 代币交换已保存: SOL -> JitoSOL
+2025-03-10 23:32:39,198 - INFO - 发现非SOL/稳定币交易: WikiLeaks -> SOL
+2025-03-10 23:32:39,198 - INFO - 大额交易: 10.04 SOL
+2025-03-10 23:32:39,211 - INFO - 保存交易: 10.04 SOL - WikiLeaks -> SOL
+2025-03-10 23:32:39,211 - INFO - 代币交换已保存: WikiLeaks -> SOL
+2025-03-10 23:34:12,887 - INFO - 发现非SOL/稳定币交易: SOL -> JitoSOL
+2025-03-10 23:34:12,887 - INFO - 大额交易: 76.17 SOL
+2025-03-10 23:34:12,904 - INFO - 保存交易: 76.17 SOL - SOL -> JitoSOL
+2025-03-10 23:34:12,904 - INFO - 代币交换已保存: SOL -> JitoSOL
+2025-03-10 23:36:42,847 - INFO - 程序已终止
+2025-03-10 23:36:46,324 - INFO - 启动 Solana 交易监控...
+2025-03-10 23:36:58,542 - INFO - 代币缓存已更新 (12.22秒):
+  总代币数: 287863
+  新增代币: 287863
+  更新代币: 0
+2025-03-10 23:37:09,126 - INFO - 大额交易: 16.15 SOL
+2025-03-10 23:37:09,127 - INFO - 找到代币对: GIGA -> GIGA
+2025-03-10 23:37:09,139 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, monitored_address_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325858904, 'B4RKNK1mCT1o8uSfe9f7RN78dvwuSwoAf56wHr8iVEdP', 16.146047157, '63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9', 'GIGA', '63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9', 'GIGA', 1741621029.1273005, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:37:09,142 - INFO - 大额交易: 20.98 SOL
+2025-03-10 23:37:09,142 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:37:09,142 - INFO - 跳过SOL/稳定币交易: 20.98 SOL - USDC -> USDC
+2025-03-10 23:37:09,161 - INFO - 大额交易: 107.30 SOL
+2025-03-10 23:37:09,162 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:37:09,162 - INFO - 跳过SOL/稳定币交易: 107.30 SOL - SOL -> USDC
+2025-03-10 23:37:13,455 - INFO - 大额交易: 34.07 SOL
+2025-03-10 23:37:13,455 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:37:13,455 - INFO - 跳过SOL/稳定币交易: 34.07 SOL - USDC -> SOL
+2025-03-10 23:37:16,735 - INFO - 大额交易: 20.24 SOL
+2025-03-10 23:37:16,736 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:37:16,736 - INFO - 跳过SOL/稳定币交易: 20.24 SOL - USDC -> SOL
+2025-03-10 23:37:22,784 - INFO - 大额交易: 497.38 SOL
+2025-03-10 23:37:22,785 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:37:22,785 - INFO - 跳过SOL/稳定币交易: 497.38 SOL - USDC -> USDC
+2025-03-10 23:37:24,459 - INFO - 大额交易: 20.66 SOL
+2025-03-10 23:37:24,460 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:37:24,460 - INFO - 跳过SOL/稳定币交易: 20.66 SOL - USDC -> SOL
+2025-03-10 23:37:26,055 - INFO - 大额交易: 13.20 SOL
+2025-03-10 23:37:26,057 - INFO - 找到代币对: JUP -> SOL
+2025-03-10 23:37:26,065 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, monitored_address_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325858914, '9bbRYegF3rZfvkv2mDL4bAxpprYosJAqBkWw9FMggrAE', 13.200635703, 'JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN', 'JUP', 'So11111111111111111111111111111111111111112', 'SOL', 1741621046.0572736, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:37:27,688 - INFO - 大额交易: 10.50 SOL
+2025-03-10 23:37:27,689 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:37:27,689 - INFO - 跳过SOL/稳定币交易: 10.50 SOL - SOL -> SOL
+2025-03-10 23:37:29,380 - INFO - 大额交易: 20.11 SOL
+2025-03-10 23:37:29,381 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:37:29,381 - INFO - 跳过SOL/稳定币交易: 20.11 SOL - SOL -> USDC
+2025-03-10 23:37:33,699 - INFO - 大额交易: 150.00 SOL
+2025-03-10 23:37:33,700 - INFO - 找到代币对: JitoSOL -> SOL
+2025-03-10 23:37:33,705 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, monitored_address_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325858918, 'JD25qVdtd65FoiXNmR89JjmoJdYk9sjYQeSTZAALFiMy', 150.001285367, 'J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn', 'JitoSOL', 'So11111111111111111111111111111111111111112', 'SOL', 1741621053.7004678, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:37:44,661 - INFO - 大额交易: 24.56 SOL
+2025-03-10 23:37:44,662 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:37:44,662 - INFO - 跳过SOL/稳定币交易: 24.56 SOL - USDC -> SOL
+2025-03-10 23:37:57,156 - INFO - 大额交易: 193.06 SOL
+2025-03-10 23:37:57,157 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:37:57,157 - INFO - 跳过SOL/稳定币交易: 193.06 SOL - USDC -> SOL
+2025-03-10 23:37:58,621 - INFO - 大额交易: 12.38 SOL
+2025-03-10 23:37:58,621 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:37:58,622 - INFO - 跳过SOL/稳定币交易: 12.38 SOL - SOL -> SOL
+2025-03-10 23:38:04,833 - INFO - 大额交易: 80.79 SOL
+2025-03-10 23:38:04,834 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:38:04,834 - INFO - 跳过SOL/稳定币交易: 80.79 SOL - USDC -> SOL
+2025-03-10 23:38:10,724 - INFO - 大额交易: 12.30 SOL
+2025-03-10 23:38:10,726 - INFO - 找到代币对: SOL -> USDT
+2025-03-10 23:38:10,726 - INFO - 跳过SOL/稳定币交易: 12.30 SOL - SOL -> USDT
+2025-03-10 23:38:10,727 - INFO - 大额交易: 12.99 SOL
+2025-03-10 23:38:10,728 - INFO - 找到代币对: SOL -> USDT
+2025-03-10 23:38:10,728 - INFO - 跳过SOL/稳定币交易: 12.99 SOL - SOL -> USDT
+2025-03-10 23:38:12,079 - INFO - 大额交易: 15.20 SOL
+2025-03-10 23:38:12,080 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:38:12,080 - INFO - 跳过SOL/稳定币交易: 15.20 SOL - USDC -> USDC
+2025-03-10 23:38:12,081 - INFO - 大额交易: 48.01 SOL
+2025-03-10 23:38:12,081 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:38:12,082 - INFO - 跳过SOL/稳定币交易: 48.01 SOL - SOL -> SOL
+2025-03-10 23:38:13,703 - INFO - 大额交易: 11.71 SOL
+2025-03-10 23:38:13,705 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:38:13,705 - INFO - 跳过SOL/稳定币交易: 11.71 SOL - USDC -> USDC
+2025-03-10 23:38:13,718 - INFO - 大额交易: 3328.01 SOL
+2025-03-10 23:38:13,719 - INFO - 找到代币对: JupSOL -> mSOL
+2025-03-10 23:38:13,727 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, monitored_address_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325858942, 'Ej7hLErAJhrFmcCejqsMQF7tNYsMj4QVQvaHWLJZ1a79', 3328.008119599, 'jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v', 'JupSOL', 'mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So', 'mSOL', 1741621093.7198873, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:38:13,738 - INFO - 大额交易: 128.01 SOL
+2025-03-10 23:38:13,739 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:38:13,739 - INFO - 跳过SOL/稳定币交易: 128.01 SOL - SOL -> SOL
+2025-03-10 23:38:18,494 - INFO - 大额交易: 23.08 SOL
+2025-03-10 23:38:18,495 - INFO - 找到代币对: USDT -> SOL
+2025-03-10 23:38:18,495 - INFO - 跳过SOL/稳定币交易: 23.08 SOL - USDT -> SOL
+2025-03-10 23:38:18,497 - INFO - 大额交易: 89.00 SOL
+2025-03-10 23:38:18,497 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:38:18,498 - INFO - 跳过SOL/稳定币交易: 89.00 SOL - SOL -> SOL
+2025-03-10 23:38:18,498 - INFO - 大额交易: 89.00 SOL
+2025-03-10 23:38:18,499 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:38:18,499 - INFO - 跳过SOL/稳定币交易: 89.00 SOL - SOL -> SOL
+2025-03-10 23:38:18,499 - INFO - 大额交易: 89.00 SOL
+2025-03-10 23:38:18,500 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:38:18,500 - INFO - 跳过SOL/稳定币交易: 89.00 SOL - SOL -> SOL
+2025-03-10 23:38:21,709 - INFO - 大额交易: 12.00 SOL
+2025-03-10 23:38:21,710 - INFO - 找到代币对: USDT -> SOL
+2025-03-10 23:38:21,710 - INFO - 跳过SOL/稳定币交易: 12.00 SOL - USDT -> SOL
+2025-03-10 23:38:24,655 - INFO - 大额交易: 10.60 SOL
+2025-03-10 23:38:24,656 - INFO - 找到代币对: sSOL -> sSOL
+2025-03-10 23:38:24,663 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, monitored_address_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325858948, 'F2qmpnnU2gAwbLDbTn45XcYJyUBXeHm8zfnZEpFCBptj', 10.595714099, 'sSo14endRuUbvQaJS3dq36Q829a3A6BEfoeeRGJywEh', 'sSOL', 'sSo14endRuUbvQaJS3dq36Q829a3A6BEfoeeRGJywEh', 'sSOL', 1741621104.656058, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:38:28,821 - INFO - 大额交易: 17.00 SOL
+2025-03-10 23:38:28,822 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:38:28,822 - INFO - 跳过SOL/稳定币交易: 17.00 SOL - USDC -> SOL
+2025-03-10 23:38:28,838 - INFO - 大额交易: 15.13 SOL
+2025-03-10 23:38:28,839 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:38:28,839 - INFO - 跳过SOL/稳定币交易: 15.13 SOL - USDC -> USDC
+2025-03-10 23:38:33,766 - INFO - 大额交易: 11.99 SOL
+2025-03-10 23:38:33,767 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:38:33,767 - INFO - 跳过SOL/稳定币交易: 11.99 SOL - USDC -> USDC
+2025-03-10 23:38:38,429 - INFO - 大额交易: 18.37 SOL
+2025-03-10 23:38:38,430 - INFO - 找到代币对: $WIF -> SOL
+2025-03-10 23:38:38,436 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, monitored_address_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325858956, '7rhxnLV8C77o6d8oz26AgK8x8m5ePsdeRawjqvojbjnQ', 18.371889882, 'EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm', '$WIF', 'So11111111111111111111111111111111111111112', 'SOL', 1741621118.4303188, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:38:38,438 - INFO - 大额交易: 14.80 SOL
+2025-03-10 23:38:38,438 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:38:38,438 - INFO - 跳过SOL/稳定币交易: 14.80 SOL - SOL -> USDC
+2025-03-10 23:38:40,192 - INFO - 大额交易: 23.96 SOL
+2025-03-10 23:38:40,194 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:38:40,194 - INFO - 跳过SOL/稳定币交易: 23.96 SOL - USDC -> SOL
+2025-03-10 23:38:43,730 - INFO - 监控已停止
+2025-03-10 23:38:43,730 - INFO - 程序已终止
+2025-03-10 23:38:48,315 - INFO - 启动 Solana 交易监控...
+2025-03-10 23:38:52,813 - INFO - 代币缓存已更新 (4.50秒):
+  总代币数: 287863
+  新增代币: 287863
+  更新代币: 0
+2025-03-10 23:39:01,292 - INFO - 大额交易: 10.00 SOL
+2025-03-10 23:39:01,293 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:39:01,294 - INFO - 跳过SOL/稳定币交易: 10.00 SOL - SOL -> SOL
+2025-03-10 23:39:01,312 - INFO - 大额交易: 58.93 SOL
+2025-03-10 23:39:01,313 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:39:01,314 - INFO - 跳过SOL/稳定币交易: 58.93 SOL - USDC -> SOL
+2025-03-10 23:39:02,905 - INFO - 大额交易: 40.36 SOL
+2025-03-10 23:39:02,906 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:39:02,906 - INFO - 跳过SOL/稳定币交易: 40.36 SOL - SOL -> SOL
+2025-03-10 23:39:06,979 - INFO - 大额交易: 15.00 SOL
+2025-03-10 23:39:06,980 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:39:06,981 - INFO - 跳过SOL/稳定币交易: 15.00 SOL - SOL -> SOL
+2025-03-10 23:39:08,602 - INFO - 大额交易: 30.79 SOL
+2025-03-10 23:39:08,603 - INFO - 找到代币对: USDT -> SOL
+2025-03-10 23:39:08,603 - INFO - 跳过SOL/稳定币交易: 30.79 SOL - USDT -> SOL
+2025-03-10 23:39:08,608 - INFO - 大额交易: 64.28 SOL
+2025-03-10 23:39:08,608 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:39:08,609 - INFO - 跳过SOL/稳定币交易: 64.28 SOL - USDC -> SOL
+2025-03-10 23:39:12,997 - INFO - 大额交易: 10.00 SOL
+2025-03-10 23:39:12,997 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:39:12,998 - INFO - 跳过SOL/稳定币交易: 10.00 SOL - USDC -> SOL
+2025-03-10 23:39:23,199 - INFO - 监控已停止
+2025-03-10 23:39:23,240 - INFO - 程序已终止
+2025-03-10 23:39:26,005 - INFO - 启动 Solana 交易监控...
+2025-03-10 23:39:30,275 - INFO - 代币缓存已更新 (4.27秒):
+  总代币数: 287863
+  新增代币: 287863
+  更新代币: 0
+2025-03-10 23:39:34,245 - INFO - 大额交易: 18.46 SOL
+2025-03-10 23:39:34,247 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:39:34,247 - INFO - 跳过SOL/稳定币交易: 18.46 SOL - SOL -> USDC
+2025-03-10 23:39:36,010 - INFO - 大额交易: 91.02 SOL
+2025-03-10 23:39:36,011 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:39:36,011 - INFO - 跳过SOL/稳定币交易: 91.02 SOL - USDC -> SOL
+2025-03-10 23:39:39,520 - INFO - 大额交易: 10.44 SOL
+2025-03-10 23:39:39,520 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:39:39,521 - INFO - 跳过SOL/稳定币交易: 10.44 SOL - SOL -> SOL
+2025-03-10 23:39:44,479 - INFO - 大额交易: 50.00 SOL
+2025-03-10 23:39:44,480 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:39:44,480 - INFO - 跳过SOL/稳定币交易: 50.00 SOL - USDC -> USDC
+2025-03-10 23:39:44,490 - INFO - 大额交易: 21.23 SOL
+2025-03-10 23:39:44,491 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:39:44,491 - INFO - 跳过SOL/稳定币交易: 21.23 SOL - SOL -> SOL
+2025-03-10 23:39:48,131 - INFO - 大额交易: 100.00 SOL
+2025-03-10 23:39:48,133 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:39:48,134 - INFO - 跳过SOL/稳定币交易: 100.00 SOL - USDC -> USDC
+2025-03-10 23:39:53,386 - INFO - 大额交易: 14.71 SOL
+2025-03-10 23:39:53,387 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:39:53,387 - INFO - 跳过SOL/稳定币交易: 14.71 SOL - SOL -> SOL
+2025-03-10 23:39:53,398 - INFO - 大额交易: 29.08 SOL
+2025-03-10 23:39:53,399 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:39:53,400 - INFO - 跳过SOL/稳定币交易: 29.08 SOL - SOL -> SOL
+2025-03-10 23:40:01,173 - INFO - 大额交易: 25.00 SOL
+2025-03-10 23:40:01,175 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:40:01,175 - INFO - 跳过SOL/稳定币交易: 25.00 SOL - SOL -> USDC
+2025-03-10 23:40:01,185 - INFO - 大额交易: 29.40 SOL
+2025-03-10 23:40:01,185 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:40:01,185 - INFO - 跳过SOL/稳定币交易: 29.40 SOL - SOL -> USDC
+2025-03-10 23:40:03,184 - INFO - 大额交易: 71.00 SOL
+2025-03-10 23:40:03,185 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:40:03,186 - INFO - 跳过SOL/稳定币交易: 71.00 SOL - USDC -> USDC
+2025-03-10 23:40:12,714 - INFO - 大额交易: 20.00 SOL
+2025-03-10 23:40:12,715 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:40:12,715 - INFO - 跳过SOL/稳定币交易: 20.00 SOL - USDC -> SOL
+2025-03-10 23:40:16,810 - INFO - 大额交易: 11.38 SOL
+2025-03-10 23:40:16,811 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:40:16,811 - INFO - 跳过SOL/稳定币交易: 11.38 SOL - USDC -> SOL
+2025-03-10 23:40:18,962 - INFO - 大额交易: 13.57 SOL
+2025-03-10 23:40:18,963 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:40:18,964 - INFO - 跳过SOL/稳定币交易: 13.57 SOL - SOL -> SOL
+2025-03-10 23:40:24,409 - INFO - 大额交易: 80.80 SOL
+2025-03-10 23:40:24,409 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:40:24,410 - INFO - 跳过SOL/稳定币交易: 80.80 SOL - SOL -> SOL
+2025-03-10 23:40:24,416 - INFO - 大额交易: 217.22 SOL
+2025-03-10 23:40:24,416 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:40:24,416 - INFO - 跳过SOL/稳定币交易: 217.22 SOL - SOL -> SOL
+2025-03-10 23:40:24,424 - INFO - 大额交易: 10.00 SOL
+2025-03-10 23:40:24,425 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:40:24,425 - INFO - 跳过SOL/稳定币交易: 10.00 SOL - SOL -> SOL
+2025-03-10 23:40:26,217 - INFO - 大额交易: 40.38 SOL
+2025-03-10 23:40:26,218 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:40:26,218 - INFO - 跳过SOL/稳定币交易: 40.38 SOL - USDC -> SOL
+2025-03-10 23:40:37,902 - INFO - 大额交易: 100.01 SOL
+2025-03-10 23:40:37,903 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:40:37,903 - INFO - 跳过SOL/稳定币交易: 100.01 SOL - SOL -> USDC
+2025-03-10 23:40:40,182 - INFO - 大额交易: 22.18 SOL
+2025-03-10 23:40:40,183 - INFO - 找到代币对: JLP -> USDC
+2025-03-10 23:40:40,195 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, monitored_address_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325859314, 'ARBx92tyV8htTbEWCRH22tgje5vUeCkZm9p4y6TjJCjN', 22.177087667, '27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4', 'JLP', 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v', 'USDC', 1741621240.1846259, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:40:42,220 - INFO - 大额交易: 12.57 SOL
+2025-03-10 23:40:42,221 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:40:42,221 - INFO - 跳过SOL/稳定币交易: 12.57 SOL - SOL -> SOL
+2025-03-10 23:40:55,254 - INFO - 大额交易: 10.10 SOL
+2025-03-10 23:40:55,255 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:40:55,256 - INFO - 跳过SOL/稳定币交易: 10.10 SOL - SOL -> SOL
+2025-03-10 23:40:59,072 - INFO - 大额交易: 11.28 SOL
+2025-03-10 23:40:59,073 - INFO - 找到代币对: USDT -> SOL
+2025-03-10 23:40:59,073 - INFO - 跳过SOL/稳定币交易: 11.28 SOL - USDT -> SOL
+2025-03-10 23:41:00,885 - INFO - 大额交易: 19.93 SOL
+2025-03-10 23:41:00,886 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:41:00,886 - INFO - 跳过SOL/稳定币交易: 19.93 SOL - SOL -> SOL
+2025-03-10 23:41:04,518 - INFO - 大额交易: 20.01 SOL
+2025-03-10 23:41:04,520 - INFO - 找到代币对: SOL -> JLP
+2025-03-10 23:41:04,523 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, monitored_address_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325859326, 'GyyGXiFvRvRUmCcUzcGtaCNusJnCcgCYRpPv9Dc2jDVf', 20.013255529, 'So11111111111111111111111111111111111111112', 'SOL', '27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4', 'JLP', 1741621264.5202866, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:41:04,525 - INFO - 大额交易: 25.60 SOL
+2025-03-10 23:41:04,526 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:41:04,526 - INFO - 跳过SOL/稳定币交易: 25.60 SOL - SOL -> SOL
+2025-03-10 23:41:10,262 - INFO - 大额交易: 20.00 SOL
+2025-03-10 23:41:10,264 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:41:10,264 - INFO - 跳过SOL/稳定币交易: 20.00 SOL - SOL -> USDC
+2025-03-10 23:41:12,019 - INFO - 大额交易: 15.11 SOL
+2025-03-10 23:41:12,020 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:41:12,020 - INFO - 跳过SOL/稳定币交易: 15.11 SOL - SOL -> USDC
+2025-03-10 23:41:16,822 - INFO - 大额交易: 200.00 SOL
+2025-03-10 23:41:16,824 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:41:16,824 - INFO - 跳过SOL/稳定币交易: 200.00 SOL - USDC -> USDC
+2025-03-10 23:41:16,847 - INFO - 大额交易: 11.94 SOL
+2025-03-10 23:41:16,848 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:41:16,848 - INFO - 跳过SOL/稳定币交易: 11.94 SOL - SOL -> SOL
+2025-03-10 23:41:16,849 - INFO - 大额交易: 17.67 SOL
+2025-03-10 23:41:16,849 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:41:16,849 - INFO - 跳过SOL/稳定币交易: 17.67 SOL - SOL -> SOL
+2025-03-10 23:41:20,275 - INFO - 大额交易: 40.40 SOL
+2025-03-10 23:41:20,276 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:41:20,276 - INFO - 跳过SOL/稳定币交易: 40.40 SOL - USDC -> SOL
+2025-03-10 23:41:26,657 - INFO - 大额交易: 40.49 SOL
+2025-03-10 23:41:26,659 - INFO - 找到代币对: JLP -> SOL
+2025-03-10 23:41:26,666 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, monitored_address_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325859337, 'CN61y8wDu8Y8mzD92LKAvdBd8G53mimcQrTqFPPLLbuf', 40.491223027, '27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4', 'JLP', 'So11111111111111111111111111111111111111112', 'SOL', 1741621286.6591115, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:41:28,324 - INFO - 大额交易: 19.89 SOL
+2025-03-10 23:41:28,325 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:41:28,325 - INFO - 跳过SOL/稳定币交易: 19.89 SOL - SOL -> USDC
+2025-03-10 23:41:30,297 - INFO - 大额交易: 22.95 SOL
+2025-03-10 23:41:30,298 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:41:30,298 - INFO - 跳过SOL/稳定币交易: 22.95 SOL - SOL -> SOL
+2025-03-10 23:41:32,984 - INFO - 监控已停止
+2025-03-10 23:41:32,984 - INFO - 程序已终止
+2025-03-10 23:41:37,080 - INFO - 尝试从 C:\Users\PC\Desktop\sol_bird_alert\swap-alert\213123.txt 加载地址文件
+2025-03-10 23:41:37,081 - WARNING - 未找到地址文件: C:\Users\PC\Desktop\sol_bird_alert\swap-alert\213123.txt
+2025-03-10 23:41:37,081 - INFO - 已创建示例地址文件: C:\Users\PC\Desktop\sol_bird_alert\swap-alert\213123.txt
+2025-03-10 23:41:37,082 - INFO - 启动 Solana 交易监控...
+2025-03-10 23:41:41,454 - INFO - 代币缓存已更新 (4.37秒):
+  总代币数: 287863
+  新增代币: 287863
+  更新代币: 0
+2025-03-10 23:41:44,057 - INFO - 大额交易: 38.34 SOL
+2025-03-10 23:41:44,058 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:41:44,058 - INFO - 跳过SOL/稳定币交易: 38.34 SOL - SOL -> SOL
+2025-03-10 23:41:49,411 - INFO - 大额交易: 32.90 SOL
+2025-03-10 23:41:49,412 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:41:49,412 - INFO - 跳过SOL/稳定币交易: 32.90 SOL - USDC -> SOL
+2025-03-10 23:41:49,417 - INFO - 大额交易: 17.14 SOL
+2025-03-10 23:41:49,419 - INFO - 找到代币对: SOL -> USDT
+2025-03-10 23:41:49,419 - INFO - 跳过SOL/稳定币交易: 17.14 SOL - SOL -> USDT
+2025-03-10 23:41:50,952 - INFO - 大额交易: 12.16 SOL
+2025-03-10 23:41:50,953 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:41:50,953 - INFO - 跳过SOL/稳定币交易: 12.16 SOL - USDC -> USDC
+2025-03-10 23:41:50,959 - INFO - 大额交易: 923.30 SOL
+2025-03-10 23:41:50,960 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:41:50,960 - INFO - 跳过SOL/稳定币交易: 923.30 SOL - SOL -> USDC
+2025-03-10 23:41:50,960 - INFO - 大额交易: 12.17 SOL
+2025-03-10 23:41:50,960 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:41:50,961 - INFO - 跳过SOL/稳定币交易: 12.17 SOL - USDC -> USDC
+2025-03-10 23:41:52,185 - INFO - 大额交易: 24.77 SOL
+2025-03-10 23:41:52,186 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:41:52,187 - INFO - 跳过SOL/稳定币交易: 24.77 SOL - USDC -> SOL
+2025-03-10 23:41:54,863 - INFO - 大额交易: 50.01 SOL
+2025-03-10 23:41:54,864 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:41:54,865 - INFO - 跳过SOL/稳定币交易: 50.01 SOL - SOL -> USDC
+2025-03-10 23:41:54,869 - INFO - 大额交易: 12.24 SOL
+2025-03-10 23:41:54,870 - INFO - 找到代币对: mSOL -> SOL
+2025-03-10 23:41:54,876 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, monitored_address_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325859614, 'BjkmiuL9xCP5NZbBmaHyRDe6Tt97qu6cAixFtwEeLECF', 12.242558077, 'mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So', 'mSOL', 'So11111111111111111111111111111111111111112', 'SOL', 1741621314.870272, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:41:54,877 - INFO - 大额交易: 10.50 SOL
+2025-03-10 23:41:54,878 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:41:54,879 - INFO - 跳过SOL/稳定币交易: 10.50 SOL - SOL -> SOL
+2025-03-10 23:41:54,881 - INFO - 大额交易: 33.20 SOL
+2025-03-10 23:41:54,881 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:41:54,882 - INFO - 跳过SOL/稳定币交易: 33.20 SOL - USDC -> SOL
+2025-03-10 23:41:58,343 - INFO - 大额交易: 70.70 SOL
+2025-03-10 23:41:58,344 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:41:58,345 - INFO - 跳过SOL/稳定币交易: 70.70 SOL - SOL -> SOL
+2025-03-10 23:41:59,898 - INFO - 大额交易: 20.37 SOL
+2025-03-10 23:41:59,899 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:41:59,900 - INFO - 跳过SOL/稳定币交易: 20.37 SOL - SOL -> USDC
+2025-03-10 23:41:59,906 - INFO - 大额交易: 10.60 SOL
+2025-03-10 23:41:59,907 - INFO - 找到代币对: BOME -> BOME
+2025-03-10 23:41:59,909 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, monitored_address_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325859617, '4GQeEya6ZTwvXre4Br6ZfDyfe2WQMkcDz2QbkJZazVqS', 10.595163442, 'ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82', 'BOME', 'ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82', 'BOME', 1741621319.9077003, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:42:01,353 - INFO - 大额交易: 10.52 SOL
+2025-03-10 23:42:01,355 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:42:01,355 - INFO - 跳过SOL/稳定币交易: 10.52 SOL - SOL -> SOL
+2025-03-10 23:42:01,365 - INFO - 大额交易: 18.57 SOL
+2025-03-10 23:42:01,366 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:42:01,367 - INFO - 跳过SOL/稳定币交易: 18.57 SOL - SOL -> USDC
+2025-03-10 23:42:01,367 - INFO - 大额交易: 56.15 SOL
+2025-03-10 23:42:01,369 - INFO - 找到代币对: USDT -> USDT
+2025-03-10 23:42:01,369 - INFO - 跳过SOL/稳定币交易: 56.15 SOL - USDT -> USDT
+2025-03-10 23:42:02,124 - INFO - 监控已停止
+2025-03-10 23:42:02,125 - INFO - 程序已终止
+2025-03-10 23:44:22,197 - INFO - 尝试从 C:\Users\PC\Desktop\sol_bird_alert\swap-alert\4444.csv 加载地址文件
+2025-03-10 23:44:22,197 - WARNING - 未找到地址文件: C:\Users\PC\Desktop\sol_bird_alert\swap-alert\4444.csv
+2025-03-10 23:44:22,198 - INFO - 已创建示例CSV地址文件: C:\Users\PC\Desktop\sol_bird_alert\swap-alert\4444.csv
+2025-03-10 23:44:22,198 - INFO - 启动 Solana 交易监控...
+2025-03-10 23:44:47,515 - INFO - 程序被用户中断
+2025-03-10 23:44:47,518 - INFO - 程序已终止
+2025-03-10 23:44:50,289 - INFO - 尝试从 C:\Users\PC\Desktop\sol_bird_alert\swap-alert\44444.csv 加载地址文件
+2025-03-10 23:44:50,290 - INFO - 找到地址文件: C:\Users\PC\Desktop\sol_bird_alert\swap-alert\44444.csv
+2025-03-10 23:44:50,290 - INFO - 已添加监控地址: duo 10wu → FWDj6Y2SeZjk4c6XY5EXebaA1trvQfpkpgMZr13k7fay
+2025-03-10 23:44:50,291 - INFO - 已添加监控地址: brucej → 2J2zpzeZX4BL3xQ786JUDi9MmbZg9vbriT84kFbbiwAd
+2025-03-10 23:44:50,291 - INFO - 已添加监控地址: benjels → 1Mrfsd5xD9PyGWjCBJtcrBPkDirxUdqSTpmAouPUNfc
+2025-03-10 23:44:50,291 - INFO - 已添加监控地址: zachxbt → 27sfYMALabHSpjt4nDLAubw5mdDPnv3hkL8K7s2ZM1gU
+2025-03-10 23:44:50,291 - INFO - 已添加监控地址: Shibetoshi NakamotoҴʼ → 2aDBRNNdGEnCq2Av6Wz447CqgdEbmEaDudfGW1M85MAC
+2025-03-10 23:44:50,291 - INFO - 已添加监控地址: Ed_x^Kӛ → 2btYi2pqVgtgzLqeAXE122FPhN2xBJMQpE1V9CMNv4EH
+2025-03-10 23:44:50,291 - INFO - 已添加监控地址: moneymaykah → 2CXbN6nuTTb4vCrtYM89SfQHMMKGPAW4mvFe6Ht4Yo6z
+2025-03-10 23:44:50,291 - INFO - 已添加监控地址: asta → 2nKbwrpXKf7nBhvqrUprHoNBfg2jnoKaStd99h2w8QGc
+2025-03-10 23:44:50,291 - INFO - 已添加监控地址: ׮ → 2WJvjGFjZePB3sYrHKMBQd46o1TCS8zxchEHnDK7oBxQ
+2025-03-10 23:44:50,291 - INFO - 已添加监控地址: bigroot → 33MuTy5vo3GymDT6rhmA1trYH3ySWcgYa1HSVxD9Tko5
+2025-03-10 23:44:50,291 - INFO - 已添加监控地址: TLD.eth → 3BM6smanfeY3x7zfaSgSwQgcaTGvg8qyybJjJRy76ixA
+2025-03-10 23:44:50,291 - INFO - 已添加监控地址: jidn → 3h65MmPZksoKKyEpEjnWU2Yk2iYT5oZDNitGy5cTaxoE
+2025-03-10 23:44:50,291 - INFO - 已添加监控地址: Ů → 3JbCsBJbRncrJbwmKYo5ww3uMuRgZ2LkS9LY7pZxu5v1
+2025-03-10 23:44:50,292 - INFO - 已添加监控地址: Basitom Cruise → 3kebnKw7cPdSkLRfiMEALyZJGZ4wdiSRvmoN4rD1yPzV
+2025-03-10 23:44:50,292 - INFO - 已添加监控地址: Laolu → 4625pi6asX1CpKmw1apw3mnGxxntS7F95ALqhWLgVoCr
+2025-03-10 23:44:50,292 - INFO - 已添加监控地址: ӳ → 4aj4ey8kGzwoA1Ce1ADmLr5uUJYxAfuahohdNx9UL9qB
+2025-03-10 23:44:50,292 - INFO - 已添加监控地址: mitch (rtrd/acc) → 4Be9CvxqHW6BYiRAxW9Q3xu1ycTMWaL5z8NX4HR3ha7t
+2025-03-10 23:44:50,292 - INFO - 已添加监控地址: Mr.Frog → 4DdrfiDHpmx55i4SPssxVzS9ZaKLb8qr45NKY9Er9nNh
+2025-03-10 23:44:50,292 - INFO - 已添加监控地址: ʱ → 4LBhsqPTC2fHBST7MCmURRiU1zinWYQWe4G2GtP4wCSM
+2025-03-10 23:44:50,292 - INFO - 已添加监控地址: Sharrua → 4qyYcBA8tizD2MQCcHkXwrdFowZihKwdcFL6PExShVvL
+2025-03-10 23:44:50,292 - INFO - 已添加监控地址: Ѱ → 4YzpSZpxDdjNf3unjkCtdWEsz2FL5mok7e5XQaDNqry8
+2025-03-10 23:44:50,292 - INFO - 已添加监控地址: Yenni → 5B52w1ZW9tuwUduueP5J7HXz5AcGfruGoX6YoAudvyxG
+2025-03-10 23:44:50,292 - INFO - 已添加监控地址: Ǯ → 5SXUHLVsUdQFRczqny9VHX7SWTSm8v5NAATYbe5UShjd
+2025-03-10 23:44:50,293 - INFO - 已添加监控地址:  → 5UATnGWCexXeiRhBHPjpgkRvDYEH9XvQtwGNDATxDCS8
+2025-03-10 23:44:50,293 - INFO - 已添加监控地址: Michael Bouhanna-ոܲ → 5W7UZNQk6oCFbNdPowRJZpByErqzifQFVNVtN4uKb3cV
+2025-03-10 23:44:50,293 - INFO - 已添加监控地址: Y → 5ZMuSmd1V5irZtPa6CQG3L5gx22U9vYbkscPR1kJne5s
+2025-03-10 23:44:50,293 - INFO - 已添加监控地址: Assasin → 6LChaYRYtEYjLEHhzo4HdEmgNwu2aia8CM8VhR9wn6n7
+2025-03-10 23:44:50,293 - INFO - 已添加监控地址: Jake The Logical Jawn → 6zqYKgfANYEB5mmw7quiUCWbDg4tLJk2Gq5EbZ8ki6bE
+2025-03-10 23:44:50,293 - INFO - 已添加监控地址: Jihoz.ron-axieʼ → 7cm7BtqSJHqy7QYJFh4cr7SybGR6q1zA7oXk6gdvWgTk
+2025-03-10 23:44:50,293 - INFO - 已添加监控地址: publix → 86AEJExyjeNNgcp7GrAvCXTDicf5aGWgoERbXFiG1EdD
+2025-03-10 23:44:50,293 - INFO - 已添加监控地址: ¬ΰ → 8iFVg3mMe9CaLcS8Gq3bSYEoZPJSN21DPdmuf38U9Q4Z
+2025-03-10 23:44:50,293 - INFO - 已添加监控地址: 0x׾ → 8wfi8x1RfZzJBpMwQbWKLLsKDSrZvSnVkJfEKD6uvTpv
+2025-03-10 23:44:50,294 - INFO - 已添加监控地址: 51 → 952nKaqEPaEiQrH4HqSnT5jki9Eh6bJvwvfwLk4LxuW6
+2025-03-10 23:44:50,294 - INFO - 已添加监控地址: pullup → 981G4w1e6zSiy6gBtYLGdFjF7rmFgAXXgA3mgKwPzwyS
+2025-03-10 23:44:50,294 - INFO - 已添加监控地址: è → ABUqmjGYiZd4mFxVa2ZV4zZUUbB7a7U7EvoPkw4YHvC6
+2025-03-10 23:44:50,294 - INFO - 已添加监控地址: רҵ → AmManpABYP2yxskBmt31VSrALjCnTyaEdK8qeSVWLmjs
+2025-03-10 23:44:50,294 - INFO - 已添加监控地址: Tintin.hl → AMxCLXZtnhd4Puf2kVa2cVWk8mjYk6xUwjfcP1eWxdCR
+2025-03-10 23:44:50,294 - INFO - 已添加监控地址: s → ApRnQN2HkbCn7W2WWiT2FEKvuKJp9LugRyAE1a9Hdz1
+2025-03-10 23:44:50,294 - INFO - 已添加监控地址: fishfish → ARSdp5MFL1bjgWddK8dkF3QdttHvy5ZdVjJ6T8BHJimo
+2025-03-10 23:44:50,294 - INFO - 已添加监控地址: frozen raspberry → BPeH6CSLdhMEW9UjoduYtwKHKcPZzYUeQVcWFoLYDkst
+2025-03-10 23:44:50,294 - INFO - 已添加监控地址: lky → BSZ5Qn9DEZZhXvTGvaQhobgXCCZPJDSkgB9dZnAhgAPd
+2025-03-10 23:44:50,294 - INFO - 已添加监控地址:  → C3nLTNMK6Ao1s3J1CQhv8GbT3NoMmifWoi9PGEcYd9hP
+2025-03-10 23:44:50,294 - INFO - 已添加监控地址: Siqi Chen → C4wwvA1D479e5m6K19fjFrRaCPGzVykSm4pCHqsxgEuw
+2025-03-10 23:44:50,295 - INFO - 已添加监控地址:  → C6173UhKXr1t2tRCnE8QwXRvpHPxYrD79k5v2YteCHX1
+2025-03-10 23:44:50,295 - INFO - 已添加监控地址: Ƥ → C8uCFAY8WPwvEudVuQUW62rDHVAjQyVNxcdw5eMZW287
+2025-03-10 23:44:50,295 - INFO - 已添加监控地址: Neso → CDUAza6NMFDUhjZEaAGHZA8y9AE9bEbm236K5AJhFHRv
+2025-03-10 23:44:50,295 - INFO - 已添加监控地址: wen → CtKi39VFQRf2m8j8fkLzmJR6csxPVnWApLEGHmuAQWYb
+2025-03-10 23:44:50,295 - INFO - 已添加监控地址: ү → CzJFuW2JAtCkNB4pBNvUJhg9wKwjq2dYx2yK36Wio1ta
+2025-03-10 23:44:50,295 - INFO - 已添加监控地址: ţţPlus2ţ → D6nUhQ7o3TQwk243mgVS5hsdkuJk71fxZib3KxY4Upyv
+2025-03-10 23:44:50,295 - INFO - 已添加监控地址: Euris → DfMxre4cKmvogbLrPigxmibVTTQDuzjdXojWzjCXXhzj
+2025-03-10 23:44:50,295 - INFO - 已添加监控地址: Queenkayx → DG6QpsjvwqCGyLAYXKEmDBLRfomJ2UAmoe4MJWL9fNtt
+2025-03-10 23:44:50,295 - INFO - 已添加监控地址: FeiErwy → DKAarFVePUBbQuTEj4g7hp2wJkorJo1HsMnAU5tTP7EE
+2025-03-10 23:44:50,296 - INFO - 已添加监控地址: him → DxjmHXm1p7cs8Tezdf2EJm5xnwp9QC2E8CbfD1aXeH1j
+2025-03-10 23:44:50,296 - INFO - 已添加监控地址: Ȧ͵-ѧҾֲ → DXJYryY8bs7mJWhqvYMBqaMmjSLYZozHboyTA5AYi2an
+2025-03-10 23:44:50,296 - INFO - 已添加监控地址: Not Yours → dY9sUsh4kXocVTzw8F6UagFg6KPe5QizhuZTrDYSX1C
+2025-03-10 23:44:50,296 - INFO - 已添加监控地址: ʮñ → DzeSE8ZBNk36qqswcDxd8919evdH5upwyZ4u1yieQSkp
+2025-03-10 23:44:50,296 - INFO - 已添加监控地址: gino.eth → EeZf8YxMisxMcyX9PHyGa9sdaQR3n3T1hFcMEeZPpPY8
+2025-03-10 23:44:50,296 - INFO - 已添加监控地址: AdamJae → EnQLCLB7NWojruXXNopgH7jhkwoHihTpuzsrtsM2UCSe
+2025-03-10 23:44:50,296 - INFO - 已添加监控地址:  → EtfUwhGtKwDjxdyKU7d83pePQjh4DtmfCLZtdxbQ1k3N
+2025-03-10 23:44:50,296 - INFO - 已添加监控地址: mercy → F5jWYuiDLTiaLYa54D88YbpXgEsA6NKHzWy4SN4bMYjt
+2025-03-10 23:44:50,296 - INFO - 已添加监控地址: ɱ → F7KSBM7SVVYUczJTCLpLJFPDEBrmrfi9ZiGru1BzAuwi
+2025-03-10 23:44:50,297 - INFO - 已添加监控地址:  → F7MJy5xhx6bFnaeK9eMLHzUmNKmf9rLsr7JUsV1wnEFj
+2025-03-10 23:44:50,297 - INFO - 已添加监控地址: haze-gmgnϰ → FPTspEkKpoJZGccPWCfdt7Xyun7eZ61kZALMJVciSk1K
+2025-03-10 23:44:50,297 - INFO - 已添加监控地址: п˯ → GH4NtrMtTrxRDMbQacT6bgyWVwDkoujLnCYwUY9pa5Cu
+2025-03-10 23:44:50,297 - INFO - 已添加监控地址:  → GQva3CGJNAiBxzPYjNaamHeyQ2shnCmPpwp2bbiRW9K
+2025-03-10 23:44:50,297 - INFO - 已添加监控地址: Evan → H1RzgQhep7bxKgqiBTd2kdyPJQ5wbiGN7BqUMGFNqg2W
+2025-03-10 23:44:50,297 - INFO - 已添加监控地址: AN:Ȼ → HFLnuLwvBXxM4bGn24v6dQuhz6JVU3TKu8JsVLcGdxaV
+2025-03-10 23:44:50,297 - INFO - 已添加监控地址: ͭhappy → HpJ6bsNhW4ftV1E1KtSwvr9yQ55ZbHaxMVvgney6gpoY
+2025-03-10 23:44:50,297 - INFO - 已添加监控地址: skid → HPkQu4osTzt3reYjYX8CHufGCGgHesc7PqG6WdhcY4p9
+2025-03-10 23:44:50,297 - INFO - 已添加监控地址: Hogen → J2dEKMCV9vDtsAcnUgAED99n3QvQ48KUqNL6YYyiDYdC
+2025-03-10 23:44:50,297 - INFO - 已添加监控地址: ھ → J485YzQjuJPLYoFEYjrjxd7NAoLHTiyUU63JwK7kLxRr
+2025-03-10 23:44:50,298 - INFO - 已添加监控地址: yuyue → off5DDPLfBqcnHuQHssyDModwYkgwaVYp1JBb95CU18
+2025-03-10 23:44:50,298 - INFO - 已添加监控地址: K99 → qTB6ryTHBU1tGEVg9a1QiRJh5euRAU3bcDdWubUJ4ne
+2025-03-10 23:44:50,298 - INFO - 已添加监控地址: ????????? → QvPPwsV6ri3ydYLQRhnjWQt6US3qVEUhKss9J45uPFL
+2025-03-10 23:44:50,298 - INFO - 已添加监控地址: frank → CRVidEDtEUTYZisCxBZkpELzhQc9eauMLR3FWg74tReL
+2025-03-10 23:44:50,298 - INFO - 已添加监控地址: ǶȸС → 9gCNRVGmWPEcUmthsd676FR3nTRwv8QkcNdphVHso48Z
+2025-03-10 23:44:50,298 - INFO - 已添加监控地址: duolingoǮ200sol → 8mTEkJaodatTKVvLDCz6YwbCnuac4fM7z8yFq6R6eFsx
+2025-03-10 23:44:50,298 - INFO - 已添加监控地址: duolingo ׯ002 → 8gVgczWCy9unAan7m1C91S5UXCAEgXthzVsZhZP49tpo
+2025-03-10 23:44:50,298 - INFO - 已添加监控地址: stupid 굽Ǯduo → 3BU6vK1bUi7dBi8vS4btdr7pyJMNaCYqkzY3d6Gp37Xn
+2025-03-10 23:44:50,298 - INFO - 已添加监控地址: duolingo ׯ001 → 4QxYnhDLv4FHGkUnZ1qn4Y1C1jsVN9F2w4hzdhDFqoZs
+2025-03-10 23:44:50,299 - INFO - 已添加监控地址: gemս02 → 4chn22VoRYH81ZQnGJcaRA1LDgdViaaAK8BS4W277777
+2025-03-10 23:44:50,299 - INFO - 已添加监控地址: gemս01 → wbsUXURMM5cCH1XbskF2mPGx8SSGBgx3sM2kQuoABAn
+2025-03-10 23:44:50,299 - INFO - 已添加监控地址: jige → Hnnw3uwnomwP5B7ZizvNCTk51AgSRaTNYdSJydwCtzzz
+2025-03-10 23:44:50,299 - INFO - 已添加监控地址: vol dev → EfaWwZKnkq1exddBT3LqgZuYHNFn4xQcxfMQVGPgCLck
+2025-03-10 23:44:50,299 - INFO - 已添加监控地址: stonksׯ1 → 8veqMET96Pgzxc3VnbcD9ydQQcaNFk4T1Y6Pa3yH3maX
+2025-03-10 23:44:50,299 - INFO - 已添加监控地址: stonksׯ֮һ → FjSXNfAQF3iykr8z9MfaTSvhGNbEWRhtmqqQuFKgfxCq
+2025-03-10 23:44:50,299 - INFO - 已添加监控地址: qiyumeme → GEj2tXRXoxe6T8LsVUKpF6qfJMyHcGzKzNfSMKJkAn9M
+2025-03-10 23:44:50,299 - INFO - 已添加监控地址:  → EUM51CoFuxBw2FUVQ7YmrAy6a3p6PUNwou5S9f8qt83S
+2025-03-10 23:44:50,299 - INFO - 已添加监控地址: memeе㶫 → 6EAaPqnwT54YnYfCRyupN8rK25i2hbguBFcbfVQ8hGWj
+2025-03-10 23:44:50,299 - INFO - 已添加监控地址: trump10m → EELhpihpevqjyez7DHaXBfn1eoCRvNMKso9Ck3oPnLx4
+2025-03-10 23:44:50,299 - INFO - 已添加监控地址: һŲnnnnniu → 9NiAmMtLL17s8R5UJyi9svSg7VrKXgBj3YKEaNrQ91VT
+2025-03-10 23:44:50,300 - INFO - 已添加监控地址: ҪǮ → AZTX6Mkzk4QEmqfB1FzgV3H7MQxpNANmtHw3Vty1trzu
+2025-03-10 23:44:50,300 - INFO - 已添加监控地址: ?JayBaum → 27tecefS1JzsHT24RdJNtZXMZpgRa6pwsqFbwmKaZodV
+2025-03-10 23:44:50,300 - INFO - 已添加监控地址: Yelo → 2fpTdwLGW6V87FXXuCQoVNsyj8rZLzmE8jHhwzAGEtwG
+2025-03-10 23:44:50,300 - INFO - 已添加监控地址: ??Sencrazy.eth → 2FVV6e1SECwofXq8LVpzz2iQiTx4SZghPynh8LrvFET2
+2025-03-10 23:44:50,300 - INFO - 已添加监控地址: my1 → 2m5498hY3hpSvm1pVyZwwyU6bpQGFGu3PADSoEoZFXQB
+2025-03-10 23:44:50,300 - INFO - 已添加监控地址: coocenc → 2tV9bAogjJSw2JQvumFGmdsRoTPYRaJeeSqSFdsnjUGQ
+2025-03-10 23:44:50,300 - INFO - 已添加监控地址: 0xAA → 2ZiQY2u9bNxLF3fDhUFmZCz1n1baNnx2jtu1asPYpMhR
+2025-03-10 23:44:50,300 - INFO - 已添加监控地址: Ǯ007 → 3ejWGMZrX7PFYeub4eaKeVebmB8qJcQyJPh12yNBC9cq
+2025-03-10 23:44:50,300 - INFO - 已添加监控地址: benƼǮ002 → 3QnBeoPMPB3H78WgJssep7rs3A8477LR2FhtwrnZoRie
+2025-03-10 23:44:50,300 - INFO - 已添加监控地址:  → 3RnKNpzX5Nd7PTZBEVrYXVrHyu8Erbbo23QeXtWMTjaZ
+2025-03-10 23:44:50,301 - INFO - 已添加监控地址: С → 3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi
+2025-03-10 23:44:50,301 - INFO - 已添加监控地址: С | صע → 3TS4gKNUUx1ZAKCQ374vH6ZBJchWJKKTp32LDmSFKzhQ
+2025-03-10 23:44:50,301 - INFO - 已添加监控地址: top pnl → 4632BMWY69AkVHxN1XLKVuLrednYiLccuMeoXnQBMA7Z
+2025-03-10 23:44:50,301 - INFO - 已添加监控地址: Gotrilla → 4q7rNU1nRUWY14vaLPpzpc2C756UQE36vaDwphBpLf2s
+2025-03-10 23:44:50,301 - INFO - 已添加监控地址: 0xuezhang|985.eth → 4qWmgHK2MU52L11sFcwnzqCz4UPXBpH3f4Tk8rpaQQ56
+2025-03-10 23:44:50,301 - INFO - 已添加监控地址: kƯ → 4w7petYTMikTbjqjHNsE1C97ormD4oyPonbe5f4wkxKz
+2025-03-10 23:44:50,301 - INFO - 已添加监控地址: 581 → 581XaxPQ7jGqqFGh3RQhK8wESBrEvFCAry7EDq2NzacH
+2025-03-10 23:44:50,301 - INFO - 已添加监控地址: sol Ǯ001 → 58aJk9ngALL8Np7r51JWPc3buPthaPDKknmDaNxuGQcP
+2025-03-10 23:44:50,301 - INFO - 已添加监控地址: 77ַ | һ׬8wu → 5RFxaZf1gZKtEPg68cUnsCqRGoENicg2aBD1eGmq1J74
+2025-03-10 23:44:50,301 - INFO - 已添加监控地址: Abrahanny.eth → 5STnyps3g9HX9e2gruc8Q2XvQqWxp5pzBKcJnRjg8r7z
+2025-03-10 23:44:50,302 - INFO - 已添加监控地址: tickerһ ʤ → 5wPWthsivjuGi43WbTo5LdSjDTJ8pXSSHyfXWVojJjUF
+2025-03-10 23:44:50,302 - INFO - 已添加监控地址: JAMES → 5wQaABAbgA52cBks6zqXmk9nFftZgy18f78im6UxXhNU
+2025-03-10 23:44:50,302 - INFO - 已添加监控地址:  → 5wTLevkkUWzKgRTWKcSjrgdoP8TnrEnXYGaAxFKibsS5
+2025-03-10 23:44:50,302 - INFO - 已添加监控地址: neiro Top PNL → 69ngexW9UkgRp5KFjLpaK9XNSCxUFmps6jYmqhK3q6m9
+2025-03-10 23:44:50,302 - INFO - 已添加监控地址: ʽ → 6fdTPs67nxYbz3FriTZm474GPnqytTPVZFsLNnmS4827
+2025-03-10 23:44:50,302 - INFO - 已添加监控地址: ?? → 6fg77vTppRWZaQQaZhBqUtfu1PvRiCtWzoN8qF83fEbS
+2025-03-10 23:44:50,302 - INFO - 已添加监控地址: Redsun.eth ???? → 6NEEKdUKdMnQjFXxEAqoYmSk7gdZckStsYo1541P8bRZ
+2025-03-10 23:44:50,302 - INFO - 已添加监控地址: E → 6vdXD7uu4zBXMjWecqMPWGsy5H7dSQXSYJS4gNqGbvTt
+2025-03-10 23:44:50,302 - INFO - 已添加监控地址: ҹĻ → 6WNxdZJsWrBHJM5apKLsjdZgq51jXsQp9o4MCjKcaUSU
+2025-03-10 23:44:50,302 - INFO - 已添加监控地址: Ҫ??ֵС → 71CPXu3TvH3iUKaY1bNkAAow24k6tjH473SsKprQBABC
+2025-03-10 23:44:50,302 - INFO - 已添加监控地址: LaserCat397.eth → 75ugq4BnAApScig3D4w8Urx7ujXKDYc1VTEvzafFbabT
+2025-03-10 23:44:50,303 - INFO - 已添加监控地址: jingtao → 79CxhdY2TeFHpGNcaHgnHJTWnv7KA3KgMFoeHrJg77ru
+2025-03-10 23:44:50,303 - INFO - 已添加监控地址: һ → 7DGQGqgZuTfcAAphpDeehKq2Xsro77pz3ec19Ui37Dpx
+2025-03-10 23:44:50,303 - INFO - 已添加监控地址: LaserCat397.eth → 7iSG5y8f4DHtUEPLcgWQnJso99JRB51opyaRoH8qWZ8r
+2025-03-10 23:44:50,303 - INFO - 已添加监控地址: birddao sol → 7TJnymS5k6Kin2uSJiFaU3M33rbvuxVAcuSPDu3dNmTc
+2025-03-10 23:44:50,303 - INFO - 已添加监控地址: Sencrazy.eth → 7vsr2EPeq1vxgr1hk6yRgM4od1hYw2pzmR5BWaJBStPy
+2025-03-10 23:44:50,303 - INFO - 已添加监控地址: Cooker | Darn.eth | Kms.eth → 8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6
+2025-03-10 23:44:50,303 - INFO - 已添加监控地址: LaserCat397.eth → 8K5276kWCmRnS1TLTAKxRznM6NehtHkqCVWxcQhzHrwF
+2025-03-10 23:44:50,303 - INFO - 已添加监控地址: JinMu → 8tP391aDbKKpQS7eKnCEfnJ8Cmek6jatEe2LFkdJ2PRP
+2025-03-10 23:44:50,303 - INFO - 已添加监控地址: С.sol → 8WRWo8oQ4ppD7hMYxgwCXvTtzK2AusqsgVmr8NPsjtW1
+2025-03-10 23:44:50,303 - INFO - 已添加监控地址: lexַ → 8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj
+2025-03-10 23:44:50,304 - INFO - 已添加监控地址: һ → 8YmW32pecz2854orKhSEiBKUVvpjkw4YJnUmybYQTjMH
+2025-03-10 23:44:50,304 - INFO - 已添加监控地址: powӵַ → 8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd
+2025-03-10 23:44:50,304 - INFO - 已添加监控地址: ccie11440.eth $PARAM → 9Ca1o7YVbRmB3gVzyD2qgHbpkL685kW8Xieej7EMQcBb
+2025-03-10 23:44:50,304 - INFO - 已添加监控地址: billymcsmithers.eth ???? → 9cQL8n7fkzg7uBrzi9K5EXdxZwC1i11khQTyXQGDBz5A
+2025-03-10 23:44:50,304 - INFO - 已添加监控地址: º | صע → 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+2025-03-10 23:44:50,304 - INFO - 已添加监控地址: Yelo → 9MVmm1eMuiLXbcEK6Wi6PNRK3pd8rFvAZKhzk5oeYRv2
+2025-03-10 23:44:50,304 - INFO - 已添加监控地址: Bitget → A77HErqtfN1hLLpvZ9pCtu66FEtM8BveoaKbbMoZ4RiR
+2025-03-10 23:44:50,304 - INFO - 已添加监控地址: luce goat λ͸ | ׷ʤʸ → AaQtXpw8wsFyMs2pkb2uFqR7cZQWGXZ1GbmfewbwAQy1
+2025-03-10 23:44:50,305 - INFO - 已添加监控地址: ai16zַ → AM84n1iLdxgVTAyENBcLdjXoyvjentTbu5Q6EpKV1PeG
+2025-03-10 23:44:50,305 - INFO - 已添加监控地址: Yelo → AMTmcPLHDQ6NU8AVjVkGqN15HyNkTsnAPREGodLCMpVS
+2025-03-10 23:44:50,305 - INFO - 已添加监控地址: Garray → AsBvWP8yY3eZ2Sv6wbWzY8PdfPN3YJqXR4Z2GEnHHuVh
+2025-03-10 23:44:50,305 - INFO - 已添加监控地址: Ansem ????? → AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm
+2025-03-10 23:44:50,305 - INFO - 已添加监控地址: 侲侲侲 → Ay9wnuZCRTceZJuRpGZnuwYZuWdsviM4cMiCwFoSQiPH
+2025-03-10 23:44:50,305 - INFO - 已添加监控地址: ѧ → Bd9fepszcyMHpnEM9tFYbaEvLJPGBYYHUzg65b64iHbj
+2025-03-10 23:44:50,306 - INFO - 已添加监控地址: zerebro dev → BDzbq7VxG5b2yg4vc11iPvpj51RTbmsnxaEPjwzbWQft
+2025-03-10 23:44:50,306 - INFO - 已添加监控地址: Ҫ??ֵС → BkeHJikPVN98j45cYp2S3N7s9qRm1fyFBRE2sRv6Xoja
+2025-03-10 23:44:50,306 - INFO - 已添加监控地址: richclassdecor.eth → BTp4uCeCeWKxT6pzTmqJzzrtyqeTmtF1zr2EtpnZSw7F
+2025-03-10 23:44:50,307 - INFO - 已添加监控地址: 0xSun → C69d9G46bz3BK3PtyQkPja395fHnBjCH3GPSX1ftYtQ5
+2025-03-10 23:44:50,307 - INFO - 已添加监控地址: һ׬8wu → CBdCxKo9QavR9hfShgpEBG3zekorAeD7W1jfq2o3pump
+2025-03-10 23:44:50,307 - INFO - 已添加监控地址: TOM ?? → CEXkPr49BuW5sxfX5VxS1erRRFVq3VfjJbgjmZRxCjri
+2025-03-10 23:44:50,307 - INFO - 已添加监控地址: Ǯ → Cfi9eoLsFCBaUDxMXfwBXEJVX4RBBDB7kgvv2LwD5X7F
+2025-03-10 23:44:50,307 - INFO - 已添加监控地址:  → CK15zgbG3SSbCFtfnn5TFKswzBxSTWSvaDNoVBgbKYu
+2025-03-10 23:44:50,308 - INFO - 已添加监控地址: JAMES → CNABrLE2gHpfRbR6iV3s6yG8A1cMuGqYVTvPhaAMZQEN
+2025-03-10 23:44:50,308 - INFO - 已添加监控地址: DNFС → CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc
+2025-03-10 23:44:50,308 - INFO - 已添加监控地址: yryַ → CPydqKcEEeKTR6wt3L15G8S5Ea4bxjS2vvjiW9vw1UwK
+2025-03-10 23:44:50,308 - INFO - 已添加监控地址: Yelo → Cwrjz3WfCrRbGKMN4fjMzLyKXDQjkzUCjSGB8M5q2Bfd
+2025-03-10 23:44:50,308 - INFO - 已添加监控地址: ĻǮܶϢλģԴ → CWvdyvKHEu8Z6QqGraJT3sLPyp9bJfFhoXcxUYRKC8ou
+2025-03-10 23:44:50,308 - INFO - 已添加监控地址: | Ƶʤ → DBzhEXjxvuvpS9i9N8PhQXSqzkc8YPtKbfWLwcSmxZpp
+2025-03-10 23:44:50,309 - INFO - 已添加监控地址: buzzcut and beanie X+ → DEWkJHKfpfiYQSEcRGDSHkv5Nu59Jg4faeAUU8h4yqHi
+2025-03-10 23:44:50,309 - INFO - 已添加监控地址: Ļַ → DKgvpfttzmJqZXdavDwTxwSVkajibjzJnN2FA99dyciK
+2025-03-10 23:44:50,309 - INFO - 已添加监控地址: DNF | gake → DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm
+2025-03-10 23:44:50,309 - INFO - 已添加监控地址: 100SOLս → DQEabmVBRVES8pkoL8PJB6PdSb1kXNbGWDZW4vwmrhu6
+2025-03-10 23:44:50,309 - INFO - 已添加监控地址: degenai dev → DScqtGwFoDTme2Rzdjpdb2w7CtuKc6Z8KF7hMhbx8ugQ
+2025-03-10 23:44:50,309 - INFO - 已添加监控地址: ǮСè.eth → EfbbhahGNuhqEraRZXrwETfsaKxScngEttdQixWAW4WE
+2025-03-10 23:44:50,309 - INFO - 已添加监控地址: edwin → Efqoo7tUd9bhrA8kEZ6YhtBbo2mhr6VLAKzQEsBTyUsk
+2025-03-10 23:44:50,309 - INFO - 已添加监控地址: Ļɽ → F2pmrUchaCWys2G5XDpAAdd1wKPcrBkbQWCTAWwTAJ7B
+2025-03-10 23:44:50,310 - INFO - 已添加监控地址: ben001 → FKy2QyHNz2H7K8c4pZnifdP3ogrG4JujwNEB5bTzFEL3
+2025-03-10 23:44:50,310 - INFO - 已添加监控地址: CryptoD → G1pRtSyKuWSjTqRDcazzKBDzqEF96i1xSURpiXj3yFcc
+2025-03-10 23:44:50,310 - INFO - 已添加监控地址: 0xuezhang|985.eth → Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd
+2025-03-10 23:44:50,310 - INFO - 已添加监控地址: Yelo → GkGvitSK6CA5A3qu7G8h5BWPL976DsNYh3Jzocj9p1xQ
+2025-03-10 23:44:50,310 - INFO - 已添加监控地址: jojoƼǮ → HooderpigTVYapoXi6PQzxwtWhq3U1cuGvyu89fGjruY
+2025-03-10 23:44:50,310 - INFO - 已添加监控地址: 0xSun → HUpPyLU8KWisCAr3mzWy2FKT6uuxQ2qGgJQxyTpDoes5
+2025-03-10 23:44:50,310 - INFO - 已添加监控地址:  → HYWo71Wk9PNDe5sBaRKazPnVyGnQDiwgXCFKvgAQ1ENp
+2025-03-10 23:44:50,310 - INFO - 已添加监控地址: 1-óӶ → orcACRJYTFjTeo2pV8TfYRTpmqfoYgbVi9GeANXTCc8
+2025-03-10 23:44:50,311 - INFO - 已添加监控地址: bane top pnl → RFSqPtn1JfavGiUD4HJsZyYXvZsycxf31hnYfbyG6iB
+2025-03-10 23:44:50,311 - INFO - 已添加监控地址: Gate → u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w
+2025-03-10 23:44:50,311 - INFO - 成功从CSV文件导入 178 个监控地址
+2025-03-10 23:44:50,311 - INFO - ==================================================
+2025-03-10 23:44:50,311 - INFO - 所有监控地址:
+2025-03-10 23:44:50,311 - INFO - ==================================================
+2025-03-10 23:44:50,311 - INFO -   1. duo 10wu → FWDj6Y2SeZjk4c6XY5EXebaA1trvQfpkpgMZr13k7fay
+2025-03-10 23:44:50,311 - INFO -   2. brucej → 2J2zpzeZX4BL3xQ786JUDi9MmbZg9vbriT84kFbbiwAd
+2025-03-10 23:44:50,312 - INFO -   3. benjels → 1Mrfsd5xD9PyGWjCBJtcrBPkDirxUdqSTpmAouPUNfc
+2025-03-10 23:44:50,312 - INFO -   4. zachxbt → 27sfYMALabHSpjt4nDLAubw5mdDPnv3hkL8K7s2ZM1gU
+2025-03-10 23:44:50,312 - INFO -   5. Shibetoshi NakamotoҴʼ → 2aDBRNNdGEnCq2Av6Wz447CqgdEbmEaDudfGW1M85MAC
+2025-03-10 23:44:50,312 - INFO -   6. Ed_x^Kӛ → 2btYi2pqVgtgzLqeAXE122FPhN2xBJMQpE1V9CMNv4EH
+2025-03-10 23:44:50,312 - INFO -   7. moneymaykah → 2CXbN6nuTTb4vCrtYM89SfQHMMKGPAW4mvFe6Ht4Yo6z
+2025-03-10 23:44:50,312 - INFO -   8. asta → 2nKbwrpXKf7nBhvqrUprHoNBfg2jnoKaStd99h2w8QGc
+2025-03-10 23:44:50,312 - INFO -   9. ׮ → 2WJvjGFjZePB3sYrHKMBQd46o1TCS8zxchEHnDK7oBxQ
+2025-03-10 23:44:50,312 - INFO -  10. bigroot → 33MuTy5vo3GymDT6rhmA1trYH3ySWcgYa1HSVxD9Tko5
+2025-03-10 23:44:50,312 - INFO -  11. TLD.eth → 3BM6smanfeY3x7zfaSgSwQgcaTGvg8qyybJjJRy76ixA
+2025-03-10 23:44:50,312 - INFO -  12. jidn → 3h65MmPZksoKKyEpEjnWU2Yk2iYT5oZDNitGy5cTaxoE
+2025-03-10 23:44:50,313 - INFO -  13. Ů → 3JbCsBJbRncrJbwmKYo5ww3uMuRgZ2LkS9LY7pZxu5v1
+2025-03-10 23:44:50,313 - INFO -  14. Basitom Cruise → 3kebnKw7cPdSkLRfiMEALyZJGZ4wdiSRvmoN4rD1yPzV
+2025-03-10 23:44:50,313 - INFO -  15. Laolu → 4625pi6asX1CpKmw1apw3mnGxxntS7F95ALqhWLgVoCr
+2025-03-10 23:44:50,313 - INFO -  16. ӳ → 4aj4ey8kGzwoA1Ce1ADmLr5uUJYxAfuahohdNx9UL9qB
+2025-03-10 23:44:50,313 - INFO -  17. mitch (rtrd/acc) → 4Be9CvxqHW6BYiRAxW9Q3xu1ycTMWaL5z8NX4HR3ha7t
+2025-03-10 23:44:50,313 - INFO -  18. Mr.Frog → 4DdrfiDHpmx55i4SPssxVzS9ZaKLb8qr45NKY9Er9nNh
+2025-03-10 23:44:50,313 - INFO -  19. ʱ → 4LBhsqPTC2fHBST7MCmURRiU1zinWYQWe4G2GtP4wCSM
+2025-03-10 23:44:50,313 - INFO -  20. Sharrua → 4qyYcBA8tizD2MQCcHkXwrdFowZihKwdcFL6PExShVvL
+2025-03-10 23:44:50,313 - INFO -  21. Ѱ → 4YzpSZpxDdjNf3unjkCtdWEsz2FL5mok7e5XQaDNqry8
+2025-03-10 23:44:50,313 - INFO -  22. Yenni → 5B52w1ZW9tuwUduueP5J7HXz5AcGfruGoX6YoAudvyxG
+2025-03-10 23:44:50,313 - INFO -  23. Ǯ → 5SXUHLVsUdQFRczqny9VHX7SWTSm8v5NAATYbe5UShjd
+2025-03-10 23:44:50,314 - INFO -  24.  → 5UATnGWCexXeiRhBHPjpgkRvDYEH9XvQtwGNDATxDCS8
+2025-03-10 23:44:50,314 - INFO -  25. Michael Bouhanna-ոܲ → 5W7UZNQk6oCFbNdPowRJZpByErqzifQFVNVtN4uKb3cV
+2025-03-10 23:44:50,314 - INFO -  26. Y → 5ZMuSmd1V5irZtPa6CQG3L5gx22U9vYbkscPR1kJne5s
+2025-03-10 23:44:50,314 - INFO -  27. Assasin → 6LChaYRYtEYjLEHhzo4HdEmgNwu2aia8CM8VhR9wn6n7
+2025-03-10 23:44:50,314 - INFO -  28. Jake The Logical Jawn → 6zqYKgfANYEB5mmw7quiUCWbDg4tLJk2Gq5EbZ8ki6bE
+2025-03-10 23:44:50,314 - INFO -  29. Jihoz.ron-axieʼ → 7cm7BtqSJHqy7QYJFh4cr7SybGR6q1zA7oXk6gdvWgTk
+2025-03-10 23:44:50,314 - INFO -  30. publix → 86AEJExyjeNNgcp7GrAvCXTDicf5aGWgoERbXFiG1EdD
+2025-03-10 23:44:50,314 - INFO -  31. ¬ΰ → 8iFVg3mMe9CaLcS8Gq3bSYEoZPJSN21DPdmuf38U9Q4Z
+2025-03-10 23:44:50,314 - INFO -  32. 0x׾ → 8wfi8x1RfZzJBpMwQbWKLLsKDSrZvSnVkJfEKD6uvTpv
+2025-03-10 23:44:50,314 - INFO -  33. 51 → 952nKaqEPaEiQrH4HqSnT5jki9Eh6bJvwvfwLk4LxuW6
+2025-03-10 23:44:50,315 - INFO -  34. pullup → 981G4w1e6zSiy6gBtYLGdFjF7rmFgAXXgA3mgKwPzwyS
+2025-03-10 23:44:50,315 - INFO -  35. è → ABUqmjGYiZd4mFxVa2ZV4zZUUbB7a7U7EvoPkw4YHvC6
+2025-03-10 23:44:50,315 - INFO -  36. רҵ → AmManpABYP2yxskBmt31VSrALjCnTyaEdK8qeSVWLmjs
+2025-03-10 23:44:50,315 - INFO -  37. Tintin.hl → AMxCLXZtnhd4Puf2kVa2cVWk8mjYk6xUwjfcP1eWxdCR
+2025-03-10 23:44:50,315 - INFO -  38. s → ApRnQN2HkbCn7W2WWiT2FEKvuKJp9LugRyAE1a9Hdz1
+2025-03-10 23:44:50,315 - INFO -  39. fishfish → ARSdp5MFL1bjgWddK8dkF3QdttHvy5ZdVjJ6T8BHJimo
+2025-03-10 23:44:50,316 - INFO -  40. frozen raspberry → BPeH6CSLdhMEW9UjoduYtwKHKcPZzYUeQVcWFoLYDkst
+2025-03-10 23:44:50,316 - INFO -  41. lky → BSZ5Qn9DEZZhXvTGvaQhobgXCCZPJDSkgB9dZnAhgAPd
+2025-03-10 23:44:50,316 - INFO -  42.  → C3nLTNMK6Ao1s3J1CQhv8GbT3NoMmifWoi9PGEcYd9hP
+2025-03-10 23:44:50,316 - INFO -  43. Siqi Chen → C4wwvA1D479e5m6K19fjFrRaCPGzVykSm4pCHqsxgEuw
+2025-03-10 23:44:50,316 - INFO -  44.  → C6173UhKXr1t2tRCnE8QwXRvpHPxYrD79k5v2YteCHX1
+2025-03-10 23:44:50,316 - INFO -  45. Ƥ → C8uCFAY8WPwvEudVuQUW62rDHVAjQyVNxcdw5eMZW287
+2025-03-10 23:44:50,316 - INFO -  46. Neso → CDUAza6NMFDUhjZEaAGHZA8y9AE9bEbm236K5AJhFHRv
+2025-03-10 23:44:50,316 - INFO -  47. wen → CtKi39VFQRf2m8j8fkLzmJR6csxPVnWApLEGHmuAQWYb
+2025-03-10 23:44:50,316 - INFO -  48. ү → CzJFuW2JAtCkNB4pBNvUJhg9wKwjq2dYx2yK36Wio1ta
+2025-03-10 23:44:50,316 - INFO -  49. ţţPlus2ţ → D6nUhQ7o3TQwk243mgVS5hsdkuJk71fxZib3KxY4Upyv
+2025-03-10 23:44:50,317 - INFO -  50. Euris → DfMxre4cKmvogbLrPigxmibVTTQDuzjdXojWzjCXXhzj
+2025-03-10 23:44:50,317 - INFO -  51. Queenkayx → DG6QpsjvwqCGyLAYXKEmDBLRfomJ2UAmoe4MJWL9fNtt
+2025-03-10 23:44:50,317 - INFO -  52. FeiErwy → DKAarFVePUBbQuTEj4g7hp2wJkorJo1HsMnAU5tTP7EE
+2025-03-10 23:44:50,318 - INFO -  53. him → DxjmHXm1p7cs8Tezdf2EJm5xnwp9QC2E8CbfD1aXeH1j
+2025-03-10 23:44:50,318 - INFO -  54. Ȧ͵-ѧҾֲ → DXJYryY8bs7mJWhqvYMBqaMmjSLYZozHboyTA5AYi2an
+2025-03-10 23:44:50,318 - INFO -  55. Not Yours → dY9sUsh4kXocVTzw8F6UagFg6KPe5QizhuZTrDYSX1C
+2025-03-10 23:44:50,318 - INFO -  56. ʮñ → DzeSE8ZBNk36qqswcDxd8919evdH5upwyZ4u1yieQSkp
+2025-03-10 23:44:50,318 - INFO -  57. gino.eth → EeZf8YxMisxMcyX9PHyGa9sdaQR3n3T1hFcMEeZPpPY8
+2025-03-10 23:44:50,319 - INFO -  58. AdamJae → EnQLCLB7NWojruXXNopgH7jhkwoHihTpuzsrtsM2UCSe
+2025-03-10 23:44:50,319 - INFO -  59.  → EtfUwhGtKwDjxdyKU7d83pePQjh4DtmfCLZtdxbQ1k3N
+2025-03-10 23:44:50,319 - INFO -  60. mercy → F5jWYuiDLTiaLYa54D88YbpXgEsA6NKHzWy4SN4bMYjt
+2025-03-10 23:44:50,319 - INFO -  61. ɱ → F7KSBM7SVVYUczJTCLpLJFPDEBrmrfi9ZiGru1BzAuwi
+2025-03-10 23:44:50,319 - INFO -  62.  → F7MJy5xhx6bFnaeK9eMLHzUmNKmf9rLsr7JUsV1wnEFj
+2025-03-10 23:44:50,320 - INFO -  63. haze-gmgnϰ → FPTspEkKpoJZGccPWCfdt7Xyun7eZ61kZALMJVciSk1K
+2025-03-10 23:44:50,320 - INFO -  64. п˯ → GH4NtrMtTrxRDMbQacT6bgyWVwDkoujLnCYwUY9pa5Cu
+2025-03-10 23:44:50,320 - INFO -  65.  → GQva3CGJNAiBxzPYjNaamHeyQ2shnCmPpwp2bbiRW9K
+2025-03-10 23:44:50,320 - INFO -  66. Evan → H1RzgQhep7bxKgqiBTd2kdyPJQ5wbiGN7BqUMGFNqg2W
+2025-03-10 23:44:50,320 - INFO -  67. AN:Ȼ → HFLnuLwvBXxM4bGn24v6dQuhz6JVU3TKu8JsVLcGdxaV
+2025-03-10 23:44:50,320 - INFO -  68. ͭhappy → HpJ6bsNhW4ftV1E1KtSwvr9yQ55ZbHaxMVvgney6gpoY
+2025-03-10 23:44:50,320 - INFO -  69. skid → HPkQu4osTzt3reYjYX8CHufGCGgHesc7PqG6WdhcY4p9
+2025-03-10 23:44:50,320 - INFO -  70. Hogen → J2dEKMCV9vDtsAcnUgAED99n3QvQ48KUqNL6YYyiDYdC
+2025-03-10 23:44:50,321 - INFO -  71. ھ → J485YzQjuJPLYoFEYjrjxd7NAoLHTiyUU63JwK7kLxRr
+2025-03-10 23:44:50,321 - INFO -  72. yuyue → off5DDPLfBqcnHuQHssyDModwYkgwaVYp1JBb95CU18
+2025-03-10 23:44:50,321 - INFO -  73. K99 → qTB6ryTHBU1tGEVg9a1QiRJh5euRAU3bcDdWubUJ4ne
+2025-03-10 23:44:50,321 - INFO -  74. ????????? → QvPPwsV6ri3ydYLQRhnjWQt6US3qVEUhKss9J45uPFL
+2025-03-10 23:44:50,321 - INFO -  75. frank → CRVidEDtEUTYZisCxBZkpELzhQc9eauMLR3FWg74tReL
+2025-03-10 23:44:50,321 - INFO -  76. ǶȸС → 9gCNRVGmWPEcUmthsd676FR3nTRwv8QkcNdphVHso48Z
+2025-03-10 23:44:50,321 - INFO -  77. duolingoǮ200sol → 8mTEkJaodatTKVvLDCz6YwbCnuac4fM7z8yFq6R6eFsx
+2025-03-10 23:44:50,321 - INFO -  78. duolingo ׯ002 → 8gVgczWCy9unAan7m1C91S5UXCAEgXthzVsZhZP49tpo
+2025-03-10 23:44:50,321 - INFO -  79. stupid 굽Ǯduo → 3BU6vK1bUi7dBi8vS4btdr7pyJMNaCYqkzY3d6Gp37Xn
+2025-03-10 23:44:50,321 - INFO -  80. duolingo ׯ001 → 4QxYnhDLv4FHGkUnZ1qn4Y1C1jsVN9F2w4hzdhDFqoZs
+2025-03-10 23:44:50,322 - INFO -  81. gemս02 → 4chn22VoRYH81ZQnGJcaRA1LDgdViaaAK8BS4W277777
+2025-03-10 23:44:50,322 - INFO -  82. gemս01 → wbsUXURMM5cCH1XbskF2mPGx8SSGBgx3sM2kQuoABAn
+2025-03-10 23:44:50,322 - INFO -  83. jige → Hnnw3uwnomwP5B7ZizvNCTk51AgSRaTNYdSJydwCtzzz
+2025-03-10 23:44:50,323 - INFO -  84. vol dev → EfaWwZKnkq1exddBT3LqgZuYHNFn4xQcxfMQVGPgCLck
+2025-03-10 23:44:50,323 - INFO -  85. stonksׯ1 → 8veqMET96Pgzxc3VnbcD9ydQQcaNFk4T1Y6Pa3yH3maX
+2025-03-10 23:44:50,323 - INFO -  86. stonksׯ֮һ → FjSXNfAQF3iykr8z9MfaTSvhGNbEWRhtmqqQuFKgfxCq
+2025-03-10 23:44:50,323 - INFO -  87. qiyumeme → GEj2tXRXoxe6T8LsVUKpF6qfJMyHcGzKzNfSMKJkAn9M
+2025-03-10 23:44:50,323 - INFO -  88.  → EUM51CoFuxBw2FUVQ7YmrAy6a3p6PUNwou5S9f8qt83S
+2025-03-10 23:44:50,323 - INFO -  89. memeе㶫 → 6EAaPqnwT54YnYfCRyupN8rK25i2hbguBFcbfVQ8hGWj
+2025-03-10 23:44:50,324 - INFO -  90. trump10m → EELhpihpevqjyez7DHaXBfn1eoCRvNMKso9Ck3oPnLx4
+2025-03-10 23:44:50,324 - INFO -  91. һŲnnnnniu → 9NiAmMtLL17s8R5UJyi9svSg7VrKXgBj3YKEaNrQ91VT
+2025-03-10 23:44:50,324 - INFO -  92. ҪǮ → AZTX6Mkzk4QEmqfB1FzgV3H7MQxpNANmtHw3Vty1trzu
+2025-03-10 23:44:50,324 - INFO -  93. ?JayBaum → 27tecefS1JzsHT24RdJNtZXMZpgRa6pwsqFbwmKaZodV
+2025-03-10 23:44:50,324 - INFO -  94. Yelo → 2fpTdwLGW6V87FXXuCQoVNsyj8rZLzmE8jHhwzAGEtwG
+2025-03-10 23:44:50,324 - INFO -  95. ??Sencrazy.eth → 2FVV6e1SECwofXq8LVpzz2iQiTx4SZghPynh8LrvFET2
+2025-03-10 23:44:50,324 - INFO -  96. my1 → 2m5498hY3hpSvm1pVyZwwyU6bpQGFGu3PADSoEoZFXQB
+2025-03-10 23:44:50,325 - INFO -  97. coocenc → 2tV9bAogjJSw2JQvumFGmdsRoTPYRaJeeSqSFdsnjUGQ
+2025-03-10 23:44:50,325 - INFO -  98. 0xAA → 2ZiQY2u9bNxLF3fDhUFmZCz1n1baNnx2jtu1asPYpMhR
+2025-03-10 23:44:50,325 - INFO -  99. Ǯ007 → 3ejWGMZrX7PFYeub4eaKeVebmB8qJcQyJPh12yNBC9cq
+2025-03-10 23:44:50,325 - INFO - 100. benƼǮ002 → 3QnBeoPMPB3H78WgJssep7rs3A8477LR2FhtwrnZoRie
+2025-03-10 23:44:50,325 - INFO - 101.  → 3RnKNpzX5Nd7PTZBEVrYXVrHyu8Erbbo23QeXtWMTjaZ
+2025-03-10 23:44:50,325 - INFO - 102. С → 3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi
+2025-03-10 23:44:50,325 - INFO - 103. С | صע → 3TS4gKNUUx1ZAKCQ374vH6ZBJchWJKKTp32LDmSFKzhQ
+2025-03-10 23:44:50,326 - INFO - 104. top pnl → 4632BMWY69AkVHxN1XLKVuLrednYiLccuMeoXnQBMA7Z
+2025-03-10 23:44:50,326 - INFO - 105. Gotrilla → 4q7rNU1nRUWY14vaLPpzpc2C756UQE36vaDwphBpLf2s
+2025-03-10 23:44:50,326 - INFO - 106. 0xuezhang|985.eth → 4qWmgHK2MU52L11sFcwnzqCz4UPXBpH3f4Tk8rpaQQ56
+2025-03-10 23:44:50,326 - INFO - 107. kƯ → 4w7petYTMikTbjqjHNsE1C97ormD4oyPonbe5f4wkxKz
+2025-03-10 23:44:50,326 - INFO - 108. 581 → 581XaxPQ7jGqqFGh3RQhK8wESBrEvFCAry7EDq2NzacH
+2025-03-10 23:44:50,326 - INFO - 109. sol Ǯ001 → 58aJk9ngALL8Np7r51JWPc3buPthaPDKknmDaNxuGQcP
+2025-03-10 23:44:50,326 - INFO - 110. 77ַ | һ׬8wu → 5RFxaZf1gZKtEPg68cUnsCqRGoENicg2aBD1eGmq1J74
+2025-03-10 23:44:50,327 - INFO - 111. Abrahanny.eth → 5STnyps3g9HX9e2gruc8Q2XvQqWxp5pzBKcJnRjg8r7z
+2025-03-10 23:44:50,327 - INFO - 112. tickerһ ʤ → 5wPWthsivjuGi43WbTo5LdSjDTJ8pXSSHyfXWVojJjUF
+2025-03-10 23:44:50,327 - INFO - 113. JAMES → 5wQaABAbgA52cBks6zqXmk9nFftZgy18f78im6UxXhNU
+2025-03-10 23:44:50,327 - INFO - 114.  → 5wTLevkkUWzKgRTWKcSjrgdoP8TnrEnXYGaAxFKibsS5
+2025-03-10 23:44:50,327 - INFO - 115. neiro Top PNL → 69ngexW9UkgRp5KFjLpaK9XNSCxUFmps6jYmqhK3q6m9
+2025-03-10 23:44:50,327 - INFO - 116. ʽ → 6fdTPs67nxYbz3FriTZm474GPnqytTPVZFsLNnmS4827
+2025-03-10 23:44:50,327 - INFO - 117. ?? → 6fg77vTppRWZaQQaZhBqUtfu1PvRiCtWzoN8qF83fEbS
+2025-03-10 23:44:50,327 - INFO - 118. Redsun.eth ???? → 6NEEKdUKdMnQjFXxEAqoYmSk7gdZckStsYo1541P8bRZ
+2025-03-10 23:44:50,328 - INFO - 119. E → 6vdXD7uu4zBXMjWecqMPWGsy5H7dSQXSYJS4gNqGbvTt
+2025-03-10 23:44:50,328 - INFO - 120. ҹĻ → 6WNxdZJsWrBHJM5apKLsjdZgq51jXsQp9o4MCjKcaUSU
+2025-03-10 23:44:50,328 - INFO - 121. Ҫ??ֵС → 71CPXu3TvH3iUKaY1bNkAAow24k6tjH473SsKprQBABC
+2025-03-10 23:44:50,328 - INFO - 122. LaserCat397.eth → 75ugq4BnAApScig3D4w8Urx7ujXKDYc1VTEvzafFbabT
+2025-03-10 23:44:50,328 - INFO - 123. jingtao → 79CxhdY2TeFHpGNcaHgnHJTWnv7KA3KgMFoeHrJg77ru
+2025-03-10 23:44:50,328 - INFO - 124. һ → 7DGQGqgZuTfcAAphpDeehKq2Xsro77pz3ec19Ui37Dpx
+2025-03-10 23:44:50,328 - INFO - 125. LaserCat397.eth → 7iSG5y8f4DHtUEPLcgWQnJso99JRB51opyaRoH8qWZ8r
+2025-03-10 23:44:50,328 - INFO - 126. birddao sol → 7TJnymS5k6Kin2uSJiFaU3M33rbvuxVAcuSPDu3dNmTc
+2025-03-10 23:44:50,328 - INFO - 127. Sencrazy.eth → 7vsr2EPeq1vxgr1hk6yRgM4od1hYw2pzmR5BWaJBStPy
+2025-03-10 23:44:50,329 - INFO - 128. Cooker | Darn.eth | Kms.eth → 8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6
+2025-03-10 23:44:50,329 - INFO - 129. LaserCat397.eth → 8K5276kWCmRnS1TLTAKxRznM6NehtHkqCVWxcQhzHrwF
+2025-03-10 23:44:50,329 - INFO - 130. JinMu → 8tP391aDbKKpQS7eKnCEfnJ8Cmek6jatEe2LFkdJ2PRP
+2025-03-10 23:44:50,329 - INFO - 131. С.sol → 8WRWo8oQ4ppD7hMYxgwCXvTtzK2AusqsgVmr8NPsjtW1
+2025-03-10 23:44:50,329 - INFO - 132. lexַ → 8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj
+2025-03-10 23:44:50,329 - INFO - 133. һ → 8YmW32pecz2854orKhSEiBKUVvpjkw4YJnUmybYQTjMH
+2025-03-10 23:44:50,329 - INFO - 134. powӵַ → 8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd
+2025-03-10 23:44:50,329 - INFO - 135. ccie11440.eth $PARAM → 9Ca1o7YVbRmB3gVzyD2qgHbpkL685kW8Xieej7EMQcBb
+2025-03-10 23:44:50,330 - INFO - 136. billymcsmithers.eth ???? → 9cQL8n7fkzg7uBrzi9K5EXdxZwC1i11khQTyXQGDBz5A
+2025-03-10 23:44:50,330 - INFO - 137. º | صע → 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+2025-03-10 23:44:50,330 - INFO - 138. Yelo → 9MVmm1eMuiLXbcEK6Wi6PNRK3pd8rFvAZKhzk5oeYRv2
+2025-03-10 23:44:50,331 - INFO - 139. Bitget → A77HErqtfN1hLLpvZ9pCtu66FEtM8BveoaKbbMoZ4RiR
+2025-03-10 23:44:50,331 - INFO - 140. luce goat λ͸ | ׷ʤʸ → AaQtXpw8wsFyMs2pkb2uFqR7cZQWGXZ1GbmfewbwAQy1
+2025-03-10 23:44:50,331 - INFO - 141. ai16zַ → AM84n1iLdxgVTAyENBcLdjXoyvjentTbu5Q6EpKV1PeG
+2025-03-10 23:44:50,331 - INFO - 142. Yelo → AMTmcPLHDQ6NU8AVjVkGqN15HyNkTsnAPREGodLCMpVS
+2025-03-10 23:44:50,332 - INFO - 143. Garray → AsBvWP8yY3eZ2Sv6wbWzY8PdfPN3YJqXR4Z2GEnHHuVh
+2025-03-10 23:44:50,332 - INFO - 144. Ansem ????? → AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm
+2025-03-10 23:44:50,332 - INFO - 145. 侲侲侲 → Ay9wnuZCRTceZJuRpGZnuwYZuWdsviM4cMiCwFoSQiPH
+2025-03-10 23:44:50,332 - INFO - 146. ѧ → Bd9fepszcyMHpnEM9tFYbaEvLJPGBYYHUzg65b64iHbj
+2025-03-10 23:44:50,332 - INFO - 147. zerebro dev → BDzbq7VxG5b2yg4vc11iPvpj51RTbmsnxaEPjwzbWQft
+2025-03-10 23:44:50,333 - INFO - 148. Ҫ??ֵС → BkeHJikPVN98j45cYp2S3N7s9qRm1fyFBRE2sRv6Xoja
+2025-03-10 23:44:50,333 - INFO - 149. richclassdecor.eth → BTp4uCeCeWKxT6pzTmqJzzrtyqeTmtF1zr2EtpnZSw7F
+2025-03-10 23:44:50,333 - INFO - 150. 0xSun → C69d9G46bz3BK3PtyQkPja395fHnBjCH3GPSX1ftYtQ5
+2025-03-10 23:44:50,333 - INFO - 151. һ׬8wu → CBdCxKo9QavR9hfShgpEBG3zekorAeD7W1jfq2o3pump
+2025-03-10 23:44:50,333 - INFO - 152. TOM ?? → CEXkPr49BuW5sxfX5VxS1erRRFVq3VfjJbgjmZRxCjri
+2025-03-10 23:44:50,333 - INFO - 153. Ǯ → Cfi9eoLsFCBaUDxMXfwBXEJVX4RBBDB7kgvv2LwD5X7F
+2025-03-10 23:44:50,333 - INFO - 154.  → CK15zgbG3SSbCFtfnn5TFKswzBxSTWSvaDNoVBgbKYu
+2025-03-10 23:44:50,333 - INFO - 155. JAMES → CNABrLE2gHpfRbR6iV3s6yG8A1cMuGqYVTvPhaAMZQEN
+2025-03-10 23:44:50,333 - INFO - 156. DNFС → CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc
+2025-03-10 23:44:50,333 - INFO - 157. yryַ → CPydqKcEEeKTR6wt3L15G8S5Ea4bxjS2vvjiW9vw1UwK
+2025-03-10 23:44:50,334 - INFO - 158. Yelo → Cwrjz3WfCrRbGKMN4fjMzLyKXDQjkzUCjSGB8M5q2Bfd
+2025-03-10 23:44:50,334 - INFO - 159. ĻǮܶϢλģԴ → CWvdyvKHEu8Z6QqGraJT3sLPyp9bJfFhoXcxUYRKC8ou
+2025-03-10 23:44:50,334 - INFO - 160. | Ƶʤ → DBzhEXjxvuvpS9i9N8PhQXSqzkc8YPtKbfWLwcSmxZpp
+2025-03-10 23:44:50,334 - INFO - 161. buzzcut and beanie X+ → DEWkJHKfpfiYQSEcRGDSHkv5Nu59Jg4faeAUU8h4yqHi
+2025-03-10 23:44:50,334 - INFO - 162. Ļַ → DKgvpfttzmJqZXdavDwTxwSVkajibjzJnN2FA99dyciK
+2025-03-10 23:44:50,334 - INFO - 163. DNF | gake → DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm
+2025-03-10 23:44:50,334 - INFO - 164. 100SOLս → DQEabmVBRVES8pkoL8PJB6PdSb1kXNbGWDZW4vwmrhu6
+2025-03-10 23:44:50,334 - INFO - 165. degenai dev → DScqtGwFoDTme2Rzdjpdb2w7CtuKc6Z8KF7hMhbx8ugQ
+2025-03-10 23:44:50,334 - INFO - 166. ǮСè.eth → EfbbhahGNuhqEraRZXrwETfsaKxScngEttdQixWAW4WE
+2025-03-10 23:44:50,334 - INFO - 167. edwin → Efqoo7tUd9bhrA8kEZ6YhtBbo2mhr6VLAKzQEsBTyUsk
+2025-03-10 23:44:50,334 - INFO - 168. Ļɽ → F2pmrUchaCWys2G5XDpAAdd1wKPcrBkbQWCTAWwTAJ7B
+2025-03-10 23:44:50,335 - INFO - 169. ben001 → FKy2QyHNz2H7K8c4pZnifdP3ogrG4JujwNEB5bTzFEL3
+2025-03-10 23:44:50,335 - INFO - 170. CryptoD → G1pRtSyKuWSjTqRDcazzKBDzqEF96i1xSURpiXj3yFcc
+2025-03-10 23:44:50,335 - INFO - 171. 0xuezhang|985.eth → Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd
+2025-03-10 23:44:50,335 - INFO - 172. Yelo → GkGvitSK6CA5A3qu7G8h5BWPL976DsNYh3Jzocj9p1xQ
+2025-03-10 23:44:50,335 - INFO - 173. jojoƼǮ → HooderpigTVYapoXi6PQzxwtWhq3U1cuGvyu89fGjruY
+2025-03-10 23:44:50,336 - INFO - 174. 0xSun → HUpPyLU8KWisCAr3mzWy2FKT6uuxQ2qGgJQxyTpDoes5
+2025-03-10 23:44:50,336 - INFO - 175.  → HYWo71Wk9PNDe5sBaRKazPnVyGnQDiwgXCFKvgAQ1ENp
+2025-03-10 23:44:50,336 - INFO - 176. 1-óӶ → orcACRJYTFjTeo2pV8TfYRTpmqfoYgbVi9GeANXTCc8
+2025-03-10 23:44:50,336 - INFO - 177. bane top pnl → RFSqPtn1JfavGiUD4HJsZyYXvZsycxf31hnYfbyG6iB
+2025-03-10 23:44:50,336 - INFO - 178. Gate → u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w
+2025-03-10 23:44:50,336 - INFO - ==================================================
+2025-03-10 23:44:50,336 - INFO - 启动 Solana 交易监控...
+2025-03-10 23:44:55,674 - INFO - 代币缓存已更新 (5.34秒):
+  总代币数: 287863
+  新增代币: 287863
+  更新代币: 0
+2025-03-10 23:44:59,050 - INFO - 大额交易: 17.00 SOL
+2025-03-10 23:44:59,050 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:44:59,050 - INFO - 跳过SOL/稳定币交易: 17.00 SOL - USDC -> SOL
+2025-03-10 23:45:03,187 - INFO - 大额交易: 11.00 SOL
+2025-03-10 23:45:03,188 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:45:03,189 - INFO - 跳过SOL/稳定币交易: 11.00 SOL - SOL -> USDC
+2025-03-10 23:45:08,709 - INFO - 大额交易: 14.40 SOL
+2025-03-10 23:45:08,710 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:45:08,710 - INFO - 跳过SOL/稳定币交易: 14.40 SOL - SOL -> SOL
+2025-03-10 23:45:15,776 - INFO - 大额交易: 15.00 SOL
+2025-03-10 23:45:15,777 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:45:15,778 - INFO - 跳过SOL/稳定币交易: 15.00 SOL - SOL -> USDC
+2025-03-10 23:45:17,556 - INFO - 大额交易: 36.00 SOL
+2025-03-10 23:45:17,557 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:45:17,558 - INFO - 跳过SOL/稳定币交易: 36.00 SOL - USDC -> SOL
+2025-03-10 23:45:17,561 - INFO - 大额交易: 19.61 SOL
+2025-03-10 23:45:17,561 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:45:17,562 - INFO - 跳过SOL/稳定币交易: 19.61 SOL - SOL -> USDC
+2025-03-10 23:45:19,419 - INFO - 监控地址交易 [Bitget]: 0.00 SOL
+2025-03-10 23:45:19,419 - INFO - 找到代币对: USDT -> USDT
+2025-03-10 23:45:19,419 - INFO - 监控地址交易 [Bitget]: USDT -> USDT
+2025-03-10 23:45:19,427 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, monitored_address_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325860100, 'A77HErqtfN1hLLpvZ9pCtu66FEtM8BveoaKbbMoZ4RiR', 1.2e-05, 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB', 'USDT', 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB', 'USDT', 1741621519.4190843, 1, 'Bitget')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:45:19,445 - INFO - 大额交易: 19.32 SOL
+2025-03-10 23:45:19,446 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:45:19,446 - INFO - 跳过SOL/稳定币交易: 19.32 SOL - USDC -> USDC
+2025-03-10 23:45:19,454 - INFO - 大额交易: 188.31 SOL
+2025-03-10 23:45:19,454 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:45:19,455 - INFO - 跳过SOL/稳定币交易: 188.31 SOL - SOL -> SOL
+2025-03-10 23:45:19,465 - INFO - 大额交易: 11.00 SOL
+2025-03-10 23:45:19,466 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:45:19,466 - INFO - 跳过SOL/稳定币交易: 11.00 SOL - SOL -> USDC
+2025-03-10 23:45:21,239 - INFO - 大额交易: 79.20 SOL
+2025-03-10 23:45:21,240 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:45:21,240 - INFO - 跳过SOL/稳定币交易: 79.20 SOL - SOL -> USDC
+2025-03-10 23:45:21,257 - INFO - 大额交易: 420.20 SOL
+2025-03-10 23:45:21,258 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:45:21,258 - INFO - 跳过SOL/稳定币交易: 420.20 SOL - SOL -> SOL
+2025-03-10 23:45:23,258 - INFO - 大额交易: 24.11 SOL
+2025-03-10 23:45:23,259 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:45:23,259 - INFO - 跳过SOL/稳定币交易: 24.11 SOL - USDC -> SOL
+2025-03-10 23:45:23,282 - INFO - 大额交易: 32.06 SOL
+2025-03-10 23:45:23,282 - INFO - 找到代币对: BOME -> BOME
+2025-03-10 23:45:23,287 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, monitored_address_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325860102, '4GQeEya6ZTwvXre4Br6ZfDyfe2WQMkcDz2QbkJZazVqS', 32.057235384, 'ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82', 'BOME', 'ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82', 'BOME', 1741621523.282174, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:45:23,288 - INFO - 大额交易: 20.24 SOL
+2025-03-10 23:45:23,288 - INFO - 找到代币对: SLERF -> SLERF
+2025-03-10 23:45:23,291 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, monitored_address_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325860102, '4GQeEya6ZTwvXre4Br6ZfDyfe2WQMkcDz2QbkJZazVqS', 20.243836738, '7BgBvyjrZX1YKz4oh9mjb8ZScatkkwb8DzFx7LoiVkM3', 'SLERF', '7BgBvyjrZX1YKz4oh9mjb8ZScatkkwb8DzFx7LoiVkM3', 'SLERF', 1741621523.2881641, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:45:25,055 - INFO - 大额交易: 18.67 SOL
+2025-03-10 23:45:25,057 - INFO - 找到代币对: USDT -> SOL
+2025-03-10 23:45:25,057 - INFO - 跳过SOL/稳定币交易: 18.67 SOL - USDT -> SOL
+2025-03-10 23:45:26,908 - INFO - 大额交易: 15.15 SOL
+2025-03-10 23:45:26,909 - INFO - 找到代币对: BOME -> BOME
+2025-03-10 23:45:26,913 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, monitored_address_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325860104, '4GQeEya6ZTwvXre4Br6ZfDyfe2WQMkcDz2QbkJZazVqS', 15.147542903, 'ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82', 'BOME', 'ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82', 'BOME', 1741621526.9090378, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:45:26,914 - INFO - 大额交易: 16.38 SOL
+2025-03-10 23:45:26,914 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:45:26,914 - INFO - 跳过SOL/稳定币交易: 16.38 SOL - SOL -> SOL
+2025-03-10 23:45:26,916 - INFO - 大额交易: 818.71 SOL
+2025-03-10 23:45:26,917 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:45:26,917 - INFO - 跳过SOL/稳定币交易: 818.71 SOL - USDC -> USDC
+2025-03-10 23:45:26,917 - INFO - 大额交易: 53.10 SOL
+2025-03-10 23:45:26,918 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:45:26,918 - INFO - 跳过SOL/稳定币交易: 53.10 SOL - USDC -> SOL
+2025-03-10 23:45:26,919 - INFO - 大额交易: 35.17 SOL
+2025-03-10 23:45:26,921 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:45:26,922 - INFO - 跳过SOL/稳定币交易: 35.17 SOL - USDC -> SOL
+2025-03-10 23:45:26,941 - INFO - 大额交易: 229.12 SOL
+2025-03-10 23:45:26,942 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:45:26,943 - INFO - 跳过SOL/稳定币交易: 229.12 SOL - SOL -> SOL
+2025-03-10 23:45:28,551 - INFO - 大额交易: 16.45 SOL
+2025-03-10 23:45:28,553 - INFO - 找到代币对: SOL -> USDT
+2025-03-10 23:45:28,553 - INFO - 跳过SOL/稳定币交易: 16.45 SOL - SOL -> USDT
+2025-03-10 23:45:30,308 - INFO - 大额交易: 51.48 SOL
+2025-03-10 23:45:30,309 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:45:30,309 - INFO - 跳过SOL/稳定币交易: 51.48 SOL - USDC -> SOL
+2025-03-10 23:45:30,329 - INFO - 大额交易: 20.01 SOL
+2025-03-10 23:45:30,330 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:45:30,330 - INFO - 跳过SOL/稳定币交易: 20.01 SOL - SOL -> USDC
+2025-03-10 23:45:30,332 - INFO - 大额交易: 33.29 SOL
+2025-03-10 23:45:30,333 - INFO - 找到代币对: JLP -> USDC
+2025-03-10 23:45:30,338 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, monitored_address_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325860106, 'r1chM2ABC3VBnZTDrF39kYAHF82RYmi8qE7rNXnyvbJ', 33.285335208, '27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4', 'JLP', 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v', 'USDC', 1741621530.3343513, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:45:33,228 - INFO - 大额交易: 120.02 SOL
+2025-03-10 23:45:33,229 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:45:33,229 - INFO - 跳过SOL/稳定币交易: 120.02 SOL - USDC -> SOL
+2025-03-10 23:45:33,237 - INFO - 大额交易: 12.27 SOL
+2025-03-10 23:45:33,238 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:45:33,239 - INFO - 跳过SOL/稳定币交易: 12.27 SOL - SOL -> SOL
+2025-03-10 23:45:33,247 - INFO - 大额交易: 82.51 SOL
+2025-03-10 23:45:33,247 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:45:33,247 - INFO - 跳过SOL/稳定币交易: 82.51 SOL - USDC -> USDC
+2025-03-10 23:45:35,688 - INFO - 大额交易: 11.00 SOL
+2025-03-10 23:45:35,689 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:45:35,689 - INFO - 跳过SOL/稳定币交易: 11.00 SOL - SOL -> SOL
+2025-03-10 23:45:35,718 - INFO - 大额交易: 28.42 SOL
+2025-03-10 23:45:35,719 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:45:35,720 - INFO - 跳过SOL/稳定币交易: 28.42 SOL - SOL -> SOL
+2025-03-10 23:45:39,815 - INFO - 大额交易: 13.30 SOL
+2025-03-10 23:45:39,816 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:45:39,816 - INFO - 跳过SOL/稳定币交易: 13.30 SOL - USDC -> SOL
+2025-03-10 23:45:41,984 - INFO - 大额交易: 12.46 SOL
+2025-03-10 23:45:41,985 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:45:41,986 - INFO - 跳过SOL/稳定币交易: 12.46 SOL - SOL -> USDC
+2025-03-10 23:45:41,989 - INFO - 大额交易: 21.11 SOL
+2025-03-10 23:45:41,991 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:45:41,991 - INFO - 跳过SOL/稳定币交易: 21.11 SOL - USDC -> USDC
+2025-03-10 23:45:51,074 - INFO - 大额交易: 12.24 SOL
+2025-03-10 23:45:51,074 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:45:51,075 - INFO - 跳过SOL/稳定币交易: 12.24 SOL - USDC -> SOL
+2025-03-10 23:45:57,980 - INFO - 大额交易: 27.00 SOL
+2025-03-10 23:45:57,981 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:45:57,982 - INFO - 跳过SOL/稳定币交易: 27.00 SOL - USDC -> SOL
+2025-03-10 23:46:00,087 - INFO - 大额交易: 11.42 SOL
+2025-03-10 23:46:00,088 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:46:00,089 - INFO - 跳过SOL/稳定币交易: 11.42 SOL - SOL -> USDC
+2025-03-10 23:46:00,116 - INFO - 大额交易: 14.25 SOL
+2025-03-10 23:46:00,119 - INFO - 找到代币对: USDC -> USDT
+2025-03-10 23:46:00,119 - INFO - 跳过SOL/稳定币交易: 14.25 SOL - USDC -> USDT
+2025-03-10 23:46:00,121 - INFO - 大额交易: 150.00 SOL
+2025-03-10 23:46:00,122 - INFO - 找到代币对: JitoSOL -> JitoSOL
+2025-03-10 23:46:00,125 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, monitored_address_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325860120, 'JD25qVdtd65FoiXNmR89JjmoJdYk9sjYQeSTZAALFiMy', 150.001285367, 'J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn', 'JitoSOL', 'J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn', 'JitoSOL', 1741621560.123258, 0, None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:46:08,643 - INFO - 大额交易: 10.02 SOL
+2025-03-10 23:46:08,644 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:46:08,644 - INFO - 跳过SOL/稳定币交易: 10.02 SOL - USDC -> USDC
+2025-03-10 23:46:10,663 - INFO - 大额交易: 22.40 SOL
+2025-03-10 23:46:10,664 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:46:10,664 - INFO - 跳过SOL/稳定币交易: 22.40 SOL - SOL -> SOL
+2025-03-10 23:46:12,710 - INFO - 大额交易: 10.49 SOL
+2025-03-10 23:46:21,583 - INFO - 大额交易: 45.25 SOL
+2025-03-10 23:46:21,584 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:46:21,584 - INFO - 跳过SOL/稳定币交易: 45.25 SOL - USDC -> SOL
+2025-03-10 23:46:23,676 - INFO - 大额交易: 48.23 SOL
+2025-03-10 23:46:23,677 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:46:23,677 - INFO - 跳过SOL/稳定币交易: 48.23 SOL - USDC -> SOL
+2025-03-10 23:46:25,785 - INFO - 大额交易: 60.92 SOL
+2025-03-10 23:46:25,786 - INFO - 找到代币对: SOL -> USDT
+2025-03-10 23:46:25,786 - INFO - 跳过SOL/稳定币交易: 60.92 SOL - SOL -> USDT
+2025-03-10 23:46:29,626 - INFO - 大额交易: 20.00 SOL
+2025-03-10 23:46:29,627 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:46:29,627 - INFO - 跳过SOL/稳定币交易: 20.00 SOL - SOL -> USDC
+2025-03-10 23:46:33,362 - INFO - 监控已停止
+2025-03-10 23:46:33,403 - INFO - 程序已终止
+2025-03-10 23:46:36,187 - INFO - 尝试从 C:\Users\PC\Desktop\sol_bird_alert\swap-alert\44444.csv 加载地址文件
+2025-03-10 23:46:36,187 - INFO - 找到地址文件: C:\Users\PC\Desktop\sol_bird_alert\swap-alert\44444.csv
+2025-03-10 23:46:36,188 - INFO - 已添加监控地址: duo 10wu → FWDj6Y2SeZjk4c6XY5EXebaA1trvQfpkpgMZr13k7fay
+2025-03-10 23:46:36,188 - INFO - 已添加监控地址: brucej → 2J2zpzeZX4BL3xQ786JUDi9MmbZg9vbriT84kFbbiwAd
+2025-03-10 23:46:36,188 - INFO - 已添加监控地址: benjels → 1Mrfsd5xD9PyGWjCBJtcrBPkDirxUdqSTpmAouPUNfc
+2025-03-10 23:46:36,188 - INFO - 已添加监控地址: zachxbt → 27sfYMALabHSpjt4nDLAubw5mdDPnv3hkL8K7s2ZM1gU
+2025-03-10 23:46:36,188 - INFO - 已添加监控地址: Shibetoshi NakamotoҴʼ → 2aDBRNNdGEnCq2Av6Wz447CqgdEbmEaDudfGW1M85MAC
+2025-03-10 23:46:36,188 - INFO - 已添加监控地址: Ed_x^Kӛ → 2btYi2pqVgtgzLqeAXE122FPhN2xBJMQpE1V9CMNv4EH
+2025-03-10 23:46:36,189 - INFO - 已添加监控地址: moneymaykah → 2CXbN6nuTTb4vCrtYM89SfQHMMKGPAW4mvFe6Ht4Yo6z
+2025-03-10 23:46:36,189 - INFO - 已添加监控地址: asta → 2nKbwrpXKf7nBhvqrUprHoNBfg2jnoKaStd99h2w8QGc
+2025-03-10 23:46:36,189 - INFO - 已添加监控地址: ׮ → 2WJvjGFjZePB3sYrHKMBQd46o1TCS8zxchEHnDK7oBxQ
+2025-03-10 23:46:36,189 - INFO - 已添加监控地址: bigroot → 33MuTy5vo3GymDT6rhmA1trYH3ySWcgYa1HSVxD9Tko5
+2025-03-10 23:46:36,189 - INFO - 已添加监控地址: TLD.eth → 3BM6smanfeY3x7zfaSgSwQgcaTGvg8qyybJjJRy76ixA
+2025-03-10 23:46:36,189 - INFO - 已添加监控地址: jidn → 3h65MmPZksoKKyEpEjnWU2Yk2iYT5oZDNitGy5cTaxoE
+2025-03-10 23:46:36,189 - INFO - 已添加监控地址: Ů → 3JbCsBJbRncrJbwmKYo5ww3uMuRgZ2LkS9LY7pZxu5v1
+2025-03-10 23:46:36,189 - INFO - 已添加监控地址: Basitom Cruise → 3kebnKw7cPdSkLRfiMEALyZJGZ4wdiSRvmoN4rD1yPzV
+2025-03-10 23:46:36,189 - INFO - 已添加监控地址: Laolu → 4625pi6asX1CpKmw1apw3mnGxxntS7F95ALqhWLgVoCr
+2025-03-10 23:46:36,190 - INFO - 已添加监控地址: ӳ → 4aj4ey8kGzwoA1Ce1ADmLr5uUJYxAfuahohdNx9UL9qB
+2025-03-10 23:46:36,190 - INFO - 已添加监控地址: mitch (rtrd/acc) → 4Be9CvxqHW6BYiRAxW9Q3xu1ycTMWaL5z8NX4HR3ha7t
+2025-03-10 23:46:36,190 - INFO - 已添加监控地址: Mr.Frog → 4DdrfiDHpmx55i4SPssxVzS9ZaKLb8qr45NKY9Er9nNh
+2025-03-10 23:46:36,190 - INFO - 已添加监控地址: ʱ → 4LBhsqPTC2fHBST7MCmURRiU1zinWYQWe4G2GtP4wCSM
+2025-03-10 23:46:36,190 - INFO - 已添加监控地址: Sharrua → 4qyYcBA8tizD2MQCcHkXwrdFowZihKwdcFL6PExShVvL
+2025-03-10 23:46:36,190 - INFO - 已添加监控地址: Ѱ → 4YzpSZpxDdjNf3unjkCtdWEsz2FL5mok7e5XQaDNqry8
+2025-03-10 23:46:36,190 - INFO - 已添加监控地址: Yenni → 5B52w1ZW9tuwUduueP5J7HXz5AcGfruGoX6YoAudvyxG
+2025-03-10 23:46:36,191 - INFO - 已添加监控地址: Ǯ → 5SXUHLVsUdQFRczqny9VHX7SWTSm8v5NAATYbe5UShjd
+2025-03-10 23:46:36,191 - INFO - 已添加监控地址:  → 5UATnGWCexXeiRhBHPjpgkRvDYEH9XvQtwGNDATxDCS8
+2025-03-10 23:46:36,191 - INFO - 已添加监控地址: Michael Bouhanna-ոܲ → 5W7UZNQk6oCFbNdPowRJZpByErqzifQFVNVtN4uKb3cV
+2025-03-10 23:46:36,191 - INFO - 已添加监控地址: Y → 5ZMuSmd1V5irZtPa6CQG3L5gx22U9vYbkscPR1kJne5s
+2025-03-10 23:46:36,191 - INFO - 已添加监控地址: Assasin → 6LChaYRYtEYjLEHhzo4HdEmgNwu2aia8CM8VhR9wn6n7
+2025-03-10 23:46:36,191 - INFO - 已添加监控地址: Jake The Logical Jawn → 6zqYKgfANYEB5mmw7quiUCWbDg4tLJk2Gq5EbZ8ki6bE
+2025-03-10 23:46:36,191 - INFO - 已添加监控地址: Jihoz.ron-axieʼ → 7cm7BtqSJHqy7QYJFh4cr7SybGR6q1zA7oXk6gdvWgTk
+2025-03-10 23:46:36,191 - INFO - 已添加监控地址: publix → 86AEJExyjeNNgcp7GrAvCXTDicf5aGWgoERbXFiG1EdD
+2025-03-10 23:46:36,191 - INFO - 已添加监控地址: ¬ΰ → 8iFVg3mMe9CaLcS8Gq3bSYEoZPJSN21DPdmuf38U9Q4Z
+2025-03-10 23:46:36,192 - INFO - 已添加监控地址: 0x׾ → 8wfi8x1RfZzJBpMwQbWKLLsKDSrZvSnVkJfEKD6uvTpv
+2025-03-10 23:46:36,192 - INFO - 已添加监控地址: 51 → 952nKaqEPaEiQrH4HqSnT5jki9Eh6bJvwvfwLk4LxuW6
+2025-03-10 23:46:36,192 - INFO - 已添加监控地址: pullup → 981G4w1e6zSiy6gBtYLGdFjF7rmFgAXXgA3mgKwPzwyS
+2025-03-10 23:46:36,192 - INFO - 已添加监控地址: è → ABUqmjGYiZd4mFxVa2ZV4zZUUbB7a7U7EvoPkw4YHvC6
+2025-03-10 23:46:36,192 - INFO - 已添加监控地址: רҵ → AmManpABYP2yxskBmt31VSrALjCnTyaEdK8qeSVWLmjs
+2025-03-10 23:46:36,192 - INFO - 已添加监控地址: Tintin.hl → AMxCLXZtnhd4Puf2kVa2cVWk8mjYk6xUwjfcP1eWxdCR
+2025-03-10 23:46:36,192 - INFO - 已添加监控地址: s → ApRnQN2HkbCn7W2WWiT2FEKvuKJp9LugRyAE1a9Hdz1
+2025-03-10 23:46:36,193 - INFO - 已添加监控地址: fishfish → ARSdp5MFL1bjgWddK8dkF3QdttHvy5ZdVjJ6T8BHJimo
+2025-03-10 23:46:36,193 - INFO - 已添加监控地址: frozen raspberry → BPeH6CSLdhMEW9UjoduYtwKHKcPZzYUeQVcWFoLYDkst
+2025-03-10 23:46:36,193 - INFO - 已添加监控地址: lky → BSZ5Qn9DEZZhXvTGvaQhobgXCCZPJDSkgB9dZnAhgAPd
+2025-03-10 23:46:36,193 - INFO - 已添加监控地址:  → C3nLTNMK6Ao1s3J1CQhv8GbT3NoMmifWoi9PGEcYd9hP
+2025-03-10 23:46:36,193 - INFO - 已添加监控地址: Siqi Chen → C4wwvA1D479e5m6K19fjFrRaCPGzVykSm4pCHqsxgEuw
+2025-03-10 23:46:36,193 - INFO - 已添加监控地址:  → C6173UhKXr1t2tRCnE8QwXRvpHPxYrD79k5v2YteCHX1
+2025-03-10 23:46:36,194 - INFO - 已添加监控地址: Ƥ → C8uCFAY8WPwvEudVuQUW62rDHVAjQyVNxcdw5eMZW287
+2025-03-10 23:46:36,194 - INFO - 已添加监控地址: Neso → CDUAza6NMFDUhjZEaAGHZA8y9AE9bEbm236K5AJhFHRv
+2025-03-10 23:46:36,194 - INFO - 已添加监控地址: wen → CtKi39VFQRf2m8j8fkLzmJR6csxPVnWApLEGHmuAQWYb
+2025-03-10 23:46:36,194 - INFO - 已添加监控地址: ү → CzJFuW2JAtCkNB4pBNvUJhg9wKwjq2dYx2yK36Wio1ta
+2025-03-10 23:46:36,194 - INFO - 已添加监控地址: ţţPlus2ţ → D6nUhQ7o3TQwk243mgVS5hsdkuJk71fxZib3KxY4Upyv
+2025-03-10 23:46:36,194 - INFO - 已添加监控地址: Euris → DfMxre4cKmvogbLrPigxmibVTTQDuzjdXojWzjCXXhzj
+2025-03-10 23:46:36,194 - INFO - 已添加监控地址: Queenkayx → DG6QpsjvwqCGyLAYXKEmDBLRfomJ2UAmoe4MJWL9fNtt
+2025-03-10 23:46:36,194 - INFO - 已添加监控地址: FeiErwy → DKAarFVePUBbQuTEj4g7hp2wJkorJo1HsMnAU5tTP7EE
+2025-03-10 23:46:36,194 - INFO - 已添加监控地址: him → DxjmHXm1p7cs8Tezdf2EJm5xnwp9QC2E8CbfD1aXeH1j
+2025-03-10 23:46:36,195 - INFO - 已添加监控地址: Ȧ͵-ѧҾֲ → DXJYryY8bs7mJWhqvYMBqaMmjSLYZozHboyTA5AYi2an
+2025-03-10 23:46:36,195 - INFO - 已添加监控地址: Not Yours → dY9sUsh4kXocVTzw8F6UagFg6KPe5QizhuZTrDYSX1C
+2025-03-10 23:46:36,195 - INFO - 已添加监控地址: ʮñ → DzeSE8ZBNk36qqswcDxd8919evdH5upwyZ4u1yieQSkp
+2025-03-10 23:46:36,195 - INFO - 已添加监控地址: gino.eth → EeZf8YxMisxMcyX9PHyGa9sdaQR3n3T1hFcMEeZPpPY8
+2025-03-10 23:46:36,195 - INFO - 已添加监控地址: AdamJae → EnQLCLB7NWojruXXNopgH7jhkwoHihTpuzsrtsM2UCSe
+2025-03-10 23:46:36,195 - INFO - 已添加监控地址:  → EtfUwhGtKwDjxdyKU7d83pePQjh4DtmfCLZtdxbQ1k3N
+2025-03-10 23:46:36,195 - INFO - 已添加监控地址: mercy → F5jWYuiDLTiaLYa54D88YbpXgEsA6NKHzWy4SN4bMYjt
+2025-03-10 23:46:36,195 - INFO - 已添加监控地址: ɱ → F7KSBM7SVVYUczJTCLpLJFPDEBrmrfi9ZiGru1BzAuwi
+2025-03-10 23:46:36,195 - INFO - 已添加监控地址:  → F7MJy5xhx6bFnaeK9eMLHzUmNKmf9rLsr7JUsV1wnEFj
+2025-03-10 23:46:36,195 - INFO - 已添加监控地址: haze-gmgnϰ → FPTspEkKpoJZGccPWCfdt7Xyun7eZ61kZALMJVciSk1K
+2025-03-10 23:46:36,197 - INFO - 已添加监控地址: п˯ → GH4NtrMtTrxRDMbQacT6bgyWVwDkoujLnCYwUY9pa5Cu
+2025-03-10 23:46:36,197 - INFO - 已添加监控地址:  → GQva3CGJNAiBxzPYjNaamHeyQ2shnCmPpwp2bbiRW9K
+2025-03-10 23:46:36,197 - INFO - 已添加监控地址: Evan → H1RzgQhep7bxKgqiBTd2kdyPJQ5wbiGN7BqUMGFNqg2W
+2025-03-10 23:46:36,198 - INFO - 已添加监控地址: AN:Ȼ → HFLnuLwvBXxM4bGn24v6dQuhz6JVU3TKu8JsVLcGdxaV
+2025-03-10 23:46:36,198 - INFO - 已添加监控地址: ͭhappy → HpJ6bsNhW4ftV1E1KtSwvr9yQ55ZbHaxMVvgney6gpoY
+2025-03-10 23:46:36,198 - INFO - 已添加监控地址: skid → HPkQu4osTzt3reYjYX8CHufGCGgHesc7PqG6WdhcY4p9
+2025-03-10 23:46:36,198 - INFO - 已添加监控地址: Hogen → J2dEKMCV9vDtsAcnUgAED99n3QvQ48KUqNL6YYyiDYdC
+2025-03-10 23:46:36,198 - INFO - 已添加监控地址: ھ → J485YzQjuJPLYoFEYjrjxd7NAoLHTiyUU63JwK7kLxRr
+2025-03-10 23:46:36,199 - INFO - 已添加监控地址: yuyue → off5DDPLfBqcnHuQHssyDModwYkgwaVYp1JBb95CU18
+2025-03-10 23:46:36,199 - INFO - 已添加监控地址: K99 → qTB6ryTHBU1tGEVg9a1QiRJh5euRAU3bcDdWubUJ4ne
+2025-03-10 23:46:36,199 - INFO - 已添加监控地址: ????????? → QvPPwsV6ri3ydYLQRhnjWQt6US3qVEUhKss9J45uPFL
+2025-03-10 23:46:36,199 - INFO - 已添加监控地址: frank → CRVidEDtEUTYZisCxBZkpELzhQc9eauMLR3FWg74tReL
+2025-03-10 23:46:36,199 - INFO - 已添加监控地址: ǶȸС → 9gCNRVGmWPEcUmthsd676FR3nTRwv8QkcNdphVHso48Z
+2025-03-10 23:46:36,199 - INFO - 已添加监控地址: duolingoǮ200sol → 8mTEkJaodatTKVvLDCz6YwbCnuac4fM7z8yFq6R6eFsx
+2025-03-10 23:46:36,200 - INFO - 已添加监控地址: duolingo ׯ002 → 8gVgczWCy9unAan7m1C91S5UXCAEgXthzVsZhZP49tpo
+2025-03-10 23:46:36,200 - INFO - 已添加监控地址: stupid 굽Ǯduo → 3BU6vK1bUi7dBi8vS4btdr7pyJMNaCYqkzY3d6Gp37Xn
+2025-03-10 23:46:36,200 - INFO - 已添加监控地址: duolingo ׯ001 → 4QxYnhDLv4FHGkUnZ1qn4Y1C1jsVN9F2w4hzdhDFqoZs
+2025-03-10 23:46:36,200 - INFO - 已添加监控地址: gemս02 → 4chn22VoRYH81ZQnGJcaRA1LDgdViaaAK8BS4W277777
+2025-03-10 23:46:36,200 - INFO - 已添加监控地址: gemս01 → wbsUXURMM5cCH1XbskF2mPGx8SSGBgx3sM2kQuoABAn
+2025-03-10 23:46:36,200 - INFO - 已添加监控地址: jige → Hnnw3uwnomwP5B7ZizvNCTk51AgSRaTNYdSJydwCtzzz
+2025-03-10 23:46:36,201 - INFO - 已添加监控地址: vol dev → EfaWwZKnkq1exddBT3LqgZuYHNFn4xQcxfMQVGPgCLck
+2025-03-10 23:46:36,201 - INFO - 已添加监控地址: stonksׯ1 → 8veqMET96Pgzxc3VnbcD9ydQQcaNFk4T1Y6Pa3yH3maX
+2025-03-10 23:46:36,201 - INFO - 已添加监控地址: stonksׯ֮һ → FjSXNfAQF3iykr8z9MfaTSvhGNbEWRhtmqqQuFKgfxCq
+2025-03-10 23:46:36,201 - INFO - 已添加监控地址: qiyumeme → GEj2tXRXoxe6T8LsVUKpF6qfJMyHcGzKzNfSMKJkAn9M
+2025-03-10 23:46:36,201 - INFO - 已添加监控地址:  → EUM51CoFuxBw2FUVQ7YmrAy6a3p6PUNwou5S9f8qt83S
+2025-03-10 23:46:36,201 - INFO - 已添加监控地址: memeе㶫 → 6EAaPqnwT54YnYfCRyupN8rK25i2hbguBFcbfVQ8hGWj
+2025-03-10 23:46:36,201 - INFO - 已添加监控地址: trump10m → EELhpihpevqjyez7DHaXBfn1eoCRvNMKso9Ck3oPnLx4
+2025-03-10 23:46:36,201 - INFO - 已添加监控地址: һŲnnnnniu → 9NiAmMtLL17s8R5UJyi9svSg7VrKXgBj3YKEaNrQ91VT
+2025-03-10 23:46:36,201 - INFO - 已添加监控地址: ҪǮ → AZTX6Mkzk4QEmqfB1FzgV3H7MQxpNANmtHw3Vty1trzu
+2025-03-10 23:46:36,202 - INFO - 已添加监控地址: ?JayBaum → 27tecefS1JzsHT24RdJNtZXMZpgRa6pwsqFbwmKaZodV
+2025-03-10 23:46:36,202 - INFO - 已添加监控地址: Yelo → 2fpTdwLGW6V87FXXuCQoVNsyj8rZLzmE8jHhwzAGEtwG
+2025-03-10 23:46:36,202 - INFO - 已添加监控地址: ??Sencrazy.eth → 2FVV6e1SECwofXq8LVpzz2iQiTx4SZghPynh8LrvFET2
+2025-03-10 23:46:36,202 - INFO - 已添加监控地址: my1 → 2m5498hY3hpSvm1pVyZwwyU6bpQGFGu3PADSoEoZFXQB
+2025-03-10 23:46:36,202 - INFO - 已添加监控地址: coocenc → 2tV9bAogjJSw2JQvumFGmdsRoTPYRaJeeSqSFdsnjUGQ
+2025-03-10 23:46:36,202 - INFO - 已添加监控地址: 0xAA → 2ZiQY2u9bNxLF3fDhUFmZCz1n1baNnx2jtu1asPYpMhR
+2025-03-10 23:46:36,202 - INFO - 已添加监控地址: Ǯ007 → 3ejWGMZrX7PFYeub4eaKeVebmB8qJcQyJPh12yNBC9cq
+2025-03-10 23:46:36,202 - INFO - 已添加监控地址: benƼǮ002 → 3QnBeoPMPB3H78WgJssep7rs3A8477LR2FhtwrnZoRie
+2025-03-10 23:46:36,202 - INFO - 已添加监控地址:  → 3RnKNpzX5Nd7PTZBEVrYXVrHyu8Erbbo23QeXtWMTjaZ
+2025-03-10 23:46:36,202 - INFO - 已添加监控地址: С → 3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi
+2025-03-10 23:46:36,202 - INFO - 已添加监控地址: С | صע → 3TS4gKNUUx1ZAKCQ374vH6ZBJchWJKKTp32LDmSFKzhQ
+2025-03-10 23:46:36,203 - INFO - 已添加监控地址: top pnl → 4632BMWY69AkVHxN1XLKVuLrednYiLccuMeoXnQBMA7Z
+2025-03-10 23:46:36,203 - INFO - 已添加监控地址: Gotrilla → 4q7rNU1nRUWY14vaLPpzpc2C756UQE36vaDwphBpLf2s
+2025-03-10 23:46:36,203 - INFO - 已添加监控地址: 0xuezhang|985.eth → 4qWmgHK2MU52L11sFcwnzqCz4UPXBpH3f4Tk8rpaQQ56
+2025-03-10 23:46:36,203 - INFO - 已添加监控地址: kƯ → 4w7petYTMikTbjqjHNsE1C97ormD4oyPonbe5f4wkxKz
+2025-03-10 23:46:36,203 - INFO - 已添加监控地址: 581 → 581XaxPQ7jGqqFGh3RQhK8wESBrEvFCAry7EDq2NzacH
+2025-03-10 23:46:36,203 - INFO - 已添加监控地址: sol Ǯ001 → 58aJk9ngALL8Np7r51JWPc3buPthaPDKknmDaNxuGQcP
+2025-03-10 23:46:36,204 - INFO - 已添加监控地址: 77ַ | һ׬8wu → 5RFxaZf1gZKtEPg68cUnsCqRGoENicg2aBD1eGmq1J74
+2025-03-10 23:46:36,204 - INFO - 已添加监控地址: Abrahanny.eth → 5STnyps3g9HX9e2gruc8Q2XvQqWxp5pzBKcJnRjg8r7z
+2025-03-10 23:46:36,204 - INFO - 已添加监控地址: tickerһ ʤ → 5wPWthsivjuGi43WbTo5LdSjDTJ8pXSSHyfXWVojJjUF
+2025-03-10 23:46:36,204 - INFO - 已添加监控地址: JAMES → 5wQaABAbgA52cBks6zqXmk9nFftZgy18f78im6UxXhNU
+2025-03-10 23:46:36,204 - INFO - 已添加监控地址:  → 5wTLevkkUWzKgRTWKcSjrgdoP8TnrEnXYGaAxFKibsS5
+2025-03-10 23:46:36,204 - INFO - 已添加监控地址: neiro Top PNL → 69ngexW9UkgRp5KFjLpaK9XNSCxUFmps6jYmqhK3q6m9
+2025-03-10 23:46:36,204 - INFO - 已添加监控地址: ʽ → 6fdTPs67nxYbz3FriTZm474GPnqytTPVZFsLNnmS4827
+2025-03-10 23:46:36,204 - INFO - 已添加监控地址: ?? → 6fg77vTppRWZaQQaZhBqUtfu1PvRiCtWzoN8qF83fEbS
+2025-03-10 23:46:36,204 - INFO - 已添加监控地址: Redsun.eth ???? → 6NEEKdUKdMnQjFXxEAqoYmSk7gdZckStsYo1541P8bRZ
+2025-03-10 23:46:36,204 - INFO - 已添加监控地址: E → 6vdXD7uu4zBXMjWecqMPWGsy5H7dSQXSYJS4gNqGbvTt
+2025-03-10 23:46:36,205 - INFO - 已添加监控地址: ҹĻ → 6WNxdZJsWrBHJM5apKLsjdZgq51jXsQp9o4MCjKcaUSU
+2025-03-10 23:46:36,205 - INFO - 已添加监控地址: Ҫ??ֵС → 71CPXu3TvH3iUKaY1bNkAAow24k6tjH473SsKprQBABC
+2025-03-10 23:46:36,205 - INFO - 已添加监控地址: LaserCat397.eth → 75ugq4BnAApScig3D4w8Urx7ujXKDYc1VTEvzafFbabT
+2025-03-10 23:46:36,205 - INFO - 已添加监控地址: jingtao → 79CxhdY2TeFHpGNcaHgnHJTWnv7KA3KgMFoeHrJg77ru
+2025-03-10 23:46:36,205 - INFO - 已添加监控地址: һ → 7DGQGqgZuTfcAAphpDeehKq2Xsro77pz3ec19Ui37Dpx
+2025-03-10 23:46:36,205 - INFO - 已添加监控地址: LaserCat397.eth → 7iSG5y8f4DHtUEPLcgWQnJso99JRB51opyaRoH8qWZ8r
+2025-03-10 23:46:36,205 - INFO - 已添加监控地址: birddao sol → 7TJnymS5k6Kin2uSJiFaU3M33rbvuxVAcuSPDu3dNmTc
+2025-03-10 23:46:36,205 - INFO - 已添加监控地址: Sencrazy.eth → 7vsr2EPeq1vxgr1hk6yRgM4od1hYw2pzmR5BWaJBStPy
+2025-03-10 23:46:36,205 - INFO - 已添加监控地址: Cooker | Darn.eth | Kms.eth → 8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6
+2025-03-10 23:46:36,205 - INFO - 已添加监控地址: LaserCat397.eth → 8K5276kWCmRnS1TLTAKxRznM6NehtHkqCVWxcQhzHrwF
+2025-03-10 23:46:36,206 - INFO - 已添加监控地址: JinMu → 8tP391aDbKKpQS7eKnCEfnJ8Cmek6jatEe2LFkdJ2PRP
+2025-03-10 23:46:36,206 - INFO - 已添加监控地址: С.sol → 8WRWo8oQ4ppD7hMYxgwCXvTtzK2AusqsgVmr8NPsjtW1
+2025-03-10 23:46:36,206 - INFO - 已添加监控地址: lexַ → 8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj
+2025-03-10 23:46:36,206 - INFO - 已添加监控地址: һ → 8YmW32pecz2854orKhSEiBKUVvpjkw4YJnUmybYQTjMH
+2025-03-10 23:46:36,206 - INFO - 已添加监控地址: powӵַ → 8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd
+2025-03-10 23:46:36,206 - INFO - 已添加监控地址: ccie11440.eth $PARAM → 9Ca1o7YVbRmB3gVzyD2qgHbpkL685kW8Xieej7EMQcBb
+2025-03-10 23:46:36,206 - INFO - 已添加监控地址: billymcsmithers.eth ???? → 9cQL8n7fkzg7uBrzi9K5EXdxZwC1i11khQTyXQGDBz5A
+2025-03-10 23:46:36,206 - INFO - 已添加监控地址: º | صע → 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+2025-03-10 23:46:36,207 - INFO - 已添加监控地址: Yelo → 9MVmm1eMuiLXbcEK6Wi6PNRK3pd8rFvAZKhzk5oeYRv2
+2025-03-10 23:46:36,207 - INFO - 已添加监控地址: Bitget → A77HErqtfN1hLLpvZ9pCtu66FEtM8BveoaKbbMoZ4RiR
+2025-03-10 23:46:36,207 - INFO - 已添加监控地址: luce goat λ͸ | ׷ʤʸ → AaQtXpw8wsFyMs2pkb2uFqR7cZQWGXZ1GbmfewbwAQy1
+2025-03-10 23:46:36,207 - INFO - 已添加监控地址: ai16zַ → AM84n1iLdxgVTAyENBcLdjXoyvjentTbu5Q6EpKV1PeG
+2025-03-10 23:46:36,207 - INFO - 已添加监控地址: Yelo → AMTmcPLHDQ6NU8AVjVkGqN15HyNkTsnAPREGodLCMpVS
+2025-03-10 23:46:36,207 - INFO - 已添加监控地址: Garray → AsBvWP8yY3eZ2Sv6wbWzY8PdfPN3YJqXR4Z2GEnHHuVh
+2025-03-10 23:46:36,207 - INFO - 已添加监控地址: Ansem ????? → AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm
+2025-03-10 23:46:36,207 - INFO - 已添加监控地址: 侲侲侲 → Ay9wnuZCRTceZJuRpGZnuwYZuWdsviM4cMiCwFoSQiPH
+2025-03-10 23:46:36,208 - INFO - 已添加监控地址: ѧ → Bd9fepszcyMHpnEM9tFYbaEvLJPGBYYHUzg65b64iHbj
+2025-03-10 23:46:36,208 - INFO - 已添加监控地址: zerebro dev → BDzbq7VxG5b2yg4vc11iPvpj51RTbmsnxaEPjwzbWQft
+2025-03-10 23:46:36,208 - INFO - 已添加监控地址: Ҫ??ֵС → BkeHJikPVN98j45cYp2S3N7s9qRm1fyFBRE2sRv6Xoja
+2025-03-10 23:46:36,208 - INFO - 已添加监控地址: richclassdecor.eth → BTp4uCeCeWKxT6pzTmqJzzrtyqeTmtF1zr2EtpnZSw7F
+2025-03-10 23:46:36,208 - INFO - 已添加监控地址: 0xSun → C69d9G46bz3BK3PtyQkPja395fHnBjCH3GPSX1ftYtQ5
+2025-03-10 23:46:36,208 - INFO - 已添加监控地址: һ׬8wu → CBdCxKo9QavR9hfShgpEBG3zekorAeD7W1jfq2o3pump
+2025-03-10 23:46:36,208 - INFO - 已添加监控地址: TOM ?? → CEXkPr49BuW5sxfX5VxS1erRRFVq3VfjJbgjmZRxCjri
+2025-03-10 23:46:36,208 - INFO - 已添加监控地址: Ǯ → Cfi9eoLsFCBaUDxMXfwBXEJVX4RBBDB7kgvv2LwD5X7F
+2025-03-10 23:46:36,208 - INFO - 已添加监控地址:  → CK15zgbG3SSbCFtfnn5TFKswzBxSTWSvaDNoVBgbKYu
+2025-03-10 23:46:36,209 - INFO - 已添加监控地址: JAMES → CNABrLE2gHpfRbR6iV3s6yG8A1cMuGqYVTvPhaAMZQEN
+2025-03-10 23:46:36,209 - INFO - 已添加监控地址: DNFС → CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc
+2025-03-10 23:46:36,209 - INFO - 已添加监控地址: yryַ → CPydqKcEEeKTR6wt3L15G8S5Ea4bxjS2vvjiW9vw1UwK
+2025-03-10 23:46:36,209 - INFO - 已添加监控地址: Yelo → Cwrjz3WfCrRbGKMN4fjMzLyKXDQjkzUCjSGB8M5q2Bfd
+2025-03-10 23:46:36,209 - INFO - 已添加监控地址: ĻǮܶϢλģԴ → CWvdyvKHEu8Z6QqGraJT3sLPyp9bJfFhoXcxUYRKC8ou
+2025-03-10 23:46:36,209 - INFO - 已添加监控地址: | Ƶʤ → DBzhEXjxvuvpS9i9N8PhQXSqzkc8YPtKbfWLwcSmxZpp
+2025-03-10 23:46:36,209 - INFO - 已添加监控地址: buzzcut and beanie X+ → DEWkJHKfpfiYQSEcRGDSHkv5Nu59Jg4faeAUU8h4yqHi
+2025-03-10 23:46:36,209 - INFO - 已添加监控地址: Ļַ → DKgvpfttzmJqZXdavDwTxwSVkajibjzJnN2FA99dyciK
+2025-03-10 23:46:36,209 - INFO - 已添加监控地址: DNF | gake → DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm
+2025-03-10 23:46:36,210 - INFO - 已添加监控地址: 100SOLս → DQEabmVBRVES8pkoL8PJB6PdSb1kXNbGWDZW4vwmrhu6
+2025-03-10 23:46:36,210 - INFO - 已添加监控地址: degenai dev → DScqtGwFoDTme2Rzdjpdb2w7CtuKc6Z8KF7hMhbx8ugQ
+2025-03-10 23:46:36,210 - INFO - 已添加监控地址: ǮСè.eth → EfbbhahGNuhqEraRZXrwETfsaKxScngEttdQixWAW4WE
+2025-03-10 23:46:36,210 - INFO - 已添加监控地址: edwin → Efqoo7tUd9bhrA8kEZ6YhtBbo2mhr6VLAKzQEsBTyUsk
+2025-03-10 23:46:36,210 - INFO - 已添加监控地址: Ļɽ → F2pmrUchaCWys2G5XDpAAdd1wKPcrBkbQWCTAWwTAJ7B
+2025-03-10 23:46:36,210 - INFO - 已添加监控地址: ben001 → FKy2QyHNz2H7K8c4pZnifdP3ogrG4JujwNEB5bTzFEL3
+2025-03-10 23:46:36,210 - INFO - 已添加监控地址: CryptoD → G1pRtSyKuWSjTqRDcazzKBDzqEF96i1xSURpiXj3yFcc
+2025-03-10 23:46:36,210 - INFO - 已添加监控地址: 0xuezhang|985.eth → Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd
+2025-03-10 23:46:36,210 - INFO - 已添加监控地址: Yelo → GkGvitSK6CA5A3qu7G8h5BWPL976DsNYh3Jzocj9p1xQ
+2025-03-10 23:46:36,210 - INFO - 已添加监控地址: jojoƼǮ → HooderpigTVYapoXi6PQzxwtWhq3U1cuGvyu89fGjruY
+2025-03-10 23:46:36,211 - INFO - 已添加监控地址: 0xSun → HUpPyLU8KWisCAr3mzWy2FKT6uuxQ2qGgJQxyTpDoes5
+2025-03-10 23:46:36,211 - INFO - 已添加监控地址:  → HYWo71Wk9PNDe5sBaRKazPnVyGnQDiwgXCFKvgAQ1ENp
+2025-03-10 23:46:36,211 - INFO - 已添加监控地址: 1-óӶ → orcACRJYTFjTeo2pV8TfYRTpmqfoYgbVi9GeANXTCc8
+2025-03-10 23:46:36,211 - INFO - 已添加监控地址: bane top pnl → RFSqPtn1JfavGiUD4HJsZyYXvZsycxf31hnYfbyG6iB
+2025-03-10 23:46:36,211 - INFO - 已添加监控地址: Gate → u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w
+2025-03-10 23:46:36,211 - INFO - 成功从CSV文件导入 178 个监控地址
+2025-03-10 23:46:36,212 - INFO - ==================================================
+2025-03-10 23:46:36,212 - INFO - 所有监控地址:
+2025-03-10 23:46:36,212 - INFO - ==================================================
+2025-03-10 23:46:36,212 - INFO -   1. duo 10wu → FWDj6Y2SeZjk4c6XY5EXebaA1trvQfpkpgMZr13k7fay
+2025-03-10 23:46:36,212 - INFO -   2. brucej → 2J2zpzeZX4BL3xQ786JUDi9MmbZg9vbriT84kFbbiwAd
+2025-03-10 23:46:36,212 - INFO -   3. benjels → 1Mrfsd5xD9PyGWjCBJtcrBPkDirxUdqSTpmAouPUNfc
+2025-03-10 23:46:36,212 - INFO -   4. zachxbt → 27sfYMALabHSpjt4nDLAubw5mdDPnv3hkL8K7s2ZM1gU
+2025-03-10 23:46:36,212 - INFO -   5. Shibetoshi NakamotoҴʼ → 2aDBRNNdGEnCq2Av6Wz447CqgdEbmEaDudfGW1M85MAC
+2025-03-10 23:46:36,212 - INFO -   6. Ed_x^Kӛ → 2btYi2pqVgtgzLqeAXE122FPhN2xBJMQpE1V9CMNv4EH
+2025-03-10 23:46:36,212 - INFO -   7. moneymaykah → 2CXbN6nuTTb4vCrtYM89SfQHMMKGPAW4mvFe6Ht4Yo6z
+2025-03-10 23:46:36,212 - INFO -   8. asta → 2nKbwrpXKf7nBhvqrUprHoNBfg2jnoKaStd99h2w8QGc
+2025-03-10 23:46:36,212 - INFO -   9. ׮ → 2WJvjGFjZePB3sYrHKMBQd46o1TCS8zxchEHnDK7oBxQ
+2025-03-10 23:46:36,213 - INFO -  10. bigroot → 33MuTy5vo3GymDT6rhmA1trYH3ySWcgYa1HSVxD9Tko5
+2025-03-10 23:46:36,213 - INFO -  11. TLD.eth → 3BM6smanfeY3x7zfaSgSwQgcaTGvg8qyybJjJRy76ixA
+2025-03-10 23:46:36,213 - INFO -  12. jidn → 3h65MmPZksoKKyEpEjnWU2Yk2iYT5oZDNitGy5cTaxoE
+2025-03-10 23:46:36,213 - INFO -  13. Ů → 3JbCsBJbRncrJbwmKYo5ww3uMuRgZ2LkS9LY7pZxu5v1
+2025-03-10 23:46:36,214 - INFO -  14. Basitom Cruise → 3kebnKw7cPdSkLRfiMEALyZJGZ4wdiSRvmoN4rD1yPzV
+2025-03-10 23:46:36,214 - INFO -  15. Laolu → 4625pi6asX1CpKmw1apw3mnGxxntS7F95ALqhWLgVoCr
+2025-03-10 23:46:36,214 - INFO -  16. ӳ → 4aj4ey8kGzwoA1Ce1ADmLr5uUJYxAfuahohdNx9UL9qB
+2025-03-10 23:46:36,214 - INFO -  17. mitch (rtrd/acc) → 4Be9CvxqHW6BYiRAxW9Q3xu1ycTMWaL5z8NX4HR3ha7t
+2025-03-10 23:46:36,214 - INFO -  18. Mr.Frog → 4DdrfiDHpmx55i4SPssxVzS9ZaKLb8qr45NKY9Er9nNh
+2025-03-10 23:46:36,215 - INFO -  19. ʱ → 4LBhsqPTC2fHBST7MCmURRiU1zinWYQWe4G2GtP4wCSM
+2025-03-10 23:46:36,215 - INFO -  20. Sharrua → 4qyYcBA8tizD2MQCcHkXwrdFowZihKwdcFL6PExShVvL
+2025-03-10 23:46:36,215 - INFO -  21. Ѱ → 4YzpSZpxDdjNf3unjkCtdWEsz2FL5mok7e5XQaDNqry8
+2025-03-10 23:46:36,215 - INFO -  22. Yenni → 5B52w1ZW9tuwUduueP5J7HXz5AcGfruGoX6YoAudvyxG
+2025-03-10 23:46:36,215 - INFO -  23. Ǯ → 5SXUHLVsUdQFRczqny9VHX7SWTSm8v5NAATYbe5UShjd
+2025-03-10 23:46:36,215 - INFO -  24.  → 5UATnGWCexXeiRhBHPjpgkRvDYEH9XvQtwGNDATxDCS8
+2025-03-10 23:46:36,216 - INFO -  25. Michael Bouhanna-ոܲ → 5W7UZNQk6oCFbNdPowRJZpByErqzifQFVNVtN4uKb3cV
+2025-03-10 23:46:36,216 - INFO -  26. Y → 5ZMuSmd1V5irZtPa6CQG3L5gx22U9vYbkscPR1kJne5s
+2025-03-10 23:46:36,216 - INFO -  27. Assasin → 6LChaYRYtEYjLEHhzo4HdEmgNwu2aia8CM8VhR9wn6n7
+2025-03-10 23:46:36,216 - INFO -  28. Jake The Logical Jawn → 6zqYKgfANYEB5mmw7quiUCWbDg4tLJk2Gq5EbZ8ki6bE
+2025-03-10 23:46:36,216 - INFO -  29. Jihoz.ron-axieʼ → 7cm7BtqSJHqy7QYJFh4cr7SybGR6q1zA7oXk6gdvWgTk
+2025-03-10 23:46:36,216 - INFO -  30. publix → 86AEJExyjeNNgcp7GrAvCXTDicf5aGWgoERbXFiG1EdD
+2025-03-10 23:46:36,216 - INFO -  31. ¬ΰ → 8iFVg3mMe9CaLcS8Gq3bSYEoZPJSN21DPdmuf38U9Q4Z
+2025-03-10 23:46:36,216 - INFO -  32. 0x׾ → 8wfi8x1RfZzJBpMwQbWKLLsKDSrZvSnVkJfEKD6uvTpv
+2025-03-10 23:46:36,216 - INFO -  33. 51 → 952nKaqEPaEiQrH4HqSnT5jki9Eh6bJvwvfwLk4LxuW6
+2025-03-10 23:46:36,216 - INFO -  34. pullup → 981G4w1e6zSiy6gBtYLGdFjF7rmFgAXXgA3mgKwPzwyS
+2025-03-10 23:46:36,217 - INFO -  35. è → ABUqmjGYiZd4mFxVa2ZV4zZUUbB7a7U7EvoPkw4YHvC6
+2025-03-10 23:46:36,217 - INFO -  36. רҵ → AmManpABYP2yxskBmt31VSrALjCnTyaEdK8qeSVWLmjs
+2025-03-10 23:46:36,217 - INFO -  37. Tintin.hl → AMxCLXZtnhd4Puf2kVa2cVWk8mjYk6xUwjfcP1eWxdCR
+2025-03-10 23:46:36,217 - INFO -  38. s → ApRnQN2HkbCn7W2WWiT2FEKvuKJp9LugRyAE1a9Hdz1
+2025-03-10 23:46:36,217 - INFO -  39. fishfish → ARSdp5MFL1bjgWddK8dkF3QdttHvy5ZdVjJ6T8BHJimo
+2025-03-10 23:46:36,217 - INFO -  40. frozen raspberry → BPeH6CSLdhMEW9UjoduYtwKHKcPZzYUeQVcWFoLYDkst
+2025-03-10 23:46:36,217 - INFO -  41. lky → BSZ5Qn9DEZZhXvTGvaQhobgXCCZPJDSkgB9dZnAhgAPd
+2025-03-10 23:46:36,217 - INFO -  42.  → C3nLTNMK6Ao1s3J1CQhv8GbT3NoMmifWoi9PGEcYd9hP
+2025-03-10 23:46:36,217 - INFO -  43. Siqi Chen → C4wwvA1D479e5m6K19fjFrRaCPGzVykSm4pCHqsxgEuw
+2025-03-10 23:46:36,218 - INFO -  44.  → C6173UhKXr1t2tRCnE8QwXRvpHPxYrD79k5v2YteCHX1
+2025-03-10 23:46:36,218 - INFO -  45. Ƥ → C8uCFAY8WPwvEudVuQUW62rDHVAjQyVNxcdw5eMZW287
+2025-03-10 23:46:36,218 - INFO -  46. Neso → CDUAza6NMFDUhjZEaAGHZA8y9AE9bEbm236K5AJhFHRv
+2025-03-10 23:46:36,218 - INFO -  47. wen → CtKi39VFQRf2m8j8fkLzmJR6csxPVnWApLEGHmuAQWYb
+2025-03-10 23:46:36,218 - INFO -  48. ү → CzJFuW2JAtCkNB4pBNvUJhg9wKwjq2dYx2yK36Wio1ta
+2025-03-10 23:46:36,218 - INFO -  49. ţţPlus2ţ → D6nUhQ7o3TQwk243mgVS5hsdkuJk71fxZib3KxY4Upyv
+2025-03-10 23:46:36,218 - INFO -  50. Euris → DfMxre4cKmvogbLrPigxmibVTTQDuzjdXojWzjCXXhzj
+2025-03-10 23:46:36,218 - INFO -  51. Queenkayx → DG6QpsjvwqCGyLAYXKEmDBLRfomJ2UAmoe4MJWL9fNtt
+2025-03-10 23:46:36,218 - INFO -  52. FeiErwy → DKAarFVePUBbQuTEj4g7hp2wJkorJo1HsMnAU5tTP7EE
+2025-03-10 23:46:36,219 - INFO -  53. him → DxjmHXm1p7cs8Tezdf2EJm5xnwp9QC2E8CbfD1aXeH1j
+2025-03-10 23:46:36,219 - INFO -  54. Ȧ͵-ѧҾֲ → DXJYryY8bs7mJWhqvYMBqaMmjSLYZozHboyTA5AYi2an
+2025-03-10 23:46:36,219 - INFO -  55. Not Yours → dY9sUsh4kXocVTzw8F6UagFg6KPe5QizhuZTrDYSX1C
+2025-03-10 23:46:36,219 - INFO -  56. ʮñ → DzeSE8ZBNk36qqswcDxd8919evdH5upwyZ4u1yieQSkp
+2025-03-10 23:46:36,219 - INFO -  57. gino.eth → EeZf8YxMisxMcyX9PHyGa9sdaQR3n3T1hFcMEeZPpPY8
+2025-03-10 23:46:36,219 - INFO -  58. AdamJae → EnQLCLB7NWojruXXNopgH7jhkwoHihTpuzsrtsM2UCSe
+2025-03-10 23:46:36,219 - INFO -  59.  → EtfUwhGtKwDjxdyKU7d83pePQjh4DtmfCLZtdxbQ1k3N
+2025-03-10 23:46:36,219 - INFO -  60. mercy → F5jWYuiDLTiaLYa54D88YbpXgEsA6NKHzWy4SN4bMYjt
+2025-03-10 23:46:36,219 - INFO -  61. ɱ → F7KSBM7SVVYUczJTCLpLJFPDEBrmrfi9ZiGru1BzAuwi
+2025-03-10 23:46:36,219 - INFO -  62.  → F7MJy5xhx6bFnaeK9eMLHzUmNKmf9rLsr7JUsV1wnEFj
+2025-03-10 23:46:36,219 - INFO -  63. haze-gmgnϰ → FPTspEkKpoJZGccPWCfdt7Xyun7eZ61kZALMJVciSk1K
+2025-03-10 23:46:36,220 - INFO -  64. п˯ → GH4NtrMtTrxRDMbQacT6bgyWVwDkoujLnCYwUY9pa5Cu
+2025-03-10 23:46:36,220 - INFO -  65.  → GQva3CGJNAiBxzPYjNaamHeyQ2shnCmPpwp2bbiRW9K
+2025-03-10 23:46:36,220 - INFO -  66. Evan → H1RzgQhep7bxKgqiBTd2kdyPJQ5wbiGN7BqUMGFNqg2W
+2025-03-10 23:46:36,220 - INFO -  67. AN:Ȼ → HFLnuLwvBXxM4bGn24v6dQuhz6JVU3TKu8JsVLcGdxaV
+2025-03-10 23:46:36,220 - INFO -  68. ͭhappy → HpJ6bsNhW4ftV1E1KtSwvr9yQ55ZbHaxMVvgney6gpoY
+2025-03-10 23:46:36,220 - INFO -  69. skid → HPkQu4osTzt3reYjYX8CHufGCGgHesc7PqG6WdhcY4p9
+2025-03-10 23:46:36,220 - INFO -  70. Hogen → J2dEKMCV9vDtsAcnUgAED99n3QvQ48KUqNL6YYyiDYdC
+2025-03-10 23:46:36,220 - INFO -  71. ھ → J485YzQjuJPLYoFEYjrjxd7NAoLHTiyUU63JwK7kLxRr
+2025-03-10 23:46:36,220 - INFO -  72. yuyue → off5DDPLfBqcnHuQHssyDModwYkgwaVYp1JBb95CU18
+2025-03-10 23:46:36,220 - INFO -  73. K99 → qTB6ryTHBU1tGEVg9a1QiRJh5euRAU3bcDdWubUJ4ne
+2025-03-10 23:46:36,221 - INFO -  74. ????????? → QvPPwsV6ri3ydYLQRhnjWQt6US3qVEUhKss9J45uPFL
+2025-03-10 23:46:36,221 - INFO -  75. frank → CRVidEDtEUTYZisCxBZkpELzhQc9eauMLR3FWg74tReL
+2025-03-10 23:46:36,221 - INFO -  76. ǶȸС → 9gCNRVGmWPEcUmthsd676FR3nTRwv8QkcNdphVHso48Z
+2025-03-10 23:46:36,221 - INFO -  77. duolingoǮ200sol → 8mTEkJaodatTKVvLDCz6YwbCnuac4fM7z8yFq6R6eFsx
+2025-03-10 23:46:36,221 - INFO -  78. duolingo ׯ002 → 8gVgczWCy9unAan7m1C91S5UXCAEgXthzVsZhZP49tpo
+2025-03-10 23:46:36,221 - INFO -  79. stupid 굽Ǯduo → 3BU6vK1bUi7dBi8vS4btdr7pyJMNaCYqkzY3d6Gp37Xn
+2025-03-10 23:46:36,221 - INFO -  80. duolingo ׯ001 → 4QxYnhDLv4FHGkUnZ1qn4Y1C1jsVN9F2w4hzdhDFqoZs
+2025-03-10 23:46:36,221 - INFO -  81. gemս02 → 4chn22VoRYH81ZQnGJcaRA1LDgdViaaAK8BS4W277777
+2025-03-10 23:46:36,221 - INFO -  82. gemս01 → wbsUXURMM5cCH1XbskF2mPGx8SSGBgx3sM2kQuoABAn
+2025-03-10 23:46:36,221 - INFO -  83. jige → Hnnw3uwnomwP5B7ZizvNCTk51AgSRaTNYdSJydwCtzzz
+2025-03-10 23:46:36,222 - INFO -  84. vol dev → EfaWwZKnkq1exddBT3LqgZuYHNFn4xQcxfMQVGPgCLck
+2025-03-10 23:46:36,222 - INFO -  85. stonksׯ1 → 8veqMET96Pgzxc3VnbcD9ydQQcaNFk4T1Y6Pa3yH3maX
+2025-03-10 23:46:36,222 - INFO -  86. stonksׯ֮һ → FjSXNfAQF3iykr8z9MfaTSvhGNbEWRhtmqqQuFKgfxCq
+2025-03-10 23:46:36,222 - INFO -  87. qiyumeme → GEj2tXRXoxe6T8LsVUKpF6qfJMyHcGzKzNfSMKJkAn9M
+2025-03-10 23:46:36,222 - INFO -  88.  → EUM51CoFuxBw2FUVQ7YmrAy6a3p6PUNwou5S9f8qt83S
+2025-03-10 23:46:36,222 - INFO -  89. memeе㶫 → 6EAaPqnwT54YnYfCRyupN8rK25i2hbguBFcbfVQ8hGWj
+2025-03-10 23:46:36,222 - INFO -  90. trump10m → EELhpihpevqjyez7DHaXBfn1eoCRvNMKso9Ck3oPnLx4
+2025-03-10 23:46:36,222 - INFO -  91. һŲnnnnniu → 9NiAmMtLL17s8R5UJyi9svSg7VrKXgBj3YKEaNrQ91VT
+2025-03-10 23:46:36,222 - INFO -  92. ҪǮ → AZTX6Mkzk4QEmqfB1FzgV3H7MQxpNANmtHw3Vty1trzu
+2025-03-10 23:46:36,223 - INFO -  93. ?JayBaum → 27tecefS1JzsHT24RdJNtZXMZpgRa6pwsqFbwmKaZodV
+2025-03-10 23:46:36,223 - INFO -  94. Yelo → 2fpTdwLGW6V87FXXuCQoVNsyj8rZLzmE8jHhwzAGEtwG
+2025-03-10 23:46:36,223 - INFO -  95. ??Sencrazy.eth → 2FVV6e1SECwofXq8LVpzz2iQiTx4SZghPynh8LrvFET2
+2025-03-10 23:46:36,223 - INFO -  96. my1 → 2m5498hY3hpSvm1pVyZwwyU6bpQGFGu3PADSoEoZFXQB
+2025-03-10 23:46:36,223 - INFO -  97. coocenc → 2tV9bAogjJSw2JQvumFGmdsRoTPYRaJeeSqSFdsnjUGQ
+2025-03-10 23:46:36,223 - INFO -  98. 0xAA → 2ZiQY2u9bNxLF3fDhUFmZCz1n1baNnx2jtu1asPYpMhR
+2025-03-10 23:46:36,223 - INFO -  99. Ǯ007 → 3ejWGMZrX7PFYeub4eaKeVebmB8qJcQyJPh12yNBC9cq
+2025-03-10 23:46:36,224 - INFO - 100. benƼǮ002 → 3QnBeoPMPB3H78WgJssep7rs3A8477LR2FhtwrnZoRie
+2025-03-10 23:46:36,224 - INFO - 101.  → 3RnKNpzX5Nd7PTZBEVrYXVrHyu8Erbbo23QeXtWMTjaZ
+2025-03-10 23:46:36,224 - INFO - 102. С → 3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi
+2025-03-10 23:46:36,224 - INFO - 103. С | صע → 3TS4gKNUUx1ZAKCQ374vH6ZBJchWJKKTp32LDmSFKzhQ
+2025-03-10 23:46:36,224 - INFO - 104. top pnl → 4632BMWY69AkVHxN1XLKVuLrednYiLccuMeoXnQBMA7Z
+2025-03-10 23:46:36,224 - INFO - 105. Gotrilla → 4q7rNU1nRUWY14vaLPpzpc2C756UQE36vaDwphBpLf2s
+2025-03-10 23:46:36,225 - INFO - 106. 0xuezhang|985.eth → 4qWmgHK2MU52L11sFcwnzqCz4UPXBpH3f4Tk8rpaQQ56
+2025-03-10 23:46:36,225 - INFO - 107. kƯ → 4w7petYTMikTbjqjHNsE1C97ormD4oyPonbe5f4wkxKz
+2025-03-10 23:46:36,225 - INFO - 108. 581 → 581XaxPQ7jGqqFGh3RQhK8wESBrEvFCAry7EDq2NzacH
+2025-03-10 23:46:36,225 - INFO - 109. sol Ǯ001 → 58aJk9ngALL8Np7r51JWPc3buPthaPDKknmDaNxuGQcP
+2025-03-10 23:46:36,225 - INFO - 110. 77ַ | һ׬8wu → 5RFxaZf1gZKtEPg68cUnsCqRGoENicg2aBD1eGmq1J74
+2025-03-10 23:46:36,225 - INFO - 111. Abrahanny.eth → 5STnyps3g9HX9e2gruc8Q2XvQqWxp5pzBKcJnRjg8r7z
+2025-03-10 23:46:36,225 - INFO - 112. tickerһ ʤ → 5wPWthsivjuGi43WbTo5LdSjDTJ8pXSSHyfXWVojJjUF
+2025-03-10 23:46:36,226 - INFO - 113. JAMES → 5wQaABAbgA52cBks6zqXmk9nFftZgy18f78im6UxXhNU
+2025-03-10 23:46:36,226 - INFO - 114.  → 5wTLevkkUWzKgRTWKcSjrgdoP8TnrEnXYGaAxFKibsS5
+2025-03-10 23:46:36,226 - INFO - 115. neiro Top PNL → 69ngexW9UkgRp5KFjLpaK9XNSCxUFmps6jYmqhK3q6m9
+2025-03-10 23:46:36,226 - INFO - 116. ʽ → 6fdTPs67nxYbz3FriTZm474GPnqytTPVZFsLNnmS4827
+2025-03-10 23:46:36,226 - INFO - 117. ?? → 6fg77vTppRWZaQQaZhBqUtfu1PvRiCtWzoN8qF83fEbS
+2025-03-10 23:46:36,226 - INFO - 118. Redsun.eth ???? → 6NEEKdUKdMnQjFXxEAqoYmSk7gdZckStsYo1541P8bRZ
+2025-03-10 23:46:36,226 - INFO - 119. E → 6vdXD7uu4zBXMjWecqMPWGsy5H7dSQXSYJS4gNqGbvTt
+2025-03-10 23:46:36,226 - INFO - 120. ҹĻ → 6WNxdZJsWrBHJM5apKLsjdZgq51jXsQp9o4MCjKcaUSU
+2025-03-10 23:46:36,226 - INFO - 121. Ҫ??ֵС → 71CPXu3TvH3iUKaY1bNkAAow24k6tjH473SsKprQBABC
+2025-03-10 23:46:36,227 - INFO - 122. LaserCat397.eth → 75ugq4BnAApScig3D4w8Urx7ujXKDYc1VTEvzafFbabT
+2025-03-10 23:46:36,227 - INFO - 123. jingtao → 79CxhdY2TeFHpGNcaHgnHJTWnv7KA3KgMFoeHrJg77ru
+2025-03-10 23:46:36,227 - INFO - 124. һ → 7DGQGqgZuTfcAAphpDeehKq2Xsro77pz3ec19Ui37Dpx
+2025-03-10 23:46:36,227 - INFO - 125. LaserCat397.eth → 7iSG5y8f4DHtUEPLcgWQnJso99JRB51opyaRoH8qWZ8r
+2025-03-10 23:46:36,227 - INFO - 126. birddao sol → 7TJnymS5k6Kin2uSJiFaU3M33rbvuxVAcuSPDu3dNmTc
+2025-03-10 23:46:36,227 - INFO - 127. Sencrazy.eth → 7vsr2EPeq1vxgr1hk6yRgM4od1hYw2pzmR5BWaJBStPy
+2025-03-10 23:46:36,228 - INFO - 128. Cooker | Darn.eth | Kms.eth → 8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6
+2025-03-10 23:46:36,228 - INFO - 129. LaserCat397.eth → 8K5276kWCmRnS1TLTAKxRznM6NehtHkqCVWxcQhzHrwF
+2025-03-10 23:46:36,228 - INFO - 130. JinMu → 8tP391aDbKKpQS7eKnCEfnJ8Cmek6jatEe2LFkdJ2PRP
+2025-03-10 23:46:36,228 - INFO - 131. С.sol → 8WRWo8oQ4ppD7hMYxgwCXvTtzK2AusqsgVmr8NPsjtW1
+2025-03-10 23:46:36,228 - INFO - 132. lexַ → 8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj
+2025-03-10 23:46:36,228 - INFO - 133. һ → 8YmW32pecz2854orKhSEiBKUVvpjkw4YJnUmybYQTjMH
+2025-03-10 23:46:36,228 - INFO - 134. powӵַ → 8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd
+2025-03-10 23:46:36,228 - INFO - 135. ccie11440.eth $PARAM → 9Ca1o7YVbRmB3gVzyD2qgHbpkL685kW8Xieej7EMQcBb
+2025-03-10 23:46:36,229 - INFO - 136. billymcsmithers.eth ???? → 9cQL8n7fkzg7uBrzi9K5EXdxZwC1i11khQTyXQGDBz5A
+2025-03-10 23:46:36,229 - INFO - 137. º | صע → 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+2025-03-10 23:46:36,229 - INFO - 138. Yelo → 9MVmm1eMuiLXbcEK6Wi6PNRK3pd8rFvAZKhzk5oeYRv2
+2025-03-10 23:46:36,229 - INFO - 139. Bitget → A77HErqtfN1hLLpvZ9pCtu66FEtM8BveoaKbbMoZ4RiR
+2025-03-10 23:46:36,229 - INFO - 140. luce goat λ͸ | ׷ʤʸ → AaQtXpw8wsFyMs2pkb2uFqR7cZQWGXZ1GbmfewbwAQy1
+2025-03-10 23:46:36,230 - INFO - 141. ai16zַ → AM84n1iLdxgVTAyENBcLdjXoyvjentTbu5Q6EpKV1PeG
+2025-03-10 23:46:36,230 - INFO - 142. Yelo → AMTmcPLHDQ6NU8AVjVkGqN15HyNkTsnAPREGodLCMpVS
+2025-03-10 23:46:36,230 - INFO - 143. Garray → AsBvWP8yY3eZ2Sv6wbWzY8PdfPN3YJqXR4Z2GEnHHuVh
+2025-03-10 23:46:36,231 - INFO - 144. Ansem ????? → AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm
+2025-03-10 23:46:36,231 - INFO - 145. 侲侲侲 → Ay9wnuZCRTceZJuRpGZnuwYZuWdsviM4cMiCwFoSQiPH
+2025-03-10 23:46:36,231 - INFO - 146. ѧ → Bd9fepszcyMHpnEM9tFYbaEvLJPGBYYHUzg65b64iHbj
+2025-03-10 23:46:36,231 - INFO - 147. zerebro dev → BDzbq7VxG5b2yg4vc11iPvpj51RTbmsnxaEPjwzbWQft
+2025-03-10 23:46:36,231 - INFO - 148. Ҫ??ֵС → BkeHJikPVN98j45cYp2S3N7s9qRm1fyFBRE2sRv6Xoja
+2025-03-10 23:46:36,231 - INFO - 149. richclassdecor.eth → BTp4uCeCeWKxT6pzTmqJzzrtyqeTmtF1zr2EtpnZSw7F
+2025-03-10 23:46:36,231 - INFO - 150. 0xSun → C69d9G46bz3BK3PtyQkPja395fHnBjCH3GPSX1ftYtQ5
+2025-03-10 23:46:36,232 - INFO - 151. һ׬8wu → CBdCxKo9QavR9hfShgpEBG3zekorAeD7W1jfq2o3pump
+2025-03-10 23:46:36,232 - INFO - 152. TOM ?? → CEXkPr49BuW5sxfX5VxS1erRRFVq3VfjJbgjmZRxCjri
+2025-03-10 23:46:36,232 - INFO - 153. Ǯ → Cfi9eoLsFCBaUDxMXfwBXEJVX4RBBDB7kgvv2LwD5X7F
+2025-03-10 23:46:36,232 - INFO - 154.  → CK15zgbG3SSbCFtfnn5TFKswzBxSTWSvaDNoVBgbKYu
+2025-03-10 23:46:36,232 - INFO - 155. JAMES → CNABrLE2gHpfRbR6iV3s6yG8A1cMuGqYVTvPhaAMZQEN
+2025-03-10 23:46:36,232 - INFO - 156. DNFС → CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc
+2025-03-10 23:46:36,233 - INFO - 157. yryַ → CPydqKcEEeKTR6wt3L15G8S5Ea4bxjS2vvjiW9vw1UwK
+2025-03-10 23:46:36,233 - INFO - 158. Yelo → Cwrjz3WfCrRbGKMN4fjMzLyKXDQjkzUCjSGB8M5q2Bfd
+2025-03-10 23:46:36,233 - INFO - 159. ĻǮܶϢλģԴ → CWvdyvKHEu8Z6QqGraJT3sLPyp9bJfFhoXcxUYRKC8ou
+2025-03-10 23:46:36,233 - INFO - 160. | Ƶʤ → DBzhEXjxvuvpS9i9N8PhQXSqzkc8YPtKbfWLwcSmxZpp
+2025-03-10 23:46:36,233 - INFO - 161. buzzcut and beanie X+ → DEWkJHKfpfiYQSEcRGDSHkv5Nu59Jg4faeAUU8h4yqHi
+2025-03-10 23:46:36,233 - INFO - 162. Ļַ → DKgvpfttzmJqZXdavDwTxwSVkajibjzJnN2FA99dyciK
+2025-03-10 23:46:36,233 - INFO - 163. DNF | gake → DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm
+2025-03-10 23:46:36,234 - INFO - 164. 100SOLս → DQEabmVBRVES8pkoL8PJB6PdSb1kXNbGWDZW4vwmrhu6
+2025-03-10 23:46:36,234 - INFO - 165. degenai dev → DScqtGwFoDTme2Rzdjpdb2w7CtuKc6Z8KF7hMhbx8ugQ
+2025-03-10 23:46:36,234 - INFO - 166. ǮСè.eth → EfbbhahGNuhqEraRZXrwETfsaKxScngEttdQixWAW4WE
+2025-03-10 23:46:36,234 - INFO - 167. edwin → Efqoo7tUd9bhrA8kEZ6YhtBbo2mhr6VLAKzQEsBTyUsk
+2025-03-10 23:46:36,234 - INFO - 168. Ļɽ → F2pmrUchaCWys2G5XDpAAdd1wKPcrBkbQWCTAWwTAJ7B
+2025-03-10 23:46:36,234 - INFO - 169. ben001 → FKy2QyHNz2H7K8c4pZnifdP3ogrG4JujwNEB5bTzFEL3
+2025-03-10 23:46:36,234 - INFO - 170. CryptoD → G1pRtSyKuWSjTqRDcazzKBDzqEF96i1xSURpiXj3yFcc
+2025-03-10 23:46:36,234 - INFO - 171. 0xuezhang|985.eth → Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd
+2025-03-10 23:46:36,234 - INFO - 172. Yelo → GkGvitSK6CA5A3qu7G8h5BWPL976DsNYh3Jzocj9p1xQ
+2025-03-10 23:46:36,235 - INFO - 173. jojoƼǮ → HooderpigTVYapoXi6PQzxwtWhq3U1cuGvyu89fGjruY
+2025-03-10 23:46:36,235 - INFO - 174. 0xSun → HUpPyLU8KWisCAr3mzWy2FKT6uuxQ2qGgJQxyTpDoes5
+2025-03-10 23:46:36,235 - INFO - 175.  → HYWo71Wk9PNDe5sBaRKazPnVyGnQDiwgXCFKvgAQ1ENp
+2025-03-10 23:46:36,235 - INFO - 176. 1-óӶ → orcACRJYTFjTeo2pV8TfYRTpmqfoYgbVi9GeANXTCc8
+2025-03-10 23:46:36,235 - INFO - 177. bane top pnl → RFSqPtn1JfavGiUD4HJsZyYXvZsycxf31hnYfbyG6iB
+2025-03-10 23:46:36,235 - INFO - 178. Gate → u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w
+2025-03-10 23:46:36,235 - INFO - ==================================================
+2025-03-10 23:46:36,235 - INFO - 启动 Solana 交易监控...
+2025-03-10 23:46:40,191 - INFO - 代币缓存已更新 (3.95秒):
+  总代币数: 287863
+  新增代币: 287863
+  更新代币: 0
+2025-03-10 23:46:42,678 - INFO - 监控地址交易 []: 194.89 SOL
+2025-03-10 23:46:42,679 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:46:42,679 - INFO - 跳过SOL/稳定币交易: 194.89 SOL - USDC -> SOL
+2025-03-10 23:46:44,245 - INFO - 监控地址交易 []: 12.23 SOL
+2025-03-10 23:46:44,247 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:46:44,247 - INFO - 跳过SOL/稳定币交易: 12.23 SOL - SOL -> SOL
+2025-03-10 23:46:44,247 - INFO - 监控地址交易 []: 12.29 SOL
+2025-03-10 23:46:44,248 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:46:44,248 - INFO - 跳过SOL/稳定币交易: 12.29 SOL - SOL -> SOL
+2025-03-10 23:46:44,275 - INFO - 监控地址交易 []: 64.10 SOL
+2025-03-10 23:46:44,275 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:46:44,275 - INFO - 跳过SOL/稳定币交易: 64.10 SOL - USDC -> USDC
+2025-03-10 23:46:49,963 - INFO - 监控地址交易 []: 284.95 SOL
+2025-03-10 23:46:49,964 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:46:49,964 - INFO - 跳过SOL/稳定币交易: 284.95 SOL - USDC -> SOL
+2025-03-10 23:46:59,402 - INFO - 监控地址交易 []: 40.00 SOL
+2025-03-10 23:46:59,404 - INFO - 找到代币对: KWEEN -> KWEEN
+2025-03-10 23:46:59,409 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, involved_addresses) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325860368, '8qLim97aTg3hL3csiSEkCCse2UUfUw4kdCPMJkDS9jux', 40.000657923, 'DEf93bSt8dx58gDFCcz4CwbjYZzjwaRBYAciJYLfdCA9', 'KWEEN', 'DEf93bSt8dx58gDFCcz4CwbjYZzjwaRBYAciJYLfdCA9', 'KWEEN', 1741621619.4048886, 0, '')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:47:01,081 - INFO - 监控地址交易 []: 12.80 SOL
+2025-03-10 23:47:01,081 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:47:01,082 - INFO - 跳过SOL/稳定币交易: 12.80 SOL - SOL -> SOL
+2025-03-10 23:47:07,070 - INFO - 监控地址交易 []: 16.34 SOL
+2025-03-10 23:47:07,070 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:47:07,070 - INFO - 跳过SOL/稳定币交易: 16.34 SOL - USDC -> USDC
+2025-03-10 23:47:08,721 - INFO - 监控地址交易 []: 300.00 SOL
+2025-03-10 23:47:08,721 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:47:08,722 - INFO - 跳过SOL/稳定币交易: 300.00 SOL - USDC -> USDC
+2025-03-10 23:47:14,050 - INFO - 监控地址交易 [Gate]: 0.00 SOL
+2025-03-10 23:47:14,052 - INFO - 监控地址交易 [Gate]: 0.00 SOL
+2025-03-10 23:47:14,052 - INFO - 找到代币对: USDT -> USDT
+2025-03-10 23:47:14,053 - INFO - 监控地址交易 [Gate]: USDT -> USDT
+2025-03-10 23:47:14,058 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, involved_addresses) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325860376, 'APhyMCpYjQ9RdEBn8cs4ifyBXjxAS5JtM3wYpWMJjsY5', 0.00284928, 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB', 'USDT', 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB', 'USDT', 1741621634.0532038, 1, 'Gate')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:47:14,060 - INFO - 监控地址交易 [Gate]: 0.00 SOL
+2025-03-10 23:47:14,062 - INFO - 监控地址交易 [Gate]: 0.00 SOL
+2025-03-10 23:47:14,062 - INFO - 找到代币对: USDT -> USDT
+2025-03-10 23:47:14,062 - INFO - 监控地址交易 [Gate]: USDT -> USDT
+2025-03-10 23:47:14,065 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, involved_addresses) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325860376, 'APhyMCpYjQ9RdEBn8cs4ifyBXjxAS5JtM3wYpWMJjsY5', 0.00011, 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB', 'USDT', 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB', 'USDT', 1741621634.0632071, 1, 'Gate')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:47:17,484 - INFO - 监控地址交易 []: 36.05 SOL
+2025-03-10 23:47:17,485 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:47:17,486 - INFO - 跳过SOL/稳定币交易: 36.05 SOL - USDC -> SOL
+2025-03-10 23:47:17,500 - INFO - 监控地址交易 []: 65.90 SOL
+2025-03-10 23:47:17,500 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:47:17,501 - INFO - 跳过SOL/稳定币交易: 65.90 SOL - SOL -> SOL
+2025-03-10 23:47:17,501 - INFO - 监控地址交易 []: 65.90 SOL
+2025-03-10 23:47:17,502 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:47:17,502 - INFO - 跳过SOL/稳定币交易: 65.90 SOL - SOL -> SOL
+2025-03-10 23:47:17,502 - INFO - 监控地址交易 []: 65.90 SOL
+2025-03-10 23:47:17,503 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:47:17,503 - INFO - 跳过SOL/稳定币交易: 65.90 SOL - SOL -> SOL
+2025-03-10 23:47:22,070 - INFO - 监控地址交易 []: 48.70 SOL
+2025-03-10 23:47:22,072 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:47:22,072 - INFO - 跳过SOL/稳定币交易: 48.70 SOL - USDC -> USDC
+2025-03-10 23:47:28,463 - INFO - 监控地址交易 []: 16.15 SOL
+2025-03-10 23:47:28,464 - INFO - 找到代币对: USDT -> SOL
+2025-03-10 23:47:28,465 - INFO - 跳过SOL/稳定币交易: 16.15 SOL - USDT -> SOL
+2025-03-10 23:47:30,749 - INFO - 监控地址交易 []: 76.50 SOL
+2025-03-10 23:47:30,750 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:47:30,750 - INFO - 跳过SOL/稳定币交易: 76.50 SOL - USDC -> SOL
+2025-03-10 23:47:36,940 - INFO - 监控地址交易 []: 55.21 SOL
+2025-03-10 23:47:36,941 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:47:36,942 - INFO - 跳过SOL/稳定币交易: 55.21 SOL - USDC -> SOL
+2025-03-10 23:47:48,202 - INFO - 监控地址交易 []: 16.55 SOL
+2025-03-10 23:47:48,204 - INFO - 找到代币对: ETH -> WBTC
+2025-03-10 23:47:48,207 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, involved_addresses) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325860393, '9rx2sFooy7kJXXFBAS1hJJekEhhtDQPyEpEpogdjnit1', 16.547082163, '7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs', 'ETH', '3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh', 'WBTC', 1741621668.2043102, 0, '')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:47:48,255 - INFO - 监控地址交易 []: 11.94 SOL
+2025-03-10 23:47:48,256 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:47:48,256 - INFO - 跳过SOL/稳定币交易: 11.94 SOL - SOL -> SOL
+2025-03-10 23:47:54,899 - INFO - 监控地址交易 []: 20.84 SOL
+2025-03-10 23:47:54,900 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:47:54,900 - INFO - 跳过SOL/稳定币交易: 20.84 SOL - SOL -> SOL
+2025-03-10 23:47:56,649 - INFO - 监控地址交易 []: 16.30 SOL
+2025-03-10 23:47:56,650 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:47:56,650 - INFO - 跳过SOL/稳定币交易: 16.30 SOL - USDC -> SOL
+2025-03-10 23:48:00,330 - INFO - 监控地址交易 []: 11.00 SOL
+2025-03-10 23:48:00,330 - INFO - 找到代币对: USDT -> SOL
+2025-03-10 23:48:00,331 - INFO - 跳过SOL/稳定币交易: 11.00 SOL - USDT -> SOL
+2025-03-10 23:48:00,347 - INFO - 监控地址交易 []: 23.67 SOL
+2025-03-10 23:48:00,349 - INFO - 找到代币对: JitoSOL -> SOL
+2025-03-10 23:48:00,351 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, involved_addresses) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325860400, 'Dxdy5K9wJnM4U6sBfUbo4RoeYbX25cd4SXDVg9Dxhduh', 23.670894773, 'J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn', 'JitoSOL', 'So11111111111111111111111111111111111111112', 'SOL', 1741621680.3496766, 0, '')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:48:08,313 - INFO - 监控地址交易 []: 10.00 SOL
+2025-03-10 23:48:08,313 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:48:08,314 - INFO - 跳过SOL/稳定币交易: 10.00 SOL - SOL -> USDC
+2025-03-10 23:48:09,971 - INFO - 监控地址交易 [Bitget]: 2.03 SOL
+2025-03-10 23:48:12,134 - INFO - 监控地址交易 []: 12.10 SOL
+2025-03-10 23:48:12,136 - INFO - 找到代币对: USDC -> USDC
+2025-03-10 23:48:12,136 - INFO - 跳过SOL/稳定币交易: 12.10 SOL - USDC -> USDC
+2025-03-10 23:48:13,937 - INFO - 监控地址交易 [Euris]: 0.00 SOL
+2025-03-10 23:48:15,932 - INFO - 监控地址交易 [Bitget]: 0.00 SOL
+2025-03-10 23:48:15,932 - INFO - 找到代币对: DUKO -> DUKO
+2025-03-10 23:48:15,932 - INFO - 监控地址交易 [Bitget]: DUKO -> DUKO
+2025-03-10 23:48:15,935 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, involved_addresses) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325860408, 'A77HErqtfN1hLLpvZ9pCtu66FEtM8BveoaKbbMoZ4RiR', 1.2e-05, 'HLptm5e6rTgh4EKgDpYFrnRHbjpkMyVdEeREEa2G7rf9', 'DUKO', 'HLptm5e6rTgh4EKgDpYFrnRHbjpkMyVdEeREEa2G7rf9', 'DUKO', 1741621695.9336817, 1, 'Bitget')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:48:17,695 - INFO - 监控地址交易 []: 20.00 SOL
+2025-03-10 23:48:17,696 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:48:17,696 - INFO - 跳过SOL/稳定币交易: 20.00 SOL - SOL -> USDC
+2025-03-10 23:48:19,495 - INFO - 监控地址交易 []: 16.26 SOL
+2025-03-10 23:48:19,496 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:48:19,496 - INFO - 跳过SOL/稳定币交易: 16.26 SOL - USDC -> SOL
+2025-03-10 23:48:21,093 - INFO - 监控地址交易 []: 10.07 SOL
+2025-03-10 23:48:21,094 - INFO - 找到代币对: SOL -> USDT
+2025-03-10 23:48:21,094 - INFO - 跳过SOL/稳定币交易: 10.07 SOL - SOL -> USDT
+2025-03-10 23:48:27,817 - INFO - 监控地址交易 [moneymaykah]: 0.00 SOL
+2025-03-10 23:48:27,828 - INFO - 监控地址交易 []: 15.22 SOL
+2025-03-10 23:48:27,829 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:48:27,829 - INFO - 跳过SOL/稳定币交易: 15.22 SOL - SOL -> USDC
+2025-03-10 23:48:31,104 - INFO - 监控地址交易 [frank]: 0.00 SOL
+2025-03-10 23:48:33,282 - INFO - 监控地址交易 []: 299.97 SOL
+2025-03-10 23:48:33,283 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:48:33,283 - INFO - 跳过SOL/稳定币交易: 299.97 SOL - SOL -> SOL
+2025-03-10 23:48:33,336 - INFO - 监控地址交易 []: 26.13 SOL
+2025-03-10 23:48:33,337 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:48:33,337 - INFO - 跳过SOL/稳定币交易: 26.13 SOL - SOL -> SOL
+2025-03-10 23:48:37,599 - INFO - 监控地址交易 []: 13.80 SOL
+2025-03-10 23:48:37,599 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:48:37,599 - INFO - 跳过SOL/稳定币交易: 13.80 SOL - SOL -> SOL
+2025-03-10 23:48:37,615 - INFO - 监控地址交易 []: 15.22 SOL
+2025-03-10 23:48:37,616 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:48:37,616 - INFO - 跳过SOL/稳定币交易: 15.22 SOL - SOL -> USDC
+2025-03-10 23:48:39,698 - INFO - 监控地址交易 [Bitget]: 20.21 SOL
+2025-03-10 23:48:43,275 - INFO - 监控地址交易 []: 16.10 SOL
+2025-03-10 23:48:43,276 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:48:43,277 - INFO - 跳过SOL/稳定币交易: 16.10 SOL - SOL -> USDC
+2025-03-10 23:48:48,663 - INFO - 监控地址交易 []: 10.35 SOL
+2025-03-10 23:48:48,664 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:48:48,664 - INFO - 跳过SOL/稳定币交易: 10.35 SOL - SOL -> USDC
+2025-03-10 23:48:50,769 - INFO - 监控地址交易 []: 38.48 SOL
+2025-03-10 23:48:50,770 - INFO - 找到代币对: JupSOL -> JupSOL
+2025-03-10 23:48:50,772 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, involved_addresses) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325860425, '4xZeArE4iA5w23vzWD5hf6cvzYTRcgZoMS8sBq4QLAWZ', 38.483528074, 'jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v', 'JupSOL', 'jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v', 'JupSOL', 1741621730.7700436, 0, '')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:48:50,813 - INFO - 监控地址交易 []: 80.46 SOL
+2025-03-10 23:48:50,814 - INFO - 找到代币对: USDT -> SOL
+2025-03-10 23:48:50,814 - INFO - 跳过SOL/稳定币交易: 80.46 SOL - USDT -> SOL
+2025-03-10 23:48:50,816 - INFO - 监控地址交易 [Gate]: 0.00 SOL
+2025-03-10 23:49:14,495 - INFO - 尝试从 C:\Users\PC\Desktop\sol_bird_alert\swap-alert\44444.csv 加载地址文件
+2025-03-10 23:49:14,495 - INFO - 找到地址文件: C:\Users\PC\Desktop\sol_bird_alert\swap-alert\44444.csv
+2025-03-10 23:49:14,496 - INFO - 已添加监控地址: duo 10wu → FWDj6Y2SeZjk4c6XY5EXebaA1trvQfpkpgMZr13k7fay
+2025-03-10 23:49:14,496 - INFO - 已添加监控地址: brucej → 2J2zpzeZX4BL3xQ786JUDi9MmbZg9vbriT84kFbbiwAd
+2025-03-10 23:49:14,496 - INFO - 已添加监控地址: benjels → 1Mrfsd5xD9PyGWjCBJtcrBPkDirxUdqSTpmAouPUNfc
+2025-03-10 23:49:14,496 - INFO - 已添加监控地址: zachxbt → 27sfYMALabHSpjt4nDLAubw5mdDPnv3hkL8K7s2ZM1gU
+2025-03-10 23:49:14,497 - INFO - 已添加监控地址: Shibetoshi NakamotoҴʼ → 2aDBRNNdGEnCq2Av6Wz447CqgdEbmEaDudfGW1M85MAC
+2025-03-10 23:49:14,497 - INFO - 已添加监控地址: Ed_x^Kӛ → 2btYi2pqVgtgzLqeAXE122FPhN2xBJMQpE1V9CMNv4EH
+2025-03-10 23:49:14,497 - INFO - 已添加监控地址: moneymaykah → 2CXbN6nuTTb4vCrtYM89SfQHMMKGPAW4mvFe6Ht4Yo6z
+2025-03-10 23:49:14,497 - INFO - 已添加监控地址: asta → 2nKbwrpXKf7nBhvqrUprHoNBfg2jnoKaStd99h2w8QGc
+2025-03-10 23:49:14,497 - INFO - 已添加监控地址: ׮ → 2WJvjGFjZePB3sYrHKMBQd46o1TCS8zxchEHnDK7oBxQ
+2025-03-10 23:49:14,497 - INFO - 已添加监控地址: bigroot → 33MuTy5vo3GymDT6rhmA1trYH3ySWcgYa1HSVxD9Tko5
+2025-03-10 23:49:14,497 - INFO - 已添加监控地址: TLD.eth → 3BM6smanfeY3x7zfaSgSwQgcaTGvg8qyybJjJRy76ixA
+2025-03-10 23:49:14,497 - INFO - 已添加监控地址: jidn → 3h65MmPZksoKKyEpEjnWU2Yk2iYT5oZDNitGy5cTaxoE
+2025-03-10 23:49:14,498 - INFO - 已添加监控地址: Ů → 3JbCsBJbRncrJbwmKYo5ww3uMuRgZ2LkS9LY7pZxu5v1
+2025-03-10 23:49:14,498 - INFO - 已添加监控地址: Basitom Cruise → 3kebnKw7cPdSkLRfiMEALyZJGZ4wdiSRvmoN4rD1yPzV
+2025-03-10 23:49:14,498 - INFO - 已添加监控地址: Laolu → 4625pi6asX1CpKmw1apw3mnGxxntS7F95ALqhWLgVoCr
+2025-03-10 23:49:14,498 - INFO - 已添加监控地址: ӳ → 4aj4ey8kGzwoA1Ce1ADmLr5uUJYxAfuahohdNx9UL9qB
+2025-03-10 23:49:14,498 - INFO - 已添加监控地址: mitch (rtrd/acc) → 4Be9CvxqHW6BYiRAxW9Q3xu1ycTMWaL5z8NX4HR3ha7t
+2025-03-10 23:49:14,498 - INFO - 已添加监控地址: Mr.Frog → 4DdrfiDHpmx55i4SPssxVzS9ZaKLb8qr45NKY9Er9nNh
+2025-03-10 23:49:14,499 - INFO - 已添加监控地址: ʱ → 4LBhsqPTC2fHBST7MCmURRiU1zinWYQWe4G2GtP4wCSM
+2025-03-10 23:49:14,499 - INFO - 已添加监控地址: Sharrua → 4qyYcBA8tizD2MQCcHkXwrdFowZihKwdcFL6PExShVvL
+2025-03-10 23:49:14,499 - INFO - 已添加监控地址: Ѱ → 4YzpSZpxDdjNf3unjkCtdWEsz2FL5mok7e5XQaDNqry8
+2025-03-10 23:49:14,499 - INFO - 已添加监控地址: Yenni → 5B52w1ZW9tuwUduueP5J7HXz5AcGfruGoX6YoAudvyxG
+2025-03-10 23:49:14,500 - INFO - 已添加监控地址: Ǯ → 5SXUHLVsUdQFRczqny9VHX7SWTSm8v5NAATYbe5UShjd
+2025-03-10 23:49:14,500 - INFO - 已添加监控地址:  → 5UATnGWCexXeiRhBHPjpgkRvDYEH9XvQtwGNDATxDCS8
+2025-03-10 23:49:14,500 - INFO - 已添加监控地址: Michael Bouhanna-ոܲ → 5W7UZNQk6oCFbNdPowRJZpByErqzifQFVNVtN4uKb3cV
+2025-03-10 23:49:14,500 - INFO - 已添加监控地址: Y → 5ZMuSmd1V5irZtPa6CQG3L5gx22U9vYbkscPR1kJne5s
+2025-03-10 23:49:14,500 - INFO - 已添加监控地址: Assasin → 6LChaYRYtEYjLEHhzo4HdEmgNwu2aia8CM8VhR9wn6n7
+2025-03-10 23:49:14,500 - INFO - 已添加监控地址: Jake The Logical Jawn → 6zqYKgfANYEB5mmw7quiUCWbDg4tLJk2Gq5EbZ8ki6bE
+2025-03-10 23:49:14,500 - INFO - 已添加监控地址: Jihoz.ron-axieʼ → 7cm7BtqSJHqy7QYJFh4cr7SybGR6q1zA7oXk6gdvWgTk
+2025-03-10 23:49:14,501 - INFO - 已添加监控地址: publix → 86AEJExyjeNNgcp7GrAvCXTDicf5aGWgoERbXFiG1EdD
+2025-03-10 23:49:14,501 - INFO - 已添加监控地址: ¬ΰ → 8iFVg3mMe9CaLcS8Gq3bSYEoZPJSN21DPdmuf38U9Q4Z
+2025-03-10 23:49:14,501 - INFO - 已添加监控地址: 0x׾ → 8wfi8x1RfZzJBpMwQbWKLLsKDSrZvSnVkJfEKD6uvTpv
+2025-03-10 23:49:14,501 - INFO - 已添加监控地址: 51 → 952nKaqEPaEiQrH4HqSnT5jki9Eh6bJvwvfwLk4LxuW6
+2025-03-10 23:49:14,502 - INFO - 已添加监控地址: pullup → 981G4w1e6zSiy6gBtYLGdFjF7rmFgAXXgA3mgKwPzwyS
+2025-03-10 23:49:14,502 - INFO - 已添加监控地址: è → ABUqmjGYiZd4mFxVa2ZV4zZUUbB7a7U7EvoPkw4YHvC6
+2025-03-10 23:49:14,502 - INFO - 已添加监控地址: רҵ → AmManpABYP2yxskBmt31VSrALjCnTyaEdK8qeSVWLmjs
+2025-03-10 23:49:14,502 - INFO - 已添加监控地址: Tintin.hl → AMxCLXZtnhd4Puf2kVa2cVWk8mjYk6xUwjfcP1eWxdCR
+2025-03-10 23:49:14,502 - INFO - 已添加监控地址: s → ApRnQN2HkbCn7W2WWiT2FEKvuKJp9LugRyAE1a9Hdz1
+2025-03-10 23:49:14,502 - INFO - 已添加监控地址: fishfish → ARSdp5MFL1bjgWddK8dkF3QdttHvy5ZdVjJ6T8BHJimo
+2025-03-10 23:49:14,502 - INFO - 已添加监控地址: frozen raspberry → BPeH6CSLdhMEW9UjoduYtwKHKcPZzYUeQVcWFoLYDkst
+2025-03-10 23:49:14,502 - INFO - 已添加监控地址: lky → BSZ5Qn9DEZZhXvTGvaQhobgXCCZPJDSkgB9dZnAhgAPd
+2025-03-10 23:49:14,503 - INFO - 已添加监控地址:  → C3nLTNMK6Ao1s3J1CQhv8GbT3NoMmifWoi9PGEcYd9hP
+2025-03-10 23:49:14,503 - INFO - 已添加监控地址: Siqi Chen → C4wwvA1D479e5m6K19fjFrRaCPGzVykSm4pCHqsxgEuw
+2025-03-10 23:49:14,503 - INFO - 已添加监控地址:  → C6173UhKXr1t2tRCnE8QwXRvpHPxYrD79k5v2YteCHX1
+2025-03-10 23:49:14,503 - INFO - 已添加监控地址: Ƥ → C8uCFAY8WPwvEudVuQUW62rDHVAjQyVNxcdw5eMZW287
+2025-03-10 23:49:14,503 - INFO - 已添加监控地址: Neso → CDUAza6NMFDUhjZEaAGHZA8y9AE9bEbm236K5AJhFHRv
+2025-03-10 23:49:14,503 - INFO - 已添加监控地址: wen → CtKi39VFQRf2m8j8fkLzmJR6csxPVnWApLEGHmuAQWYb
+2025-03-10 23:49:14,503 - INFO - 已添加监控地址: ү → CzJFuW2JAtCkNB4pBNvUJhg9wKwjq2dYx2yK36Wio1ta
+2025-03-10 23:49:14,503 - INFO - 已添加监控地址: ţţPlus2ţ → D6nUhQ7o3TQwk243mgVS5hsdkuJk71fxZib3KxY4Upyv
+2025-03-10 23:49:14,504 - INFO - 已添加监控地址: Euris → DfMxre4cKmvogbLrPigxmibVTTQDuzjdXojWzjCXXhzj
+2025-03-10 23:49:14,504 - INFO - 已添加监控地址: Queenkayx → DG6QpsjvwqCGyLAYXKEmDBLRfomJ2UAmoe4MJWL9fNtt
+2025-03-10 23:49:14,504 - INFO - 已添加监控地址: FeiErwy → DKAarFVePUBbQuTEj4g7hp2wJkorJo1HsMnAU5tTP7EE
+2025-03-10 23:49:14,504 - INFO - 已添加监控地址: him → DxjmHXm1p7cs8Tezdf2EJm5xnwp9QC2E8CbfD1aXeH1j
+2025-03-10 23:49:14,504 - INFO - 已添加监控地址: Ȧ͵-ѧҾֲ → DXJYryY8bs7mJWhqvYMBqaMmjSLYZozHboyTA5AYi2an
+2025-03-10 23:49:14,504 - INFO - 已添加监控地址: Not Yours → dY9sUsh4kXocVTzw8F6UagFg6KPe5QizhuZTrDYSX1C
+2025-03-10 23:49:14,504 - INFO - 已添加监控地址: ʮñ → DzeSE8ZBNk36qqswcDxd8919evdH5upwyZ4u1yieQSkp
+2025-03-10 23:49:14,504 - INFO - 已添加监控地址: gino.eth → EeZf8YxMisxMcyX9PHyGa9sdaQR3n3T1hFcMEeZPpPY8
+2025-03-10 23:49:14,505 - INFO - 已添加监控地址: AdamJae → EnQLCLB7NWojruXXNopgH7jhkwoHihTpuzsrtsM2UCSe
+2025-03-10 23:49:14,505 - INFO - 已添加监控地址:  → EtfUwhGtKwDjxdyKU7d83pePQjh4DtmfCLZtdxbQ1k3N
+2025-03-10 23:49:14,505 - INFO - 已添加监控地址: mercy → F5jWYuiDLTiaLYa54D88YbpXgEsA6NKHzWy4SN4bMYjt
+2025-03-10 23:49:14,505 - INFO - 已添加监控地址: ɱ → F7KSBM7SVVYUczJTCLpLJFPDEBrmrfi9ZiGru1BzAuwi
+2025-03-10 23:49:14,505 - INFO - 已添加监控地址:  → F7MJy5xhx6bFnaeK9eMLHzUmNKmf9rLsr7JUsV1wnEFj
+2025-03-10 23:49:14,505 - INFO - 已添加监控地址: haze-gmgnϰ → FPTspEkKpoJZGccPWCfdt7Xyun7eZ61kZALMJVciSk1K
+2025-03-10 23:49:14,506 - INFO - 已添加监控地址: п˯ → GH4NtrMtTrxRDMbQacT6bgyWVwDkoujLnCYwUY9pa5Cu
+2025-03-10 23:49:14,506 - INFO - 已添加监控地址:  → GQva3CGJNAiBxzPYjNaamHeyQ2shnCmPpwp2bbiRW9K
+2025-03-10 23:49:14,506 - INFO - 已添加监控地址: Evan → H1RzgQhep7bxKgqiBTd2kdyPJQ5wbiGN7BqUMGFNqg2W
+2025-03-10 23:49:14,506 - INFO - 已添加监控地址: AN:Ȼ → HFLnuLwvBXxM4bGn24v6dQuhz6JVU3TKu8JsVLcGdxaV
+2025-03-10 23:49:14,506 - INFO - 已添加监控地址: ͭhappy → HpJ6bsNhW4ftV1E1KtSwvr9yQ55ZbHaxMVvgney6gpoY
+2025-03-10 23:49:14,506 - INFO - 已添加监控地址: skid → HPkQu4osTzt3reYjYX8CHufGCGgHesc7PqG6WdhcY4p9
+2025-03-10 23:49:14,506 - INFO - 已添加监控地址: Hogen → J2dEKMCV9vDtsAcnUgAED99n3QvQ48KUqNL6YYyiDYdC
+2025-03-10 23:49:14,507 - INFO - 已添加监控地址: ھ → J485YzQjuJPLYoFEYjrjxd7NAoLHTiyUU63JwK7kLxRr
+2025-03-10 23:49:14,507 - INFO - 已添加监控地址: yuyue → off5DDPLfBqcnHuQHssyDModwYkgwaVYp1JBb95CU18
+2025-03-10 23:49:14,507 - INFO - 已添加监控地址: K99 → qTB6ryTHBU1tGEVg9a1QiRJh5euRAU3bcDdWubUJ4ne
+2025-03-10 23:49:14,507 - INFO - 已添加监控地址: ????????? → QvPPwsV6ri3ydYLQRhnjWQt6US3qVEUhKss9J45uPFL
+2025-03-10 23:49:14,507 - INFO - 已添加监控地址: frank → CRVidEDtEUTYZisCxBZkpELzhQc9eauMLR3FWg74tReL
+2025-03-10 23:49:14,507 - INFO - 已添加监控地址: ǶȸС → 9gCNRVGmWPEcUmthsd676FR3nTRwv8QkcNdphVHso48Z
+2025-03-10 23:49:14,507 - INFO - 已添加监控地址: duolingoǮ200sol → 8mTEkJaodatTKVvLDCz6YwbCnuac4fM7z8yFq6R6eFsx
+2025-03-10 23:49:14,508 - INFO - 已添加监控地址: duolingo ׯ002 → 8gVgczWCy9unAan7m1C91S5UXCAEgXthzVsZhZP49tpo
+2025-03-10 23:49:14,508 - INFO - 已添加监控地址: stupid 굽Ǯduo → 3BU6vK1bUi7dBi8vS4btdr7pyJMNaCYqkzY3d6Gp37Xn
+2025-03-10 23:49:14,508 - INFO - 已添加监控地址: duolingo ׯ001 → 4QxYnhDLv4FHGkUnZ1qn4Y1C1jsVN9F2w4hzdhDFqoZs
+2025-03-10 23:49:14,508 - INFO - 已添加监控地址: gemս02 → 4chn22VoRYH81ZQnGJcaRA1LDgdViaaAK8BS4W277777
+2025-03-10 23:49:14,508 - INFO - 已添加监控地址: gemս01 → wbsUXURMM5cCH1XbskF2mPGx8SSGBgx3sM2kQuoABAn
+2025-03-10 23:49:14,508 - INFO - 已添加监控地址: jige → Hnnw3uwnomwP5B7ZizvNCTk51AgSRaTNYdSJydwCtzzz
+2025-03-10 23:49:14,508 - INFO - 已添加监控地址: vol dev → EfaWwZKnkq1exddBT3LqgZuYHNFn4xQcxfMQVGPgCLck
+2025-03-10 23:49:14,508 - INFO - 已添加监控地址: stonksׯ1 → 8veqMET96Pgzxc3VnbcD9ydQQcaNFk4T1Y6Pa3yH3maX
+2025-03-10 23:49:14,508 - INFO - 已添加监控地址: stonksׯ֮һ → FjSXNfAQF3iykr8z9MfaTSvhGNbEWRhtmqqQuFKgfxCq
+2025-03-10 23:49:14,509 - INFO - 已添加监控地址: qiyumeme → GEj2tXRXoxe6T8LsVUKpF6qfJMyHcGzKzNfSMKJkAn9M
+2025-03-10 23:49:14,509 - INFO - 已添加监控地址:  → EUM51CoFuxBw2FUVQ7YmrAy6a3p6PUNwou5S9f8qt83S
+2025-03-10 23:49:14,509 - INFO - 已添加监控地址: memeе㶫 → 6EAaPqnwT54YnYfCRyupN8rK25i2hbguBFcbfVQ8hGWj
+2025-03-10 23:49:14,509 - INFO - 已添加监控地址: trump10m → EELhpihpevqjyez7DHaXBfn1eoCRvNMKso9Ck3oPnLx4
+2025-03-10 23:49:14,509 - INFO - 已添加监控地址: һŲnnnnniu → 9NiAmMtLL17s8R5UJyi9svSg7VrKXgBj3YKEaNrQ91VT
+2025-03-10 23:49:14,509 - INFO - 已添加监控地址: ҪǮ → AZTX6Mkzk4QEmqfB1FzgV3H7MQxpNANmtHw3Vty1trzu
+2025-03-10 23:49:14,509 - INFO - 已添加监控地址: ?JayBaum → 27tecefS1JzsHT24RdJNtZXMZpgRa6pwsqFbwmKaZodV
+2025-03-10 23:49:14,509 - INFO - 已添加监控地址: Yelo → 2fpTdwLGW6V87FXXuCQoVNsyj8rZLzmE8jHhwzAGEtwG
+2025-03-10 23:49:14,510 - INFO - 已添加监控地址: ??Sencrazy.eth → 2FVV6e1SECwofXq8LVpzz2iQiTx4SZghPynh8LrvFET2
+2025-03-10 23:49:14,510 - INFO - 已添加监控地址: my1 → 2m5498hY3hpSvm1pVyZwwyU6bpQGFGu3PADSoEoZFXQB
+2025-03-10 23:49:14,510 - INFO - 已添加监控地址: coocenc → 2tV9bAogjJSw2JQvumFGmdsRoTPYRaJeeSqSFdsnjUGQ
+2025-03-10 23:49:14,510 - INFO - 已添加监控地址: 0xAA → 2ZiQY2u9bNxLF3fDhUFmZCz1n1baNnx2jtu1asPYpMhR
+2025-03-10 23:49:14,510 - INFO - 已添加监控地址: Ǯ007 → 3ejWGMZrX7PFYeub4eaKeVebmB8qJcQyJPh12yNBC9cq
+2025-03-10 23:49:14,510 - INFO - 已添加监控地址: benƼǮ002 → 3QnBeoPMPB3H78WgJssep7rs3A8477LR2FhtwrnZoRie
+2025-03-10 23:49:14,511 - INFO - 已添加监控地址:  → 3RnKNpzX5Nd7PTZBEVrYXVrHyu8Erbbo23QeXtWMTjaZ
+2025-03-10 23:49:14,511 - INFO - 已添加监控地址: С → 3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi
+2025-03-10 23:49:14,511 - INFO - 已添加监控地址: С | صע → 3TS4gKNUUx1ZAKCQ374vH6ZBJchWJKKTp32LDmSFKzhQ
+2025-03-10 23:49:14,511 - INFO - 已添加监控地址: top pnl → 4632BMWY69AkVHxN1XLKVuLrednYiLccuMeoXnQBMA7Z
+2025-03-10 23:49:14,511 - INFO - 已添加监控地址: Gotrilla → 4q7rNU1nRUWY14vaLPpzpc2C756UQE36vaDwphBpLf2s
+2025-03-10 23:49:14,511 - INFO - 已添加监控地址: 0xuezhang|985.eth → 4qWmgHK2MU52L11sFcwnzqCz4UPXBpH3f4Tk8rpaQQ56
+2025-03-10 23:49:14,511 - INFO - 已添加监控地址: kƯ → 4w7petYTMikTbjqjHNsE1C97ormD4oyPonbe5f4wkxKz
+2025-03-10 23:49:14,511 - INFO - 已添加监控地址: 581 → 581XaxPQ7jGqqFGh3RQhK8wESBrEvFCAry7EDq2NzacH
+2025-03-10 23:49:14,512 - INFO - 已添加监控地址: sol Ǯ001 → 58aJk9ngALL8Np7r51JWPc3buPthaPDKknmDaNxuGQcP
+2025-03-10 23:49:14,512 - INFO - 已添加监控地址: 77ַ | һ׬8wu → 5RFxaZf1gZKtEPg68cUnsCqRGoENicg2aBD1eGmq1J74
+2025-03-10 23:49:14,512 - INFO - 已添加监控地址: Abrahanny.eth → 5STnyps3g9HX9e2gruc8Q2XvQqWxp5pzBKcJnRjg8r7z
+2025-03-10 23:49:14,512 - INFO - 已添加监控地址: tickerһ ʤ → 5wPWthsivjuGi43WbTo5LdSjDTJ8pXSSHyfXWVojJjUF
+2025-03-10 23:49:14,512 - INFO - 已添加监控地址: JAMES → 5wQaABAbgA52cBks6zqXmk9nFftZgy18f78im6UxXhNU
+2025-03-10 23:49:14,512 - INFO - 已添加监控地址:  → 5wTLevkkUWzKgRTWKcSjrgdoP8TnrEnXYGaAxFKibsS5
+2025-03-10 23:49:14,512 - INFO - 已添加监控地址: neiro Top PNL → 69ngexW9UkgRp5KFjLpaK9XNSCxUFmps6jYmqhK3q6m9
+2025-03-10 23:49:14,512 - INFO - 已添加监控地址: ʽ → 6fdTPs67nxYbz3FriTZm474GPnqytTPVZFsLNnmS4827
+2025-03-10 23:49:14,512 - INFO - 已添加监控地址: ?? → 6fg77vTppRWZaQQaZhBqUtfu1PvRiCtWzoN8qF83fEbS
+2025-03-10 23:49:14,513 - INFO - 已添加监控地址: Redsun.eth ???? → 6NEEKdUKdMnQjFXxEAqoYmSk7gdZckStsYo1541P8bRZ
+2025-03-10 23:49:14,513 - INFO - 已添加监控地址: E → 6vdXD7uu4zBXMjWecqMPWGsy5H7dSQXSYJS4gNqGbvTt
+2025-03-10 23:49:14,513 - INFO - 已添加监控地址: ҹĻ → 6WNxdZJsWrBHJM5apKLsjdZgq51jXsQp9o4MCjKcaUSU
+2025-03-10 23:49:14,513 - INFO - 已添加监控地址: Ҫ??ֵС → 71CPXu3TvH3iUKaY1bNkAAow24k6tjH473SsKprQBABC
+2025-03-10 23:49:14,513 - INFO - 已添加监控地址: LaserCat397.eth → 75ugq4BnAApScig3D4w8Urx7ujXKDYc1VTEvzafFbabT
+2025-03-10 23:49:14,513 - INFO - 已添加监控地址: jingtao → 79CxhdY2TeFHpGNcaHgnHJTWnv7KA3KgMFoeHrJg77ru
+2025-03-10 23:49:14,513 - INFO - 已添加监控地址: һ → 7DGQGqgZuTfcAAphpDeehKq2Xsro77pz3ec19Ui37Dpx
+2025-03-10 23:49:14,513 - INFO - 已添加监控地址: LaserCat397.eth → 7iSG5y8f4DHtUEPLcgWQnJso99JRB51opyaRoH8qWZ8r
+2025-03-10 23:49:14,513 - INFO - 已添加监控地址: birddao sol → 7TJnymS5k6Kin2uSJiFaU3M33rbvuxVAcuSPDu3dNmTc
+2025-03-10 23:49:14,514 - INFO - 已添加监控地址: Sencrazy.eth → 7vsr2EPeq1vxgr1hk6yRgM4od1hYw2pzmR5BWaJBStPy
+2025-03-10 23:49:14,514 - INFO - 已添加监控地址: Cooker | Darn.eth | Kms.eth → 8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6
+2025-03-10 23:49:14,514 - INFO - 已添加监控地址: LaserCat397.eth → 8K5276kWCmRnS1TLTAKxRznM6NehtHkqCVWxcQhzHrwF
+2025-03-10 23:49:14,514 - INFO - 已添加监控地址: JinMu → 8tP391aDbKKpQS7eKnCEfnJ8Cmek6jatEe2LFkdJ2PRP
+2025-03-10 23:49:14,514 - INFO - 已添加监控地址: С.sol → 8WRWo8oQ4ppD7hMYxgwCXvTtzK2AusqsgVmr8NPsjtW1
+2025-03-10 23:49:14,514 - INFO - 已添加监控地址: lexַ → 8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj
+2025-03-10 23:49:14,515 - INFO - 已添加监控地址: һ → 8YmW32pecz2854orKhSEiBKUVvpjkw4YJnUmybYQTjMH
+2025-03-10 23:49:14,515 - INFO - 已添加监控地址: powӵַ → 8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd
+2025-03-10 23:49:14,515 - INFO - 已添加监控地址: ccie11440.eth $PARAM → 9Ca1o7YVbRmB3gVzyD2qgHbpkL685kW8Xieej7EMQcBb
+2025-03-10 23:49:14,515 - INFO - 已添加监控地址: billymcsmithers.eth ???? → 9cQL8n7fkzg7uBrzi9K5EXdxZwC1i11khQTyXQGDBz5A
+2025-03-10 23:49:14,515 - INFO - 已添加监控地址: º | صע → 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+2025-03-10 23:49:14,516 - INFO - 已添加监控地址: Yelo → 9MVmm1eMuiLXbcEK6Wi6PNRK3pd8rFvAZKhzk5oeYRv2
+2025-03-10 23:49:14,516 - INFO - 已添加监控地址: Bitget → A77HErqtfN1hLLpvZ9pCtu66FEtM8BveoaKbbMoZ4RiR
+2025-03-10 23:49:14,516 - INFO - 已添加监控地址: luce goat λ͸ | ׷ʤʸ → AaQtXpw8wsFyMs2pkb2uFqR7cZQWGXZ1GbmfewbwAQy1
+2025-03-10 23:49:14,517 - INFO - 已添加监控地址: ai16zַ → AM84n1iLdxgVTAyENBcLdjXoyvjentTbu5Q6EpKV1PeG
+2025-03-10 23:49:14,517 - INFO - 已添加监控地址: Yelo → AMTmcPLHDQ6NU8AVjVkGqN15HyNkTsnAPREGodLCMpVS
+2025-03-10 23:49:14,517 - INFO - 已添加监控地址: Garray → AsBvWP8yY3eZ2Sv6wbWzY8PdfPN3YJqXR4Z2GEnHHuVh
+2025-03-10 23:49:14,517 - INFO - 已添加监控地址: Ansem ????? → AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm
+2025-03-10 23:49:14,517 - INFO - 已添加监控地址: 侲侲侲 → Ay9wnuZCRTceZJuRpGZnuwYZuWdsviM4cMiCwFoSQiPH
+2025-03-10 23:49:14,517 - INFO - 已添加监控地址: ѧ → Bd9fepszcyMHpnEM9tFYbaEvLJPGBYYHUzg65b64iHbj
+2025-03-10 23:49:14,518 - INFO - 已添加监控地址: zerebro dev → BDzbq7VxG5b2yg4vc11iPvpj51RTbmsnxaEPjwzbWQft
+2025-03-10 23:49:14,518 - INFO - 已添加监控地址: Ҫ??ֵС → BkeHJikPVN98j45cYp2S3N7s9qRm1fyFBRE2sRv6Xoja
+2025-03-10 23:49:14,518 - INFO - 已添加监控地址: richclassdecor.eth → BTp4uCeCeWKxT6pzTmqJzzrtyqeTmtF1zr2EtpnZSw7F
+2025-03-10 23:49:14,518 - INFO - 已添加监控地址: 0xSun → C69d9G46bz3BK3PtyQkPja395fHnBjCH3GPSX1ftYtQ5
+2025-03-10 23:49:14,519 - INFO - 已添加监控地址: һ׬8wu → CBdCxKo9QavR9hfShgpEBG3zekorAeD7W1jfq2o3pump
+2025-03-10 23:49:14,519 - INFO - 已添加监控地址: TOM ?? → CEXkPr49BuW5sxfX5VxS1erRRFVq3VfjJbgjmZRxCjri
+2025-03-10 23:49:14,519 - INFO - 已添加监控地址: Ǯ → Cfi9eoLsFCBaUDxMXfwBXEJVX4RBBDB7kgvv2LwD5X7F
+2025-03-10 23:49:14,519 - INFO - 已添加监控地址:  → CK15zgbG3SSbCFtfnn5TFKswzBxSTWSvaDNoVBgbKYu
+2025-03-10 23:49:14,519 - INFO - 已添加监控地址: JAMES → CNABrLE2gHpfRbR6iV3s6yG8A1cMuGqYVTvPhaAMZQEN
+2025-03-10 23:49:14,520 - INFO - 已添加监控地址: DNFС → CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc
+2025-03-10 23:49:14,520 - INFO - 已添加监控地址: yryַ → CPydqKcEEeKTR6wt3L15G8S5Ea4bxjS2vvjiW9vw1UwK
+2025-03-10 23:49:14,520 - INFO - 已添加监控地址: Yelo → Cwrjz3WfCrRbGKMN4fjMzLyKXDQjkzUCjSGB8M5q2Bfd
+2025-03-10 23:49:14,520 - INFO - 已添加监控地址: ĻǮܶϢλģԴ → CWvdyvKHEu8Z6QqGraJT3sLPyp9bJfFhoXcxUYRKC8ou
+2025-03-10 23:49:14,520 - INFO - 已添加监控地址: | Ƶʤ → DBzhEXjxvuvpS9i9N8PhQXSqzkc8YPtKbfWLwcSmxZpp
+2025-03-10 23:49:14,521 - INFO - 已添加监控地址: buzzcut and beanie X+ → DEWkJHKfpfiYQSEcRGDSHkv5Nu59Jg4faeAUU8h4yqHi
+2025-03-10 23:49:14,521 - INFO - 已添加监控地址: Ļַ → DKgvpfttzmJqZXdavDwTxwSVkajibjzJnN2FA99dyciK
+2025-03-10 23:49:14,521 - INFO - 已添加监控地址: DNF | gake → DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm
+2025-03-10 23:49:14,522 - INFO - 已添加监控地址: 100SOLս → DQEabmVBRVES8pkoL8PJB6PdSb1kXNbGWDZW4vwmrhu6
+2025-03-10 23:49:14,522 - INFO - 已添加监控地址: degenai dev → DScqtGwFoDTme2Rzdjpdb2w7CtuKc6Z8KF7hMhbx8ugQ
+2025-03-10 23:49:14,522 - INFO - 已添加监控地址: ǮСè.eth → EfbbhahGNuhqEraRZXrwETfsaKxScngEttdQixWAW4WE
+2025-03-10 23:49:14,522 - INFO - 已添加监控地址: edwin → Efqoo7tUd9bhrA8kEZ6YhtBbo2mhr6VLAKzQEsBTyUsk
+2025-03-10 23:49:14,522 - INFO - 已添加监控地址: Ļɽ → F2pmrUchaCWys2G5XDpAAdd1wKPcrBkbQWCTAWwTAJ7B
+2025-03-10 23:49:14,522 - INFO - 已添加监控地址: ben001 → FKy2QyHNz2H7K8c4pZnifdP3ogrG4JujwNEB5bTzFEL3
+2025-03-10 23:49:14,523 - INFO - 已添加监控地址: CryptoD → G1pRtSyKuWSjTqRDcazzKBDzqEF96i1xSURpiXj3yFcc
+2025-03-10 23:49:14,523 - INFO - 已添加监控地址: 0xuezhang|985.eth → Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd
+2025-03-10 23:49:14,523 - INFO - 已添加监控地址: Yelo → GkGvitSK6CA5A3qu7G8h5BWPL976DsNYh3Jzocj9p1xQ
+2025-03-10 23:49:14,523 - INFO - 已添加监控地址: jojoƼǮ → HooderpigTVYapoXi6PQzxwtWhq3U1cuGvyu89fGjruY
+2025-03-10 23:49:14,523 - INFO - 已添加监控地址: 0xSun → HUpPyLU8KWisCAr3mzWy2FKT6uuxQ2qGgJQxyTpDoes5
+2025-03-10 23:49:14,523 - INFO - 已添加监控地址:  → HYWo71Wk9PNDe5sBaRKazPnVyGnQDiwgXCFKvgAQ1ENp
+2025-03-10 23:49:14,523 - INFO - 已添加监控地址: 1-óӶ → orcACRJYTFjTeo2pV8TfYRTpmqfoYgbVi9GeANXTCc8
+2025-03-10 23:49:14,524 - INFO - 已添加监控地址: bane top pnl → RFSqPtn1JfavGiUD4HJsZyYXvZsycxf31hnYfbyG6iB
+2025-03-10 23:49:14,524 - INFO - 已添加监控地址: Gate → u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w
+2025-03-10 23:49:14,524 - INFO - 成功从CSV文件导入 178 个监控地址
+2025-03-10 23:49:14,524 - INFO - ==================================================
+2025-03-10 23:49:14,525 - INFO - 所有监控地址:
+2025-03-10 23:49:14,525 - INFO - ==================================================
+2025-03-10 23:49:14,525 - INFO -   1. duo 10wu → FWDj6Y2SeZjk4c6XY5EXebaA1trvQfpkpgMZr13k7fay
+2025-03-10 23:49:14,525 - INFO -   2. brucej → 2J2zpzeZX4BL3xQ786JUDi9MmbZg9vbriT84kFbbiwAd
+2025-03-10 23:49:14,525 - INFO -   3. benjels → 1Mrfsd5xD9PyGWjCBJtcrBPkDirxUdqSTpmAouPUNfc
+2025-03-10 23:49:14,525 - INFO -   4. zachxbt → 27sfYMALabHSpjt4nDLAubw5mdDPnv3hkL8K7s2ZM1gU
+2025-03-10 23:49:14,526 - INFO -   5. Shibetoshi NakamotoҴʼ → 2aDBRNNdGEnCq2Av6Wz447CqgdEbmEaDudfGW1M85MAC
+2025-03-10 23:49:14,526 - INFO -   6. Ed_x^Kӛ → 2btYi2pqVgtgzLqeAXE122FPhN2xBJMQpE1V9CMNv4EH
+2025-03-10 23:49:14,526 - INFO -   7. moneymaykah → 2CXbN6nuTTb4vCrtYM89SfQHMMKGPAW4mvFe6Ht4Yo6z
+2025-03-10 23:49:14,526 - INFO -   8. asta → 2nKbwrpXKf7nBhvqrUprHoNBfg2jnoKaStd99h2w8QGc
+2025-03-10 23:49:14,526 - INFO -   9. ׮ → 2WJvjGFjZePB3sYrHKMBQd46o1TCS8zxchEHnDK7oBxQ
+2025-03-10 23:49:14,526 - INFO -  10. bigroot → 33MuTy5vo3GymDT6rhmA1trYH3ySWcgYa1HSVxD9Tko5
+2025-03-10 23:49:14,527 - INFO -  11. TLD.eth → 3BM6smanfeY3x7zfaSgSwQgcaTGvg8qyybJjJRy76ixA
+2025-03-10 23:49:14,527 - INFO -  12. jidn → 3h65MmPZksoKKyEpEjnWU2Yk2iYT5oZDNitGy5cTaxoE
+2025-03-10 23:49:14,527 - INFO -  13. Ů → 3JbCsBJbRncrJbwmKYo5ww3uMuRgZ2LkS9LY7pZxu5v1
+2025-03-10 23:49:14,527 - INFO -  14. Basitom Cruise → 3kebnKw7cPdSkLRfiMEALyZJGZ4wdiSRvmoN4rD1yPzV
+2025-03-10 23:49:14,527 - INFO -  15. Laolu → 4625pi6asX1CpKmw1apw3mnGxxntS7F95ALqhWLgVoCr
+2025-03-10 23:49:14,527 - INFO -  16. ӳ → 4aj4ey8kGzwoA1Ce1ADmLr5uUJYxAfuahohdNx9UL9qB
+2025-03-10 23:49:14,527 - INFO -  17. mitch (rtrd/acc) → 4Be9CvxqHW6BYiRAxW9Q3xu1ycTMWaL5z8NX4HR3ha7t
+2025-03-10 23:49:14,528 - INFO -  18. Mr.Frog → 4DdrfiDHpmx55i4SPssxVzS9ZaKLb8qr45NKY9Er9nNh
+2025-03-10 23:49:14,528 - INFO -  19. ʱ → 4LBhsqPTC2fHBST7MCmURRiU1zinWYQWe4G2GtP4wCSM
+2025-03-10 23:49:14,528 - INFO -  20. Sharrua → 4qyYcBA8tizD2MQCcHkXwrdFowZihKwdcFL6PExShVvL
+2025-03-10 23:49:14,528 - INFO -  21. Ѱ → 4YzpSZpxDdjNf3unjkCtdWEsz2FL5mok7e5XQaDNqry8
+2025-03-10 23:49:14,528 - INFO -  22. Yenni → 5B52w1ZW9tuwUduueP5J7HXz5AcGfruGoX6YoAudvyxG
+2025-03-10 23:49:14,528 - INFO -  23. Ǯ → 5SXUHLVsUdQFRczqny9VHX7SWTSm8v5NAATYbe5UShjd
+2025-03-10 23:49:14,528 - INFO -  24.  → 5UATnGWCexXeiRhBHPjpgkRvDYEH9XvQtwGNDATxDCS8
+2025-03-10 23:49:14,528 - INFO -  25. Michael Bouhanna-ոܲ → 5W7UZNQk6oCFbNdPowRJZpByErqzifQFVNVtN4uKb3cV
+2025-03-10 23:49:14,528 - INFO -  26. Y → 5ZMuSmd1V5irZtPa6CQG3L5gx22U9vYbkscPR1kJne5s
+2025-03-10 23:49:14,529 - INFO -  27. Assasin → 6LChaYRYtEYjLEHhzo4HdEmgNwu2aia8CM8VhR9wn6n7
+2025-03-10 23:49:14,529 - INFO -  28. Jake The Logical Jawn → 6zqYKgfANYEB5mmw7quiUCWbDg4tLJk2Gq5EbZ8ki6bE
+2025-03-10 23:49:14,529 - INFO -  29. Jihoz.ron-axieʼ → 7cm7BtqSJHqy7QYJFh4cr7SybGR6q1zA7oXk6gdvWgTk
+2025-03-10 23:49:14,529 - INFO -  30. publix → 86AEJExyjeNNgcp7GrAvCXTDicf5aGWgoERbXFiG1EdD
+2025-03-10 23:49:14,529 - INFO -  31. ¬ΰ → 8iFVg3mMe9CaLcS8Gq3bSYEoZPJSN21DPdmuf38U9Q4Z
+2025-03-10 23:49:14,529 - INFO -  32. 0x׾ → 8wfi8x1RfZzJBpMwQbWKLLsKDSrZvSnVkJfEKD6uvTpv
+2025-03-10 23:49:14,529 - INFO -  33. 51 → 952nKaqEPaEiQrH4HqSnT5jki9Eh6bJvwvfwLk4LxuW6
+2025-03-10 23:49:14,529 - INFO -  34. pullup → 981G4w1e6zSiy6gBtYLGdFjF7rmFgAXXgA3mgKwPzwyS
+2025-03-10 23:49:14,530 - INFO -  35. è → ABUqmjGYiZd4mFxVa2ZV4zZUUbB7a7U7EvoPkw4YHvC6
+2025-03-10 23:49:14,530 - INFO -  36. רҵ → AmManpABYP2yxskBmt31VSrALjCnTyaEdK8qeSVWLmjs
+2025-03-10 23:49:14,530 - INFO -  37. Tintin.hl → AMxCLXZtnhd4Puf2kVa2cVWk8mjYk6xUwjfcP1eWxdCR
+2025-03-10 23:49:14,530 - INFO -  38. s → ApRnQN2HkbCn7W2WWiT2FEKvuKJp9LugRyAE1a9Hdz1
+2025-03-10 23:49:14,530 - INFO -  39. fishfish → ARSdp5MFL1bjgWddK8dkF3QdttHvy5ZdVjJ6T8BHJimo
+2025-03-10 23:49:14,530 - INFO -  40. frozen raspberry → BPeH6CSLdhMEW9UjoduYtwKHKcPZzYUeQVcWFoLYDkst
+2025-03-10 23:49:14,531 - INFO -  41. lky → BSZ5Qn9DEZZhXvTGvaQhobgXCCZPJDSkgB9dZnAhgAPd
+2025-03-10 23:49:14,531 - INFO -  42.  → C3nLTNMK6Ao1s3J1CQhv8GbT3NoMmifWoi9PGEcYd9hP
+2025-03-10 23:49:14,531 - INFO -  43. Siqi Chen → C4wwvA1D479e5m6K19fjFrRaCPGzVykSm4pCHqsxgEuw
+2025-03-10 23:49:14,531 - INFO -  44.  → C6173UhKXr1t2tRCnE8QwXRvpHPxYrD79k5v2YteCHX1
+2025-03-10 23:49:14,531 - INFO -  45. Ƥ → C8uCFAY8WPwvEudVuQUW62rDHVAjQyVNxcdw5eMZW287
+2025-03-10 23:49:14,531 - INFO -  46. Neso → CDUAza6NMFDUhjZEaAGHZA8y9AE9bEbm236K5AJhFHRv
+2025-03-10 23:49:14,531 - INFO -  47. wen → CtKi39VFQRf2m8j8fkLzmJR6csxPVnWApLEGHmuAQWYb
+2025-03-10 23:49:14,531 - INFO -  48. ү → CzJFuW2JAtCkNB4pBNvUJhg9wKwjq2dYx2yK36Wio1ta
+2025-03-10 23:49:14,532 - INFO -  49. ţţPlus2ţ → D6nUhQ7o3TQwk243mgVS5hsdkuJk71fxZib3KxY4Upyv
+2025-03-10 23:49:14,532 - INFO -  50. Euris → DfMxre4cKmvogbLrPigxmibVTTQDuzjdXojWzjCXXhzj
+2025-03-10 23:49:14,532 - INFO -  51. Queenkayx → DG6QpsjvwqCGyLAYXKEmDBLRfomJ2UAmoe4MJWL9fNtt
+2025-03-10 23:49:14,532 - INFO -  52. FeiErwy → DKAarFVePUBbQuTEj4g7hp2wJkorJo1HsMnAU5tTP7EE
+2025-03-10 23:49:14,532 - INFO -  53. him → DxjmHXm1p7cs8Tezdf2EJm5xnwp9QC2E8CbfD1aXeH1j
+2025-03-10 23:49:14,533 - INFO -  54. Ȧ͵-ѧҾֲ → DXJYryY8bs7mJWhqvYMBqaMmjSLYZozHboyTA5AYi2an
+2025-03-10 23:49:14,533 - INFO -  55. Not Yours → dY9sUsh4kXocVTzw8F6UagFg6KPe5QizhuZTrDYSX1C
+2025-03-10 23:49:14,533 - INFO -  56. ʮñ → DzeSE8ZBNk36qqswcDxd8919evdH5upwyZ4u1yieQSkp
+2025-03-10 23:49:14,533 - INFO -  57. gino.eth → EeZf8YxMisxMcyX9PHyGa9sdaQR3n3T1hFcMEeZPpPY8
+2025-03-10 23:49:14,533 - INFO -  58. AdamJae → EnQLCLB7NWojruXXNopgH7jhkwoHihTpuzsrtsM2UCSe
+2025-03-10 23:49:14,534 - INFO -  59.  → EtfUwhGtKwDjxdyKU7d83pePQjh4DtmfCLZtdxbQ1k3N
+2025-03-10 23:49:14,534 - INFO -  60. mercy → F5jWYuiDLTiaLYa54D88YbpXgEsA6NKHzWy4SN4bMYjt
+2025-03-10 23:49:14,534 - INFO -  61. ɱ → F7KSBM7SVVYUczJTCLpLJFPDEBrmrfi9ZiGru1BzAuwi
+2025-03-10 23:49:14,534 - INFO -  62.  → F7MJy5xhx6bFnaeK9eMLHzUmNKmf9rLsr7JUsV1wnEFj
+2025-03-10 23:49:14,534 - INFO -  63. haze-gmgnϰ → FPTspEkKpoJZGccPWCfdt7Xyun7eZ61kZALMJVciSk1K
+2025-03-10 23:49:14,535 - INFO -  64. п˯ → GH4NtrMtTrxRDMbQacT6bgyWVwDkoujLnCYwUY9pa5Cu
+2025-03-10 23:49:14,535 - INFO -  65.  → GQva3CGJNAiBxzPYjNaamHeyQ2shnCmPpwp2bbiRW9K
+2025-03-10 23:49:14,535 - INFO -  66. Evan → H1RzgQhep7bxKgqiBTd2kdyPJQ5wbiGN7BqUMGFNqg2W
+2025-03-10 23:49:14,535 - INFO -  67. AN:Ȼ → HFLnuLwvBXxM4bGn24v6dQuhz6JVU3TKu8JsVLcGdxaV
+2025-03-10 23:49:14,535 - INFO -  68. ͭhappy → HpJ6bsNhW4ftV1E1KtSwvr9yQ55ZbHaxMVvgney6gpoY
+2025-03-10 23:49:14,535 - INFO -  69. skid → HPkQu4osTzt3reYjYX8CHufGCGgHesc7PqG6WdhcY4p9
+2025-03-10 23:49:14,535 - INFO -  70. Hogen → J2dEKMCV9vDtsAcnUgAED99n3QvQ48KUqNL6YYyiDYdC
+2025-03-10 23:49:14,535 - INFO -  71. ھ → J485YzQjuJPLYoFEYjrjxd7NAoLHTiyUU63JwK7kLxRr
+2025-03-10 23:49:14,536 - INFO -  72. yuyue → off5DDPLfBqcnHuQHssyDModwYkgwaVYp1JBb95CU18
+2025-03-10 23:49:14,536 - INFO -  73. K99 → qTB6ryTHBU1tGEVg9a1QiRJh5euRAU3bcDdWubUJ4ne
+2025-03-10 23:49:14,536 - INFO -  74. ????????? → QvPPwsV6ri3ydYLQRhnjWQt6US3qVEUhKss9J45uPFL
+2025-03-10 23:49:14,536 - INFO -  75. frank → CRVidEDtEUTYZisCxBZkpELzhQc9eauMLR3FWg74tReL
+2025-03-10 23:49:14,536 - INFO -  76. ǶȸС → 9gCNRVGmWPEcUmthsd676FR3nTRwv8QkcNdphVHso48Z
+2025-03-10 23:49:14,536 - INFO -  77. duolingoǮ200sol → 8mTEkJaodatTKVvLDCz6YwbCnuac4fM7z8yFq6R6eFsx
+2025-03-10 23:49:14,536 - INFO -  78. duolingo ׯ002 → 8gVgczWCy9unAan7m1C91S5UXCAEgXthzVsZhZP49tpo
+2025-03-10 23:49:14,536 - INFO -  79. stupid 굽Ǯduo → 3BU6vK1bUi7dBi8vS4btdr7pyJMNaCYqkzY3d6Gp37Xn
+2025-03-10 23:49:14,537 - INFO -  80. duolingo ׯ001 → 4QxYnhDLv4FHGkUnZ1qn4Y1C1jsVN9F2w4hzdhDFqoZs
+2025-03-10 23:49:14,537 - INFO -  81. gemս02 → 4chn22VoRYH81ZQnGJcaRA1LDgdViaaAK8BS4W277777
+2025-03-10 23:49:14,537 - INFO -  82. gemս01 → wbsUXURMM5cCH1XbskF2mPGx8SSGBgx3sM2kQuoABAn
+2025-03-10 23:49:14,537 - INFO -  83. jige → Hnnw3uwnomwP5B7ZizvNCTk51AgSRaTNYdSJydwCtzzz
+2025-03-10 23:49:14,537 - INFO -  84. vol dev → EfaWwZKnkq1exddBT3LqgZuYHNFn4xQcxfMQVGPgCLck
+2025-03-10 23:49:14,537 - INFO -  85. stonksׯ1 → 8veqMET96Pgzxc3VnbcD9ydQQcaNFk4T1Y6Pa3yH3maX
+2025-03-10 23:49:14,537 - INFO -  86. stonksׯ֮һ → FjSXNfAQF3iykr8z9MfaTSvhGNbEWRhtmqqQuFKgfxCq
+2025-03-10 23:49:14,537 - INFO -  87. qiyumeme → GEj2tXRXoxe6T8LsVUKpF6qfJMyHcGzKzNfSMKJkAn9M
+2025-03-10 23:49:14,538 - INFO -  88.  → EUM51CoFuxBw2FUVQ7YmrAy6a3p6PUNwou5S9f8qt83S
+2025-03-10 23:49:14,538 - INFO -  89. memeе㶫 → 6EAaPqnwT54YnYfCRyupN8rK25i2hbguBFcbfVQ8hGWj
+2025-03-10 23:49:14,538 - INFO -  90. trump10m → EELhpihpevqjyez7DHaXBfn1eoCRvNMKso9Ck3oPnLx4
+2025-03-10 23:49:14,538 - INFO -  91. һŲnnnnniu → 9NiAmMtLL17s8R5UJyi9svSg7VrKXgBj3YKEaNrQ91VT
+2025-03-10 23:49:14,538 - INFO -  92. ҪǮ → AZTX6Mkzk4QEmqfB1FzgV3H7MQxpNANmtHw3Vty1trzu
+2025-03-10 23:49:14,538 - INFO -  93. ?JayBaum → 27tecefS1JzsHT24RdJNtZXMZpgRa6pwsqFbwmKaZodV
+2025-03-10 23:49:14,538 - INFO -  94. Yelo → 2fpTdwLGW6V87FXXuCQoVNsyj8rZLzmE8jHhwzAGEtwG
+2025-03-10 23:49:14,539 - INFO -  95. ??Sencrazy.eth → 2FVV6e1SECwofXq8LVpzz2iQiTx4SZghPynh8LrvFET2
+2025-03-10 23:49:14,539 - INFO -  96. my1 → 2m5498hY3hpSvm1pVyZwwyU6bpQGFGu3PADSoEoZFXQB
+2025-03-10 23:49:14,539 - INFO -  97. coocenc → 2tV9bAogjJSw2JQvumFGmdsRoTPYRaJeeSqSFdsnjUGQ
+2025-03-10 23:49:14,539 - INFO -  98. 0xAA → 2ZiQY2u9bNxLF3fDhUFmZCz1n1baNnx2jtu1asPYpMhR
+2025-03-10 23:49:14,539 - INFO -  99. Ǯ007 → 3ejWGMZrX7PFYeub4eaKeVebmB8qJcQyJPh12yNBC9cq
+2025-03-10 23:49:14,539 - INFO - 100. benƼǮ002 → 3QnBeoPMPB3H78WgJssep7rs3A8477LR2FhtwrnZoRie
+2025-03-10 23:49:14,539 - INFO - 101.  → 3RnKNpzX5Nd7PTZBEVrYXVrHyu8Erbbo23QeXtWMTjaZ
+2025-03-10 23:49:14,539 - INFO - 102. С → 3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi
+2025-03-10 23:49:14,540 - INFO - 103. С | صע → 3TS4gKNUUx1ZAKCQ374vH6ZBJchWJKKTp32LDmSFKzhQ
+2025-03-10 23:49:14,540 - INFO - 104. top pnl → 4632BMWY69AkVHxN1XLKVuLrednYiLccuMeoXnQBMA7Z
+2025-03-10 23:49:14,540 - INFO - 105. Gotrilla → 4q7rNU1nRUWY14vaLPpzpc2C756UQE36vaDwphBpLf2s
+2025-03-10 23:49:14,540 - INFO - 106. 0xuezhang|985.eth → 4qWmgHK2MU52L11sFcwnzqCz4UPXBpH3f4Tk8rpaQQ56
+2025-03-10 23:49:14,540 - INFO - 107. kƯ → 4w7petYTMikTbjqjHNsE1C97ormD4oyPonbe5f4wkxKz
+2025-03-10 23:49:14,540 - INFO - 108. 581 → 581XaxPQ7jGqqFGh3RQhK8wESBrEvFCAry7EDq2NzacH
+2025-03-10 23:49:14,540 - INFO - 109. sol Ǯ001 → 58aJk9ngALL8Np7r51JWPc3buPthaPDKknmDaNxuGQcP
+2025-03-10 23:49:14,540 - INFO - 110. 77ַ | һ׬8wu → 5RFxaZf1gZKtEPg68cUnsCqRGoENicg2aBD1eGmq1J74
+2025-03-10 23:49:14,541 - INFO - 111. Abrahanny.eth → 5STnyps3g9HX9e2gruc8Q2XvQqWxp5pzBKcJnRjg8r7z
+2025-03-10 23:49:14,541 - INFO - 112. tickerһ ʤ → 5wPWthsivjuGi43WbTo5LdSjDTJ8pXSSHyfXWVojJjUF
+2025-03-10 23:49:14,541 - INFO - 113. JAMES → 5wQaABAbgA52cBks6zqXmk9nFftZgy18f78im6UxXhNU
+2025-03-10 23:49:14,541 - INFO - 114.  → 5wTLevkkUWzKgRTWKcSjrgdoP8TnrEnXYGaAxFKibsS5
+2025-03-10 23:49:14,541 - INFO - 115. neiro Top PNL → 69ngexW9UkgRp5KFjLpaK9XNSCxUFmps6jYmqhK3q6m9
+2025-03-10 23:49:14,541 - INFO - 116. ʽ → 6fdTPs67nxYbz3FriTZm474GPnqytTPVZFsLNnmS4827
+2025-03-10 23:49:14,541 - INFO - 117. ?? → 6fg77vTppRWZaQQaZhBqUtfu1PvRiCtWzoN8qF83fEbS
+2025-03-10 23:49:14,542 - INFO - 118. Redsun.eth ???? → 6NEEKdUKdMnQjFXxEAqoYmSk7gdZckStsYo1541P8bRZ
+2025-03-10 23:49:14,542 - INFO - 119. E → 6vdXD7uu4zBXMjWecqMPWGsy5H7dSQXSYJS4gNqGbvTt
+2025-03-10 23:49:14,542 - INFO - 120. ҹĻ → 6WNxdZJsWrBHJM5apKLsjdZgq51jXsQp9o4MCjKcaUSU
+2025-03-10 23:49:14,542 - INFO - 121. Ҫ??ֵС → 71CPXu3TvH3iUKaY1bNkAAow24k6tjH473SsKprQBABC
+2025-03-10 23:49:14,542 - INFO - 122. LaserCat397.eth → 75ugq4BnAApScig3D4w8Urx7ujXKDYc1VTEvzafFbabT
+2025-03-10 23:49:14,542 - INFO - 123. jingtao → 79CxhdY2TeFHpGNcaHgnHJTWnv7KA3KgMFoeHrJg77ru
+2025-03-10 23:49:14,542 - INFO - 124. һ → 7DGQGqgZuTfcAAphpDeehKq2Xsro77pz3ec19Ui37Dpx
+2025-03-10 23:49:14,542 - INFO - 125. LaserCat397.eth → 7iSG5y8f4DHtUEPLcgWQnJso99JRB51opyaRoH8qWZ8r
+2025-03-10 23:49:14,542 - INFO - 126. birddao sol → 7TJnymS5k6Kin2uSJiFaU3M33rbvuxVAcuSPDu3dNmTc
+2025-03-10 23:49:14,542 - INFO - 127. Sencrazy.eth → 7vsr2EPeq1vxgr1hk6yRgM4od1hYw2pzmR5BWaJBStPy
+2025-03-10 23:49:14,543 - INFO - 128. Cooker | Darn.eth | Kms.eth → 8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6
+2025-03-10 23:49:14,543 - INFO - 129. LaserCat397.eth → 8K5276kWCmRnS1TLTAKxRznM6NehtHkqCVWxcQhzHrwF
+2025-03-10 23:49:14,543 - INFO - 130. JinMu → 8tP391aDbKKpQS7eKnCEfnJ8Cmek6jatEe2LFkdJ2PRP
+2025-03-10 23:49:14,543 - INFO - 131. С.sol → 8WRWo8oQ4ppD7hMYxgwCXvTtzK2AusqsgVmr8NPsjtW1
+2025-03-10 23:49:14,543 - INFO - 132. lexַ → 8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj
+2025-03-10 23:49:14,543 - INFO - 133. һ → 8YmW32pecz2854orKhSEiBKUVvpjkw4YJnUmybYQTjMH
+2025-03-10 23:49:14,543 - INFO - 134. powӵַ → 8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd
+2025-03-10 23:49:14,543 - INFO - 135. ccie11440.eth $PARAM → 9Ca1o7YVbRmB3gVzyD2qgHbpkL685kW8Xieej7EMQcBb
+2025-03-10 23:49:14,544 - INFO - 136. billymcsmithers.eth ???? → 9cQL8n7fkzg7uBrzi9K5EXdxZwC1i11khQTyXQGDBz5A
+2025-03-10 23:49:14,544 - INFO - 137. º | صע → 9HCTuTPEiQvkUtLmTZvK6uch4E3pDynwJTbNw6jLhp9z
+2025-03-10 23:49:14,544 - INFO - 138. Yelo → 9MVmm1eMuiLXbcEK6Wi6PNRK3pd8rFvAZKhzk5oeYRv2
+2025-03-10 23:49:14,544 - INFO - 139. Bitget → A77HErqtfN1hLLpvZ9pCtu66FEtM8BveoaKbbMoZ4RiR
+2025-03-10 23:49:14,544 - INFO - 140. luce goat λ͸ | ׷ʤʸ → AaQtXpw8wsFyMs2pkb2uFqR7cZQWGXZ1GbmfewbwAQy1
+2025-03-10 23:49:14,544 - INFO - 141. ai16zַ → AM84n1iLdxgVTAyENBcLdjXoyvjentTbu5Q6EpKV1PeG
+2025-03-10 23:49:14,545 - INFO - 142. Yelo → AMTmcPLHDQ6NU8AVjVkGqN15HyNkTsnAPREGodLCMpVS
+2025-03-10 23:49:14,545 - INFO - 143. Garray → AsBvWP8yY3eZ2Sv6wbWzY8PdfPN3YJqXR4Z2GEnHHuVh
+2025-03-10 23:49:14,545 - INFO - 144. Ansem ????? → AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm
+2025-03-10 23:49:14,545 - INFO - 145. 侲侲侲 → Ay9wnuZCRTceZJuRpGZnuwYZuWdsviM4cMiCwFoSQiPH
+2025-03-10 23:49:14,545 - INFO - 146. ѧ → Bd9fepszcyMHpnEM9tFYbaEvLJPGBYYHUzg65b64iHbj
+2025-03-10 23:49:14,545 - INFO - 147. zerebro dev → BDzbq7VxG5b2yg4vc11iPvpj51RTbmsnxaEPjwzbWQft
+2025-03-10 23:49:14,545 - INFO - 148. Ҫ??ֵС → BkeHJikPVN98j45cYp2S3N7s9qRm1fyFBRE2sRv6Xoja
+2025-03-10 23:49:14,546 - INFO - 149. richclassdecor.eth → BTp4uCeCeWKxT6pzTmqJzzrtyqeTmtF1zr2EtpnZSw7F
+2025-03-10 23:49:14,546 - INFO - 150. 0xSun → C69d9G46bz3BK3PtyQkPja395fHnBjCH3GPSX1ftYtQ5
+2025-03-10 23:49:14,546 - INFO - 151. һ׬8wu → CBdCxKo9QavR9hfShgpEBG3zekorAeD7W1jfq2o3pump
+2025-03-10 23:49:14,546 - INFO - 152. TOM ?? → CEXkPr49BuW5sxfX5VxS1erRRFVq3VfjJbgjmZRxCjri
+2025-03-10 23:49:14,546 - INFO - 153. Ǯ → Cfi9eoLsFCBaUDxMXfwBXEJVX4RBBDB7kgvv2LwD5X7F
+2025-03-10 23:49:14,546 - INFO - 154.  → CK15zgbG3SSbCFtfnn5TFKswzBxSTWSvaDNoVBgbKYu
+2025-03-10 23:49:14,546 - INFO - 155. JAMES → CNABrLE2gHpfRbR6iV3s6yG8A1cMuGqYVTvPhaAMZQEN
+2025-03-10 23:49:14,547 - INFO - 156. DNFС → CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc
+2025-03-10 23:49:14,547 - INFO - 157. yryַ → CPydqKcEEeKTR6wt3L15G8S5Ea4bxjS2vvjiW9vw1UwK
+2025-03-10 23:49:14,547 - INFO - 158. Yelo → Cwrjz3WfCrRbGKMN4fjMzLyKXDQjkzUCjSGB8M5q2Bfd
+2025-03-10 23:49:14,547 - INFO - 159. ĻǮܶϢλģԴ → CWvdyvKHEu8Z6QqGraJT3sLPyp9bJfFhoXcxUYRKC8ou
+2025-03-10 23:49:14,547 - INFO - 160. | Ƶʤ → DBzhEXjxvuvpS9i9N8PhQXSqzkc8YPtKbfWLwcSmxZpp
+2025-03-10 23:49:14,547 - INFO - 161. buzzcut and beanie X+ → DEWkJHKfpfiYQSEcRGDSHkv5Nu59Jg4faeAUU8h4yqHi
+2025-03-10 23:49:14,547 - INFO - 162. Ļַ → DKgvpfttzmJqZXdavDwTxwSVkajibjzJnN2FA99dyciK
+2025-03-10 23:49:14,547 - INFO - 163. DNF | gake → DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm
+2025-03-10 23:49:14,547 - INFO - 164. 100SOLս → DQEabmVBRVES8pkoL8PJB6PdSb1kXNbGWDZW4vwmrhu6
+2025-03-10 23:49:14,548 - INFO - 165. degenai dev → DScqtGwFoDTme2Rzdjpdb2w7CtuKc6Z8KF7hMhbx8ugQ
+2025-03-10 23:49:14,548 - INFO - 166. ǮСè.eth → EfbbhahGNuhqEraRZXrwETfsaKxScngEttdQixWAW4WE
+2025-03-10 23:49:14,548 - INFO - 167. edwin → Efqoo7tUd9bhrA8kEZ6YhtBbo2mhr6VLAKzQEsBTyUsk
+2025-03-10 23:49:14,548 - INFO - 168. Ļɽ → F2pmrUchaCWys2G5XDpAAdd1wKPcrBkbQWCTAWwTAJ7B
+2025-03-10 23:49:14,548 - INFO - 169. ben001 → FKy2QyHNz2H7K8c4pZnifdP3ogrG4JujwNEB5bTzFEL3
+2025-03-10 23:49:14,549 - INFO - 170. CryptoD → G1pRtSyKuWSjTqRDcazzKBDzqEF96i1xSURpiXj3yFcc
+2025-03-10 23:49:14,549 - INFO - 171. 0xuezhang|985.eth → Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd
+2025-03-10 23:49:14,549 - INFO - 172. Yelo → GkGvitSK6CA5A3qu7G8h5BWPL976DsNYh3Jzocj9p1xQ
+2025-03-10 23:49:14,550 - INFO - 173. jojoƼǮ → HooderpigTVYapoXi6PQzxwtWhq3U1cuGvyu89fGjruY
+2025-03-10 23:49:14,550 - INFO - 174. 0xSun → HUpPyLU8KWisCAr3mzWy2FKT6uuxQ2qGgJQxyTpDoes5
+2025-03-10 23:49:14,550 - INFO - 175.  → HYWo71Wk9PNDe5sBaRKazPnVyGnQDiwgXCFKvgAQ1ENp
+2025-03-10 23:49:14,550 - INFO - 176. 1-óӶ → orcACRJYTFjTeo2pV8TfYRTpmqfoYgbVi9GeANXTCc8
+2025-03-10 23:49:14,550 - INFO - 177. bane top pnl → RFSqPtn1JfavGiUD4HJsZyYXvZsycxf31hnYfbyG6iB
+2025-03-10 23:49:14,550 - INFO - 178. Gate → u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w
+2025-03-10 23:49:14,550 - INFO - ==================================================
+2025-03-10 23:49:14,551 - INFO - 启动 Solana 交易监控...
+2025-03-10 23:49:18,954 - INFO - 代币缓存已更新 (4.40秒):
+  总代币数: 287863
+  新增代币: 287863
+  更新代币: 0
+2025-03-10 23:49:21,503 - INFO - 监控地址交易 [Euris]: 0.00 SOL
+2025-03-10 23:49:22,982 - INFO - 监控地址交易 [Gate]: 0.00 SOL
+2025-03-10 23:49:22,982 - INFO - 找到代币对: USDT -> USDT
+2025-03-10 23:49:22,983 - INFO - 监控地址交易 [Gate]: USDT -> USDT
+2025-03-10 23:49:22,994 - ERROR - 保存交换记录错误: (sqlite3.OperationalError) table swaps has no column named is_monitored_address
+[SQL: INSERT INTO swaps (slot, program_id, swap_amount, input_token_address, input_token_symbol, output_token_address, output_token_symbol, timestamp, is_monitored_address, involved_addresses) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (325860769, 'APhyMCpYjQ9RdEBn8cs4ifyBXjxAS5JtM3wYpWMJjsY5', 0.00011, 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB', 'USDT', 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB', 'USDT', 1741621762.9832704, 1, 'Gate')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-10 23:49:28,062 - INFO - 监控地址交易 []: 48.00 SOL
+2025-03-10 23:49:28,063 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:49:28,063 - INFO - 跳过SOL/稳定币交易: 48.00 SOL - USDC -> SOL
+2025-03-10 23:49:32,276 - INFO - 监控地址交易 []: 79.20 SOL
+2025-03-10 23:49:32,277 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:49:32,278 - INFO - 跳过SOL/稳定币交易: 79.20 SOL - SOL -> SOL
+2025-03-10 23:49:32,278 - INFO - 监控地址交易 []: 50.00 SOL
+2025-03-10 23:49:32,278 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:49:32,279 - INFO - 跳过SOL/稳定币交易: 50.00 SOL - SOL -> SOL
+2025-03-10 23:49:33,998 - INFO - 监控地址交易 []: 16.00 SOL
+2025-03-10 23:49:33,998 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:49:33,999 - INFO - 跳过SOL/稳定币交易: 16.00 SOL - SOL -> SOL
+2025-03-10 23:49:33,999 - INFO - 监控地址交易 []: 20.26 SOL
+2025-03-10 23:49:34,000 - INFO - 找到代币对: SOL -> USDT
+2025-03-10 23:49:34,000 - INFO - 跳过SOL/稳定币交易: 20.26 SOL - SOL -> USDT
+2025-03-10 23:49:34,005 - INFO - 监控地址交易 []: 40.60 SOL
+2025-03-10 23:49:34,005 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:49:34,006 - INFO - 跳过SOL/稳定币交易: 40.60 SOL - USDC -> SOL
+2025-03-10 23:49:35,682 - INFO - 监控地址交易 [frank]: 0.00 SOL
+2025-03-10 23:49:35,682 - INFO - 监控地址交易 [Bitget]: 0.10 SOL
+2025-03-10 23:49:35,724 - INFO - 监控地址交易 []: 21.81 SOL
+2025-03-10 23:49:35,725 - INFO - 找到代币对: USDT -> USDC
+2025-03-10 23:49:35,725 - INFO - 跳过SOL/稳定币交易: 21.81 SOL - USDT -> USDC
+2025-03-10 23:49:37,191 - INFO - 监控地址交易 []: 76.40 SOL
+2025-03-10 23:49:37,192 - INFO - 找到代币对: USDC -> SOL
+2025-03-10 23:49:37,193 - INFO - 跳过SOL/稳定币交易: 76.40 SOL - USDC -> SOL
+2025-03-10 23:49:37,219 - INFO - 监控地址交易 []: 19.00 SOL
+2025-03-10 23:49:37,220 - INFO - 找到代币对: SOL -> USDC
+2025-03-10 23:49:37,221 - INFO - 跳过SOL/稳定币交易: 19.00 SOL - SOL -> USDC
+2025-03-10 23:49:43,675 - INFO - 监控地址交易 []: 10.90 SOL
+2025-03-10 23:49:43,676 - INFO - 找到代币对: SOL -> SOL
+2025-03-10 23:49:43,676 - INFO - 跳过SOL/稳定币交易: 10.90 SOL - SOL -> SOL

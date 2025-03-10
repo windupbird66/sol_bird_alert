@@ -10,6 +10,8 @@ import requests
 import pandas as pd
 from sqlalchemy import create_engine, text
 import traceback
+import os
+import json
 
 from solana.rpc.api import Client
 from solders.pubkey import Pubkey
@@ -61,10 +63,57 @@ class Config:
     
     # 监控的地址列表
     MONITORED_ADDRESSES = [
-        {"address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc", "name": "DNF小号"},
-        {"address": "另一个地址", "name": "主号"},
-        {"address": "第三个地址", "name": "投资账户"}
+        {"address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc", "name": "DNF小号"}
     ]
+    
+    @classmethod
+    def load_addresses_from_file(cls, filepath):
+        """从文件中加载地址列表"""
+        if not os.path.exists(filepath):
+            logger.error(f"地址文件不存在: {filepath}")
+            return
+        
+        try:
+            # 清空当前列表
+            cls.MONITORED_ADDRESSES = []
+            
+            with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+                lines = f.readlines()
+                
+            for line in lines:
+                line = line.strip()
+                if not line or line.startswith('#'):
+                    continue
+                    
+                # 尝试分割备注和地址
+                parts = line.split()
+                if len(parts) >= 2:
+                    # 最后一部分是地址，前面所有内容合并为备注
+                    address = parts[-1]
+                    name = ' '.join(parts[:-1])
+                    
+                    # 验证地址格式(简单检查)
+                    if len(address) >= 32:
+                        cls.MONITORED_ADDRESSES.append({
+                            "address": address,
+                            "name": name
+                        })
+                        logger.info(f"已添加监控地址: {name} → {address}")
+            
+            logger.info(f"成功从文件导入 {len(cls.MONITORED_ADDRESSES)} 个监控地址")
+        except Exception as e:
+            logger.error(f"加载地址文件错误: {str(e)}")
+            logger.debug(traceback.format_exc())
+
+    @classmethod
+    def print_all_addresses(cls):
+        """打印所有监控地址"""
+        logger.info("=" * 50)
+        logger.info("所有监控地址:")
+        logger.info("=" * 50)
+        for idx, addr in enumerate(cls.MONITORED_ADDRESSES, 1):
+            logger.info(f"{idx:3}. {addr['name']} → {addr['address']}")
+        logger.info("=" * 50)
 
 
 class SwapMonitor:
@@ -377,7 +426,43 @@ class SwapMonitor:
 
 async def main():
     monitor = SwapMonitor()
-    await monitor.run()
+    
+    # 加载地址文件
+    address_file = "213123.txt"
+    current_dir = os.path.abspath(os.path.dirname(__file__))
+    address_file_path = os.path.join(current_dir, address_file)
+    
+    logger.info(f"尝试从 {address_file_path} 加载地址文件")
+    
+    if os.path.exists(address_file_path):
+        logger.info(f"找到地址文件: {address_file_path}")
+        Config.load_addresses_from_file(address_file_path)
+        
+        # 打印所有监控地址
+        if Config.MONITORED_ADDRESSES:
+            Config.print_all_addresses()
+        else:
+            logger.warning(f"地址文件存在但未加载任何地址，请检查文件格式")
+    else:
+        logger.warning(f"未找到地址文件: {address_file_path}")
+        
+        # 创建示例文件
+        try:
+            with open(address_file_path, 'w', encoding='utf-8') as f:
+                f.write("# 格式: 备注 地址\n")
+                f.write("# 一行一个地址，'#'开头的行会被忽略\n")
+                f.write("DNF小号 CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc\n")
+            logger.info(f"已创建示例地址文件: {address_file_path}")
+        except Exception as e:
+            logger.error(f"创建示例文件失败: {str(e)}")
+    
+    try:
+        await monitor.run()
+    except KeyboardInterrupt:
+        logger.info("程序被用户中断")
+    except Exception as e:
+        logger.error(f"程序异常: {str(e)}")
+        logger.debug(traceback.format_exc())
 
 if __name__ == "__main__":
     try:
