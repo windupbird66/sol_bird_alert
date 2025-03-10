@@ -1,0 +1,298 @@
+2025-03-10 14:33:24,721 - INFO - Loading NLP model...
+2025-03-10 14:35:59,498 - INFO - Loading NLP model...
+2025-03-10 14:36:58,669 - INFO - 開始獲取 Pump.fun 最近的交易...
+2025-03-10 14:36:58,669 - INFO - 正在檢查程序 ID: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-03-10 14:36:59,143 - INFO - 找到 10 筆交易
+2025-03-10 14:36:59,416 - INFO - === 分析交易 3qo1QnhLmVyzSWsvmACkMyXcEDbf9SxBDu2oxAf9rVwpvxQStwEgxxJaipjRimQhQxQrb59M4LZSGz2nZv9d8Ycd ===
+2025-03-10 14:36:59,417 - INFO - 找到 Mint 地址: 141UGRpPQPHn9x29KKgUBwC1WJNgCJNPbu4XHwe3pump
+2025-03-10 14:36:59,417 - INFO - 處理 Mint 地址: 141UGRpPQPHn9x29KKgUBwC1WJNgCJNPbu4XHwe3pump
+2025-03-10 14:36:59,421 - INFO - 已保存到數據庫
+2025-03-10 14:36:59,666 - INFO - === 分析交易 3dprgTyndXBcA7ASmRXEiV3wvmzWf23ugzyg8ZiXqn5h7Q4RE6YDEFE9T9S2MQyepyxgqZL479PHQbXEh4fikiVV ===
+2025-03-10 14:36:59,666 - INFO - 找到 Mint 地址: HmC22iQd5VM9sEC8b4XJn583am2GRp7SzXY2KNmepump
+2025-03-10 14:36:59,666 - INFO - 處理 Mint 地址: HmC22iQd5VM9sEC8b4XJn583am2GRp7SzXY2KNmepump
+2025-03-10 14:36:59,670 - INFO - 已保存到數據庫
+2025-03-10 14:36:59,936 - INFO - === 分析交易 45fqf4GTVmdd9QDYBKb1dqbGD53jte8HeUCdE5bn6hACz2mJ3zc6np6XZhePbDs3MFjqUH3Mca9FWwfKfy31VvE3 ===
+2025-03-10 14:36:59,937 - INFO - 找到 Mint 地址: AWQgUvbWSteg7S7MfWqezvFEjHGFdsWDN524BWuKpump
+2025-03-10 14:36:59,937 - INFO - 處理 Mint 地址: AWQgUvbWSteg7S7MfWqezvFEjHGFdsWDN524BWuKpump
+2025-03-10 14:36:59,942 - INFO - 已保存到數據庫
+2025-03-10 14:37:00,179 - INFO - === 分析交易 e7RmL8RKH2CCir1111QDvtiue3jra9nqD9md3TP8xk4bARxPohfgB5qnUi3uNzNsHpcyQkFb9p6fjaZZGXCd771 ===
+2025-03-10 14:37:00,179 - INFO - 找到 Mint 地址: 9uL73A5w9UyRWeGADkvvXFgMiRTZZCnud1mxZLSrEiqq
+2025-03-10 14:37:00,179 - INFO - 處理 Mint 地址: 9uL73A5w9UyRWeGADkvvXFgMiRTZZCnud1mxZLSrEiqq
+2025-03-10 14:37:00,185 - INFO - 已保存到數據庫
+2025-03-10 14:37:00,425 - INFO - === 分析交易 2LqBfDYMvE5q4gLT8rktoDNU6xdVJxE3rEyxxCZkrCULQSaj36DsxkjWb7pEU1jtgnAQyu96Nvzq35HLBvsQDTev ===
+2025-03-10 14:37:00,425 - INFO - 找到 Mint 地址: DGL9bK7zPd1FCs2BetCkG6CaGQVwv2ZmXBGRAU7hpump
+2025-03-10 14:37:00,426 - INFO - 處理 Mint 地址: DGL9bK7zPd1FCs2BetCkG6CaGQVwv2ZmXBGRAU7hpump
+2025-03-10 14:37:00,429 - INFO - 已保存到數據庫
+2025-03-10 14:37:00,690 - INFO - === 分析交易 2zPjwzXPCpNkvj4kRiU4oxWWxhEXRBVSwPCG4QRbJdgtxJoSgYLAC8fvDGwP7pcAaeVjXv9RmrqpqbC1FTAvu6bB ===
+2025-03-10 14:37:00,690 - INFO - 找到 Mint 地址: DAYokC99mFaXvYnXrzjpSTPR6QfYWn66DE4GoMrvpump
+2025-03-10 14:37:00,690 - INFO - 處理 Mint 地址: DAYokC99mFaXvYnXrzjpSTPR6QfYWn66DE4GoMrvpump
+2025-03-10 14:37:00,696 - INFO - 已保存到數據庫
+2025-03-10 14:37:00,947 - INFO - === 分析交易 gHYXU65KoDVWnvLSWGN8pfe8exAF3HJPvYX9CkCtX94ZnUhJYoVsmcrCkCQN4BTNLDPBjYatJ1pbNauAeqVRdpF ===
+2025-03-10 14:37:00,948 - INFO - 找到 Mint 地址: 9uL73A5w9UyRWeGADkvvXFgMiRTZZCnud1mxZLSrEiqq
+2025-03-10 14:37:00,948 - INFO - 處理 Mint 地址: 9uL73A5w9UyRWeGADkvvXFgMiRTZZCnud1mxZLSrEiqq
+2025-03-10 14:37:00,948 - INFO - 已保存到數據庫
+2025-03-10 14:37:01,190 - INFO - === 分析交易 4nEA2VixjGLtLKHqz2bnKDSuPg9NzaQWdZmu27G8xAbE9WY2FJZgt2Ym4Ep2QCeu9fC6YT3uNBQjY6KLPmMn8RwB ===
+2025-03-10 14:37:01,190 - INFO - 找到 Mint 地址: 2mmEypVSvP2FULmStx28rLbcJRKfvgPR3WGtpdMapump
+2025-03-10 14:37:01,190 - INFO - 處理 Mint 地址: 2mmEypVSvP2FULmStx28rLbcJRKfvgPR3WGtpdMapump
+2025-03-10 14:37:01,194 - INFO - 已保存到數據庫
+2025-03-10 14:37:01,451 - INFO - === 分析交易 2xFkZoSqmYsGjoi7wkNXDzpEkxyivHjjdsp4uCgY6DVo8uqc3UTMAmKZd1o9K3eDNJs82Fh3j5dYUvnFmX6RCUV6 ===
+2025-03-10 14:37:01,451 - INFO - 找到 Mint 地址: C1xYWy4bGnmDuLWzh3d9cdrUPpG98RDuC1mHmWVupump
+2025-03-10 14:37:01,451 - INFO - 處理 Mint 地址: C1xYWy4bGnmDuLWzh3d9cdrUPpG98RDuC1mHmWVupump
+2025-03-10 14:37:01,455 - INFO - 已保存到數據庫
+2025-03-10 14:37:01,695 - INFO - === 分析交易 317TQEoy4npg7mcdvj3niCJLeq44UTFHnofn25qGEXnPAi2NTwZmNm78eMQNbYNP32sxUeTCNSYrrFwnxiHSZ149 ===
+2025-03-10 14:37:01,695 - INFO - 找到 Mint 地址: 31QNxoMay3uNXaChioSsjQwc8XRKrKdCr3UuzQyupump
+2025-03-10 14:37:01,695 - INFO - 處理 Mint 地址: 31QNxoMay3uNXaChioSsjQwc8XRKrKdCr3UuzQyupump
+2025-03-10 14:37:01,700 - INFO - 已保存到數據庫
+2025-03-10 14:37:01,702 - INFO - 發現 9 個未分析的代幣
+2025-03-10 14:37:01,703 - INFO - 開始批量分析 9 個代幣的社交數據
+2025-03-10 14:37:04,885 - INFO - ⚠️ Cookies 失效，執行手動登入
+2025-03-10 14:37:12,892 - INFO - Cookies 已保存
+2025-03-10 14:37:12,893 - INFO - 手動登入成功，已儲存新的 Cookies
+2025-03-10 14:37:12,893 - INFO - 分析代幣: 31QNxoMay3uNXaChioSsjQwc8XRKrKdCr3UuzQyupump
+2025-03-10 14:37:26,559 - ERROR - 搜索代幣 31QNxoMay3uNXaChioSsjQwc8XRKrKdCr3UuzQyupump 時出錯: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"primaryColumn\"]") to be visible
+
+2025-03-10 14:37:26,560 - INFO - 分析代幣: C1xYWy4bGnmDuLWzh3d9cdrUPpG98RDuC1mHmWVupump
+2025-03-10 14:37:40,039 - ERROR - 搜索代幣 C1xYWy4bGnmDuLWzh3d9cdrUPpG98RDuC1mHmWVupump 時出錯: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"primaryColumn\"]") to be visible
+
+2025-03-10 14:37:40,040 - INFO - 分析代幣: 2mmEypVSvP2FULmStx28rLbcJRKfvgPR3WGtpdMapump
+2025-03-10 14:37:53,516 - ERROR - 搜索代幣 2mmEypVSvP2FULmStx28rLbcJRKfvgPR3WGtpdMapump 時出錯: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"primaryColumn\"]") to be visible
+
+2025-03-10 14:37:53,517 - INFO - 分析代幣: DAYokC99mFaXvYnXrzjpSTPR6QfYWn66DE4GoMrvpump
+2025-03-10 14:38:06,981 - ERROR - 搜索代幣 DAYokC99mFaXvYnXrzjpSTPR6QfYWn66DE4GoMrvpump 時出錯: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"primaryColumn\"]") to be visible
+
+2025-03-10 14:38:06,982 - INFO - 分析代幣: DGL9bK7zPd1FCs2BetCkG6CaGQVwv2ZmXBGRAU7hpump
+2025-03-10 14:38:20,503 - ERROR - 搜索代幣 DGL9bK7zPd1FCs2BetCkG6CaGQVwv2ZmXBGRAU7hpump 時出錯: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"primaryColumn\"]") to be visible
+
+2025-03-10 14:38:20,504 - INFO - 分析代幣: 9uL73A5w9UyRWeGADkvvXFgMiRTZZCnud1mxZLSrEiqq
+2025-03-10 14:38:33,978 - ERROR - 搜索代幣 9uL73A5w9UyRWeGADkvvXFgMiRTZZCnud1mxZLSrEiqq 時出錯: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"primaryColumn\"]") to be visible
+
+2025-03-10 14:38:33,979 - INFO - 分析代幣: AWQgUvbWSteg7S7MfWqezvFEjHGFdsWDN524BWuKpump
+2025-03-10 14:38:47,454 - ERROR - 搜索代幣 AWQgUvbWSteg7S7MfWqezvFEjHGFdsWDN524BWuKpump 時出錯: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"primaryColumn\"]") to be visible
+
+2025-03-10 14:38:47,455 - INFO - 分析代幣: HmC22iQd5VM9sEC8b4XJn583am2GRp7SzXY2KNmepump
+2025-03-10 14:39:00,919 - ERROR - 搜索代幣 HmC22iQd5VM9sEC8b4XJn583am2GRp7SzXY2KNmepump 時出錯: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"primaryColumn\"]") to be visible
+
+2025-03-10 14:39:00,920 - INFO - 分析代幣: 141UGRpPQPHn9x29KKgUBwC1WJNgCJNPbu4XHwe3pump
+2025-03-10 14:39:14,389 - ERROR - 搜索代幣 141UGRpPQPHn9x29KKgUBwC1WJNgCJNPbu4XHwe3pump 時出錯: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"primaryColumn\"]") to be visible
+
+2025-03-10 14:39:14,460 - INFO - 完成所有代幣的社交分析
+2025-03-10 14:39:56,024 - INFO - Loading NLP model...
+2025-03-10 14:40:00,261 - INFO - 開始獲取 Pump.fun 最近的交易...
+2025-03-10 14:40:00,261 - INFO - 正在檢查程序 ID: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-03-10 14:40:00,854 - INFO - 找到 10 筆交易
+2025-03-10 14:40:01,116 - INFO - === 分析交易 2ibRCrapCrZfupWxZBoyZoPKrxvo3p2WAQs8bQHSqTAGvAEMjtyn1kregKmASi8VuYmvMPSn5wvWh7FvdhD1CCrr ===
+2025-03-10 14:40:01,117 - INFO - 找到 Mint 地址: HmC22iQd5VM9sEC8b4XJn583am2GRp7SzXY2KNmepump
+2025-03-10 14:40:01,118 - INFO - 處理 Mint 地址: HmC22iQd5VM9sEC8b4XJn583am2GRp7SzXY2KNmepump
+2025-03-10 14:40:01,119 - INFO - 已保存到數據庫
+2025-03-10 14:40:01,393 - INFO - === 分析交易 4k1G3VyLgiFEARD7oujTmKjVrBxmZLU6JToYXh7EQCPNoxKsnvdcvzMQ1itfh6X6cu68d3pcm64FFaiXU6Ag4RVF ===
+2025-03-10 14:40:01,393 - INFO - 找到 Mint 地址: DoHpKqzp8wdcquGae4xD9UpwRvFStH7cvL73MSNipump
+2025-03-10 14:40:01,393 - INFO - 處理 Mint 地址: DoHpKqzp8wdcquGae4xD9UpwRvFStH7cvL73MSNipump
+2025-03-10 14:40:01,398 - INFO - 已保存到數據庫
+2025-03-10 14:40:01,649 - INFO - === 分析交易 46124yjaGrvpxa2AmiJquETYEbLLXexsPuHzUu7evjgtcvv5UHNJFwzsqLnAtas3zfyZnWvKXLrH7yd2wQHGeypH ===
+2025-03-10 14:40:01,650 - INFO - 找到 Mint 地址: 7ZBcXP7iwFfzA4wtZBDGbFwhu2JefvKv3DQHRyjLpump
+2025-03-10 14:40:01,650 - INFO - 處理 Mint 地址: 7ZBcXP7iwFfzA4wtZBDGbFwhu2JefvKv3DQHRyjLpump
+2025-03-10 14:40:01,655 - INFO - 已保存到數據庫
+2025-03-10 14:40:02,005 - INFO - === 分析交易 2gPAznYhB7FU8v7bx5woQjevbSgXk1MHysMfxonQ79ERk9uTfZAoxUpQtkcaMaKtCETu37avWeEwz4bruBgym46s ===
+2025-03-10 14:40:02,005 - INFO - 找到 Mint 地址: FVFccpsrvEwJfjXGggA1un1KbC7RdZ6M2CHQxkEYpump
+2025-03-10 14:40:02,005 - INFO - 處理 Mint 地址: FVFccpsrvEwJfjXGggA1un1KbC7RdZ6M2CHQxkEYpump
+2025-03-10 14:40:02,010 - INFO - 已保存到數據庫
+2025-03-10 14:40:02,260 - INFO - === 分析交易 TYtr2yReg1BdKZfT9j9b39hAUXYtBSgHe8pdeFG9nbskpV3xN5R3C7XUw7pykxv1a1YUMBZnDqgWqgUCyWSrBNA ===
+2025-03-10 14:40:02,260 - INFO - 找到 Mint 地址: 2ud71QozVAuFTKBFEY7MT3vjGKnWtapZrDGAmxFNpump
+2025-03-10 14:40:02,261 - INFO - 處理 Mint 地址: 2ud71QozVAuFTKBFEY7MT3vjGKnWtapZrDGAmxFNpump
+2025-03-10 14:40:02,265 - INFO - 已保存到數據庫
+2025-03-10 14:40:02,525 - INFO - === 分析交易 4voM6A6ziYvnNQyq3SXwpJd5LvVFv8Z3W8YSBcgJVE2ZzrwmM57qVbpM5yAaciQeRVKVYutxYbtomBucSvP8Ebi3 ===
+2025-03-10 14:40:02,526 - INFO - 找到 Mint 地址: 7ZBcXP7iwFfzA4wtZBDGbFwhu2JefvKv3DQHRyjLpump
+2025-03-10 14:40:02,526 - INFO - 處理 Mint 地址: 7ZBcXP7iwFfzA4wtZBDGbFwhu2JefvKv3DQHRyjLpump
+2025-03-10 14:40:02,526 - INFO - 已保存到數據庫
+2025-03-10 14:40:02,805 - INFO - === 分析交易 4fB7rHZs9FAbN1NFtewwBqg2fwjPtwqC9EMth4MDdpZdw7vC9meDJQQLKV7BbovRC9kHcTePX38UdfmfYkW7jWjc ===
+2025-03-10 14:40:02,806 - INFO - 找到 Mint 地址: CkCaCmcxBupXA12kUCA2AMqKemEr6DNUJCCipdU3pump
+2025-03-10 14:40:02,806 - INFO - 處理 Mint 地址: CkCaCmcxBupXA12kUCA2AMqKemEr6DNUJCCipdU3pump
+2025-03-10 14:40:02,810 - INFO - 已保存到數據庫
+2025-03-10 14:40:03,064 - INFO - === 分析交易 BTei6Q5pu6T6pfrGTqYGXKeGzG8WfQTdRD5ijMXxzydEVAspCJ6ZSShLojc3YQtRTCz6W9UEXi3DsF5PvhfFz1z ===
+2025-03-10 14:40:03,065 - INFO - 找到 Mint 地址: HmC22iQd5VM9sEC8b4XJn583am2GRp7SzXY2KNmepump
+2025-03-10 14:40:03,066 - INFO - 處理 Mint 地址: HmC22iQd5VM9sEC8b4XJn583am2GRp7SzXY2KNmepump
+2025-03-10 14:40:03,067 - INFO - 已保存到數據庫
+2025-03-10 14:40:03,335 - INFO - === 分析交易 3xvx7J3a477uCtjLuSbwuxmUJcMxCnpMxa8QASseqetdqn7cWj3a5xZ3qrTf3QV2nMCkC15sw6BdC5Sft3xukBrh ===
+2025-03-10 14:40:03,335 - INFO - 找到 Mint 地址: FYw2ot2ZvESDSRPLJVtP8fcwjT5HxJAhgxVypYyCpump
+2025-03-10 14:40:03,335 - INFO - 處理 Mint 地址: FYw2ot2ZvESDSRPLJVtP8fcwjT5HxJAhgxVypYyCpump
+2025-03-10 14:40:03,339 - INFO - 已保存到數據庫
+2025-03-10 14:40:03,596 - INFO - === 分析交易 2bZQPLz6qjHQY4jZ2BSdM53TLy5oJV8H5AcmBMVgsMwjr85YgUz2KDhU198Wk2cGXmFwWZoCZbYKegFxbbZkYeyZ ===
+2025-03-10 14:40:03,597 - INFO - 找到 Mint 地址: J3Hhi9cJ6qaQr7DYBPjNan9jMpb6tfEZWFhMq5eDpump
+2025-03-10 14:40:03,598 - INFO - 處理 Mint 地址: J3Hhi9cJ6qaQr7DYBPjNan9jMpb6tfEZWFhMq5eDpump
+2025-03-10 14:40:03,605 - INFO - 已保存到數據庫
+2025-03-10 14:40:03,607 - INFO - 發現 16 個未分析的代幣
+2025-03-10 14:40:03,608 - INFO - 開始批量分析 16 個代幣的社交數據
+2025-03-10 14:40:05,434 - INFO - Cookies 已加載
+2025-03-10 14:40:37,156 - ERROR - Twitter 登錄失敗: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("[data-testid=\"primaryColumn\"]") to be visible
+
+2025-03-10 14:40:37,156 - ERROR - Twitter 登錄失敗，退出分析
+2025-03-10 14:45:50,411 - INFO - Loading NLP model...
+2025-03-10 14:45:54,798 - INFO - 開始獲取 Pump.fun 最近的交易...
+2025-03-10 14:45:54,798 - INFO - 正在檢查程序 ID: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-03-10 14:45:55,718 - INFO - 找到 10 筆交易
+2025-03-10 14:45:56,299 - INFO - === 分析交易 3td8jPdP6PUK7AxcX6jSxKtjXKxfE51ZBYCbYd444SwKm7NHkeXt95knvP3ps4HTKLv87zhuRxHrCp2xi9paK91n ===
+2025-03-10 14:45:56,300 - INFO - 找到 Mint 地址: BpAUQ8GRqLPXZpwJxMFV6B3uJhac6ay9GDfXVAQKpump
+2025-03-10 14:45:56,301 - INFO - 處理 Mint 地址: BpAUQ8GRqLPXZpwJxMFV6B3uJhac6ay9GDfXVAQKpump
+2025-03-10 14:45:56,310 - INFO - 已保存到數據庫
+2025-03-10 14:45:56,576 - INFO - === 分析交易 CTJ3EDGbdGkEU8xmUCt3io3zzmDNQafUjzVijQPWsXk1PyyD8ehJtQQf9qewECFC7eTEpDTG7wzM4TPhAPUxpUC ===
+2025-03-10 14:45:56,577 - INFO - 找到 Mint 地址: 4QW2F3qaVm87LLNE9WDbH9ikCpkaVGunVfDpyz1zpump
+2025-03-10 14:45:56,577 - INFO - 處理 Mint 地址: 4QW2F3qaVm87LLNE9WDbH9ikCpkaVGunVfDpyz1zpump
+2025-03-10 14:45:56,583 - INFO - 已保存到數據庫
+2025-03-10 14:45:56,833 - INFO - === 分析交易 4EKvVLZ65RPbLLfVY1HtQEo152og51rhRbLWELqPuro6N7AT1RhyYXAaqKzzta8aiYVGGaDyRwZxCNX5kKSW6BG8 ===
+2025-03-10 14:45:56,833 - INFO - 找到 Mint 地址: FcSbpCd9debXrNJJ4fxkNw1snU4wFEF4g1wsoWWjpump
+2025-03-10 14:45:56,834 - INFO - 處理 Mint 地址: FcSbpCd9debXrNJJ4fxkNw1snU4wFEF4g1wsoWWjpump
+2025-03-10 14:45:56,839 - INFO - 已保存到數據庫
+2025-03-10 14:45:57,092 - INFO - === 分析交易 3HrWWF2oEdgMySEP3hK9bq5XBaXMMBDp6wcG1JP2L9jn4w9FoqeBphfmA8Er3tmbZ1fiAPZethSLPed2pf2TcguB ===
+2025-03-10 14:45:57,092 - INFO - 找到 Mint 地址: B1WMB6TGKfSNRwS9R3fKbfXb3aacrXAPRFnaY4HRpump
+2025-03-10 14:45:57,092 - INFO - 處理 Mint 地址: B1WMB6TGKfSNRwS9R3fKbfXb3aacrXAPRFnaY4HRpump
+2025-03-10 14:45:57,096 - INFO - 已保存到數據庫
+2025-03-10 14:45:57,354 - INFO - === 分析交易 2uZh21snarhSz5ngcMPwsWHn257hqhnQCc4mv5wHsjPduJGR8AgJYkXuU7y7fYd8abCTSFWUicAH2xGgnPnDMsqb ===
+2025-03-10 14:45:57,354 - INFO - 找到 Mint 地址: EtBGmpXzR6pNGnavrEqAHc8dR5BFo45DQaoNhNEypump
+2025-03-10 14:45:57,354 - INFO - 處理 Mint 地址: EtBGmpXzR6pNGnavrEqAHc8dR5BFo45DQaoNhNEypump
+2025-03-10 14:45:57,360 - INFO - 已保存到數據庫
+2025-03-10 14:45:57,605 - INFO - === 分析交易 5UpMHWD6osDYzQEPwiM5phyEdy8z9vtpWp93Yjbp7w5FPptwxJKUcpdY3xzg4EYDpeetQDhuNPUsZhX9bhsMx2pc ===
+2025-03-10 14:45:57,606 - INFO - 找到 Mint 地址: 3NDn8TEHs5xQux79MnN7teWxTmUR4c5CDsW6kLrjpump
+2025-03-10 14:45:57,606 - INFO - 處理 Mint 地址: 3NDn8TEHs5xQux79MnN7teWxTmUR4c5CDsW6kLrjpump
+2025-03-10 14:45:57,609 - INFO - 已保存到數據庫
+2025-03-10 14:45:57,876 - INFO - === 分析交易 2CZQrbn7w9Kbp1MizvMWZ8xBuVBs15G1wNDKKnkePwmjBLGX6DY6uGEwr6KFmjgtzzCXoBvURPcksDzJSzmSiwn1 ===
+2025-03-10 14:45:57,876 - INFO - 找到 Mint 地址: C4NghJ9n5JK764GdJmTKYEN98CeCk6s84QfpSgvHpump
+2025-03-10 14:45:57,876 - INFO - 處理 Mint 地址: C4NghJ9n5JK764GdJmTKYEN98CeCk6s84QfpSgvHpump
+2025-03-10 14:45:57,881 - INFO - 已保存到數據庫
+2025-03-10 14:45:58,458 - INFO - === 分析交易 21kQHFVmFAS7TC2dxvoDxFNcfg6Kpo3T7G2Wp66eCZ6hrpGkQR8ZSQDwBgtHtJkT4mjFCVVVssHmGzEVGT1nx69X ===
+2025-03-10 14:45:58,459 - INFO - 找到 Mint 地址: B1WMB6TGKfSNRwS9R3fKbfXb3aacrXAPRFnaY4HRpump
+2025-03-10 14:45:58,459 - INFO - 處理 Mint 地址: B1WMB6TGKfSNRwS9R3fKbfXb3aacrXAPRFnaY4HRpump
+2025-03-10 14:45:58,460 - INFO - 已保存到數據庫
+2025-03-10 14:45:58,709 - INFO - === 分析交易 MyYwGpU3h1DDEpDgBf4q4jv3o2R8nkFN7obyYqkBf9YaBCMVqn751UiEmwUgB7KfrCQzsboHJv4i1d4Veczhuu3 ===
+2025-03-10 14:45:58,709 - INFO - 找到 Mint 地址: 28PhCWGuC52BWpcGHrYCk3gvfof2uPyXJyC4dTALKbsX
+2025-03-10 14:45:58,709 - INFO - 處理 Mint 地址: 28PhCWGuC52BWpcGHrYCk3gvfof2uPyXJyC4dTALKbsX
+2025-03-10 14:45:58,714 - INFO - 已保存到數據庫
+2025-03-10 14:45:59,321 - INFO - === 分析交易 4Mpjcx6JCj7djfd4cx1Jjp235PMDdKKWLmwzbV552j55asWnPdk6CH7hRBZyJxyRQULitrw1P8qxVVUnhubzQp5W ===
+2025-03-10 14:45:59,321 - INFO - 找到 Mint 地址: E4PxYVBbzNFFsbVW1Ln8xgGdydrVLZiqSvKVA9Ccpump
+2025-03-10 14:45:59,322 - INFO - 處理 Mint 地址: E4PxYVBbzNFFsbVW1Ln8xgGdydrVLZiqSvKVA9Ccpump
+2025-03-10 14:45:59,326 - INFO - 已保存到數據庫
+2025-03-10 14:45:59,328 - INFO - 發現 25 個未分析的代幣
+2025-03-10 14:45:59,328 - INFO - 開始批量分析 25 個代幣的社交數據
+2025-03-10 14:46:01,184 - INFO - Cookies 已加載
+2025-03-10 14:46:04,149 - INFO - 已保存页面截图和HTML内容用于调试
+2025-03-10 14:46:04,172 - INFO - 页面已加载
+2025-03-10 14:46:04,172 - INFO - 分析代幣: E4PxYVBbzNFFsbVW1Ln8xgGdydrVLZiqSvKVA9Ccpump
+2025-03-10 14:46:37,858 - ERROR - 搜索代幣 E4PxYVBbzNFFsbVW1Ln8xgGdydrVLZiqSvKVA9Ccpump 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:46:37,858 - INFO - 分析代幣: 28PhCWGuC52BWpcGHrYCk3gvfof2uPyXJyC4dTALKbsX
+2025-03-10 14:47:11,330 - ERROR - 搜索代幣 28PhCWGuC52BWpcGHrYCk3gvfof2uPyXJyC4dTALKbsX 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:47:11,331 - INFO - 分析代幣: C4NghJ9n5JK764GdJmTKYEN98CeCk6s84QfpSgvHpump
+2025-03-10 14:47:44,814 - ERROR - 搜索代幣 C4NghJ9n5JK764GdJmTKYEN98CeCk6s84QfpSgvHpump 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:47:44,815 - INFO - 分析代幣: 3NDn8TEHs5xQux79MnN7teWxTmUR4c5CDsW6kLrjpump
+2025-03-10 14:48:18,316 - ERROR - 搜索代幣 3NDn8TEHs5xQux79MnN7teWxTmUR4c5CDsW6kLrjpump 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:48:18,317 - INFO - 分析代幣: EtBGmpXzR6pNGnavrEqAHc8dR5BFo45DQaoNhNEypump
+2025-03-10 14:48:51,831 - ERROR - 搜索代幣 EtBGmpXzR6pNGnavrEqAHc8dR5BFo45DQaoNhNEypump 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:48:51,832 - INFO - 分析代幣: B1WMB6TGKfSNRwS9R3fKbfXb3aacrXAPRFnaY4HRpump
+2025-03-10 14:49:25,325 - ERROR - 搜索代幣 B1WMB6TGKfSNRwS9R3fKbfXb3aacrXAPRFnaY4HRpump 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:49:25,326 - INFO - 分析代幣: FcSbpCd9debXrNJJ4fxkNw1snU4wFEF4g1wsoWWjpump
+2025-03-10 14:49:58,809 - ERROR - 搜索代幣 FcSbpCd9debXrNJJ4fxkNw1snU4wFEF4g1wsoWWjpump 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:49:58,810 - INFO - 分析代幣: 4QW2F3qaVm87LLNE9WDbH9ikCpkaVGunVfDpyz1zpump
+2025-03-10 14:50:32,292 - ERROR - 搜索代幣 4QW2F3qaVm87LLNE9WDbH9ikCpkaVGunVfDpyz1zpump 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:50:32,292 - INFO - 分析代幣: BpAUQ8GRqLPXZpwJxMFV6B3uJhac6ay9GDfXVAQKpump
+2025-03-10 14:51:05,780 - ERROR - 搜索代幣 BpAUQ8GRqLPXZpwJxMFV6B3uJhac6ay9GDfXVAQKpump 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:51:05,780 - INFO - 分析代幣: J3Hhi9cJ6qaQr7DYBPjNan9jMpb6tfEZWFhMq5eDpump
+2025-03-10 14:51:39,254 - ERROR - 搜索代幣 J3Hhi9cJ6qaQr7DYBPjNan9jMpb6tfEZWFhMq5eDpump 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:51:39,255 - INFO - 分析代幣: FYw2ot2ZvESDSRPLJVtP8fcwjT5HxJAhgxVypYyCpump
+2025-03-10 14:52:12,712 - ERROR - 搜索代幣 FYw2ot2ZvESDSRPLJVtP8fcwjT5HxJAhgxVypYyCpump 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:52:12,713 - INFO - 分析代幣: CkCaCmcxBupXA12kUCA2AMqKemEr6DNUJCCipdU3pump
+2025-03-10 14:52:46,187 - ERROR - 搜索代幣 CkCaCmcxBupXA12kUCA2AMqKemEr6DNUJCCipdU3pump 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:52:46,188 - INFO - 分析代幣: 2ud71QozVAuFTKBFEY7MT3vjGKnWtapZrDGAmxFNpump
+2025-03-10 14:53:19,695 - ERROR - 搜索代幣 2ud71QozVAuFTKBFEY7MT3vjGKnWtapZrDGAmxFNpump 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:53:19,696 - INFO - 分析代幣: FVFccpsrvEwJfjXGggA1un1KbC7RdZ6M2CHQxkEYpump
+2025-03-10 14:53:53,181 - ERROR - 搜索代幣 FVFccpsrvEwJfjXGggA1un1KbC7RdZ6M2CHQxkEYpump 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:53:53,182 - INFO - 分析代幣: 7ZBcXP7iwFfzA4wtZBDGbFwhu2JefvKv3DQHRyjLpump
+2025-03-10 14:54:26,662 - ERROR - 搜索代幣 7ZBcXP7iwFfzA4wtZBDGbFwhu2JefvKv3DQHRyjLpump 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:54:26,663 - INFO - 分析代幣: DoHpKqzp8wdcquGae4xD9UpwRvFStH7cvL73MSNipump
+2025-03-10 14:55:00,131 - ERROR - 搜索代幣 DoHpKqzp8wdcquGae4xD9UpwRvFStH7cvL73MSNipump 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:55:00,132 - INFO - 分析代幣: 31QNxoMay3uNXaChioSsjQwc8XRKrKdCr3UuzQyupump
+2025-03-10 14:55:33,672 - ERROR - 搜索代幣 31QNxoMay3uNXaChioSsjQwc8XRKrKdCr3UuzQyupump 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:55:33,673 - INFO - 分析代幣: C1xYWy4bGnmDuLWzh3d9cdrUPpG98RDuC1mHmWVupump
+2025-03-10 14:56:07,142 - ERROR - 搜索代幣 C1xYWy4bGnmDuLWzh3d9cdrUPpG98RDuC1mHmWVupump 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:56:07,144 - INFO - 分析代幣: 2mmEypVSvP2FULmStx28rLbcJRKfvgPR3WGtpdMapump
+2025-03-10 14:56:40,636 - ERROR - 搜索代幣 2mmEypVSvP2FULmStx28rLbcJRKfvgPR3WGtpdMapump 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:56:40,637 - INFO - 分析代幣: DAYokC99mFaXvYnXrzjpSTPR6QfYWn66DE4GoMrvpump
+2025-03-10 14:57:14,158 - ERROR - 搜索代幣 DAYokC99mFaXvYnXrzjpSTPR6QfYWn66DE4GoMrvpump 時出錯: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"main\"]") to be visible
+
+2025-03-10 14:57:14,159 - INFO - 分析代幣: DGL9bK7zPd1FCs2BetCkG6CaGQVwv2ZmXBGRAU7hpump
